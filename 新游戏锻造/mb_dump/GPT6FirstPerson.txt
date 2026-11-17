@@ -1,0 +1,4 @@
+script: GPT6FirstPerson  instances: 2
+
+--- inst 0 pid=13915 name='' len=88 strings=[':']
+--- inst 1 pid=5342 name='' len=88 strings=[':']

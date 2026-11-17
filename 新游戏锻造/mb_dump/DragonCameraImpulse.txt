@@ -1,0 +1,3 @@
+script: DragonCameraImpulse  instances: 1
+
+--- inst 0 pid=5353 name='' len=60 strings=[]

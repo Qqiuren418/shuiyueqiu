@@ -1,0 +1,3 @@
+script: DragonSlayerAura  instances: 1
+
+--- inst 0 pid=23503 name='' len=112 strings=['p']

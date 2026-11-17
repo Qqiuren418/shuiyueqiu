@@ -1,0 +1,3 @@
+script: unk_script_5536212844545  instances: 1
+
+--- inst 0 pid=5343 name='' len=60 strings=['\t']

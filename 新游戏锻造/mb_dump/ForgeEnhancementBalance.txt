@@ -1,0 +1,3 @@
+script: ForgeEnhancementBalance  instances: 1
+
+--- inst 0 pid=524 name='OpeningBalance' len=7280 strings=['OpeningBalance', ',']

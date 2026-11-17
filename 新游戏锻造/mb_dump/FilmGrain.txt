@@ -1,0 +1,5 @@
+script: FilmGrain  instances: 3
+
+--- inst 0 pid=2523 name='FilmGrain' len=88 strings=['FilmGrain']
+--- inst 1 pid=521 name='FilmGrain' len=88 strings=['FilmGrain', '{']
+--- inst 2 pid=23177 name='FilmGrain' len=88 strings=['FilmGrain']

@@ -1,0 +1,8 @@
+script: RunebladeGameMount  instances: 6
+
+--- inst 0 pid=23202 name='' len=92 strings=[]
+--- inst 1 pid=23314 name='' len=92 strings=[]
+--- inst 2 pid=23352 name='' len=92 strings=[]
+--- inst 3 pid=23371 name='' len=92 strings=[]
+--- inst 4 pid=23523 name='' len=92 strings=[]
+--- inst 5 pid=23552 name='' len=92 strings=[]

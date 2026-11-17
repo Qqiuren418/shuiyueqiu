@@ -1,0 +1,6 @@
+script: Tonemapping  instances: 4
+
+--- inst 0 pid=2524 name='Tonemapping' len=120 strings=['Tonemapping', '\n']
+--- inst 1 pid=2537 name='Tonemapping' len=120 strings=['Tonemapping', '\n']
+--- inst 2 pid=525 name='Tonemapping' len=120 strings=['Tonemapping']
+--- inst 3 pid=131 name='Tonemapping' len=120 strings=['Tonemapping', '\n']

@@ -1,0 +1,3 @@
+script: GPT6Sword  instances: 1
+
+--- inst 0 pid=527 name='' len=524 strings=[]

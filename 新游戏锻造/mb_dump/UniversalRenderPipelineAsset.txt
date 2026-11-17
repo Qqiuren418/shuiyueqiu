@@ -1,0 +1,3 @@
+script: UniversalRenderPipelineAsset  instances: 1
+
+--- inst 0 pid=2532 name='PC_RPAsset' len=444 strings=['PC_RPAsset', '@']

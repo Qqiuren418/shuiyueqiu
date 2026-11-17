@@ -1,0 +1,3 @@
+script: GPT6ForgeRoom  instances: 1
+
+--- inst 0 pid=13932 name='' len=1588 strings=['J']

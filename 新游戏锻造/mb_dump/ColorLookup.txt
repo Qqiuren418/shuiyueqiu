@@ -1,0 +1,3 @@
+script: ColorLookup  instances: 1
+
+--- inst 0 pid=2541 name='ColorLookup' len=76 strings=['ColorLookup']

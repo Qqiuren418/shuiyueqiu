@@ -1,0 +1,3 @@
+script: unk_script_4054449127425  instances: 1
+
+--- inst 0 pid=5350 name='' len=112 strings=[]

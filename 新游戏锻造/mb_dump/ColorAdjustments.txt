@@ -1,0 +1,5 @@
+script: ColorAdjustments  instances: 3
+
+--- inst 0 pid=2522 name='ColorAdjustments' len=104 strings=['ColorAdjustments']
+--- inst 1 pid=526 name='ColorAdjustments' len=104 strings=['*', 'ColorAdjustments', 'f']
+--- inst 2 pid=134 name='ColorAdjustments' len=104 strings=['*', 'ColorAdjustments', 'f']

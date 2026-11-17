@@ -1,0 +1,3600 @@
+==== TextMesh texts (113) ====
+[13731] ''
+[13732] '30'
+[13733] '00'
+[13734] '파괴'
+[13735] '요구액\n1,800 G\n\n올려놓은 몫\n0 G'
+[13736] '20'
+[13737] '16'
+[13738] '22'
+[13739] '× 지움    + 추가'
+[13740] 'THE DRAGON TAKES HIS DUE'
+[13741] ''
+[13742] '총 30장'
+[13743] '15'
+[13744] ''
+[13745] ''
+[13746] '9'
+[13747] '강화 위험은 모루 확률에 반영'
+[13748] '손상'
+[13749] ''
+[13750] '—'
+[13751] '17'
+[13752] '12'
+[13753] ''
+[13754] '4'
+[13755] ''
+[13756] ''
+[13757] '1'
+[13758] ''
+[13759] ''
+[13760] '4월'
+[13761] 'E 구매 / 상납 후 개점 / 구매한 칸은 비워둠'
+[13762] '2'
+[13763] ''
+[13764] '6'
+[13765] '21'
+[13766] '유물 8종 / 중복 구매 = 레벨 상승'
+[13767] '24'
+[13768] '—'
+[13769] ''
+[13770] '18'
+[13771] '0'
+[13772] '11'
+[13773] 'FORGE LEDGER'
+[13774] ''
+[13775] 'NOTICE\n\nTHE FORGE\nTAKES ITS CUT.\n\nNO REFUNDS.'
+[13776] 'THE FORGE NEVER SLEEPS'
+[13777] '성공'
+[13778] 'WEAPON RACK'
+[13779] '28'
+[13780] '—'
+[13781] ''
+[13782] 'TRIBUTE HATCH'
+[13783] '7'
+[13784] 'THREE SWORDS. YOUR RESPONSIBILITY.'
+[13785] '3'
+[13786] '2'
+[13787] '13'
+[13788] '—'
+[13789] '추 첨 표'
+[13790] ''
+[13791] '유지'
+[13792] ''
+[13793] '— G'
+[13794] '31'
+[13795] ''
+[13796] ''
+[13797] '유지'
+[13798] 'E / STORE OR RETRIEVE YOUR SWORD'
+[13799] '유물 상점'
+[13800] ''
+[13801] ''
+[13802] '26'
+[13803] '9'
+[13804] ''
+[13805] '14'
+[13806] ''
+[13807] '—'
+[13808] '10'
+[13809] '올려놓은 가치'
+[13810] '대성공'
+[13811] '×1'
+[13812] ''
+[13813] '검 요구가치'
+[13814] ''
+[13815] 'FURNACE  /  09'
+[13816] '5'
+[13817] '8'
+[13818] '150 G'
+[13819] '상납 가치'
+[13820] '3'
+[13821] '25'
+[13822] ''
+[13823] '11'
+[13824] '성공'
+[13825] '29'
+[13826] '27'
+[13827] '대성공'
+[13828] 'OWNED RELICS'
+[13829] '19'
+[13830] '파괴'
+[13831] 'E / END ROUND'
+[13832] ''
+[13833] ''
+[13834] ''
+[13835] ''
+[13836] '손상'
+[13837] '23'
+[13838] '—'
+[13839] ''
+[13840] '5'
+[13841] ''
+[13842] '강화'
+[13843] '1,800'
+
+==== GameObjects (11492, unique 2697) ====
+
+0
+00_000
+00_001
+01 / LOW MASONRY CELL
+01 / THE FRACTURED CROWN — geology
+01 soot iron 10
+01 soot iron 11
+01 soot iron 12
+01 soot iron 13
+01 soot iron 14
+01 soot iron 15
+01 soot iron 16
+01 soot iron 18
+01 soot iron 21
+01 soot iron 22
+01 soot iron 3
+01 soot iron 38
+01 soot iron 4
+01 soot iron 5
+01 soot iron 6
+01 soot iron 7
+01 soot iron 8
+01 soot iron 9
+01_Iron_00
+02 / HERO — THE HUNGRY FURNACE
+02 / WEATHERED STONE & WATCHFIRES
+02 worn steel 10
+02 worn steel 11
+02 worn steel 12
+02 worn steel 13
+02 worn steel 16
+02 worn steel 17
+02 worn steel 20
+02 worn steel 3
+02 worn steel 4
+02 worn steel 5
+02 worn steel 6
+02 worn steel 7
+02 worn steel 8
+02 worn steel 9
+02_000
+02_001
+02_Heavy_06
+03 / FORGE PLAYER — lair mobility
+03 / HERO — FORGING STATION
+03 aged brass 1
+03 aged brass 10
+03 aged brass 11
+03 aged brass 12
+03 aged brass 13
+03 aged brass 14
+03 aged brass 15
+03 aged brass 16
+03 aged brass 19
+03 aged brass 3
+03 aged brass 39
+03 aged brass 4
+03 aged brass 5
+03 aged brass 6
+03 aged brass 7
+03 aged brass 8
+03 aged brass 9
+03_Heavy_08
+04 / DRAGON — encounter rehearsal
+04 / HERO — BARRED SERVICE WINDOW
+04 old ivory 11
+04 old ivory 12
+04 old ivory 13
+04 old ivory 14
+04 old ivory 16
+04 old ivory 2
+04 old ivory 21
+04 old ivory 42
+04 old ivory 6
+04 old ivory 7
+04 old ivory 9
+04_000
+04_001
+04_Feral_06
+05 / FINISHED WEAPON RACK
+05 oxblood leather 10
+05 oxblood leather 11
+05 oxblood leather 12
+05 oxblood leather 14
+05 oxblood leather 18
+05 oxblood leather 19
+05 oxblood leather 20
+05 oxblood leather 3
+05 oxblood leather 4
+05 oxblood leather 5
+05 oxblood leather 61
+05 oxblood leather 7
+05 oxblood leather 8
+05 oxblood leather 9
+05_Feral_08
+06 / RUN PROGRESSION — FORGE LEDGER
+06 yellow parchment 10
+06 yellow parchment 11
+06 yellow parchment 12
+06 yellow parchment 13
+06 yellow parchment 15
+06 yellow parchment 18
+06 yellow parchment 21
+06 yellow parchment 41
+06 yellow parchment 5
+06 yellow parchment 6
+06 yellow parchment 8
+06_002
+06_003
+06_Combined_00
+06_Combined_01
+07 deep recess 11
+07 deep recess 12
+07 deep recess 13
+07 deep recess 15
+07 deep recess 18
+07 deep recess 19
+07 deep recess 20
+07 deep recess 23
+07 deep recess 30
+07 deep recess 4
+07 deep recess 5
+07 deep recess 6
+07 deep recess 7
+07 deep recess 8
+07 deep recess 9
+08 / WORKING TRACES
+08 sealing wax 13
+08 sealing wax 14
+08 sealing wax 17
+08 sealing wax 20
+08 sealing wax 4
+08 sealing wax 6
+08 sealing wax 7
+08_001
+08_002
+08_003
+08_004
+08_005
+08_006
+08_007
+08_008
+08_009
+08_010
+08_012
+08_013
+08_Citadel_10
+08_Combined_00
+08_SpreadingBranches
+08_SpreadingLeaves
+09 / LIGHT & ATMOSPHERE
+09 ember 11
+09 ember 14
+09 ember 16
+09 ember 5
+09 ember 6
+09 ember 8
+09_Citadel_14
+1
+1,800
+10
+10 bound spirit 1
+10 bound spirit 13
+10 bound spirit 14
+10 bound spirit 19
+10 bound spirit 9
+10_001
+10_002
+10_003
+10_004
+10_005
+10_006
+10_007
+10_008
+10_009
+10_010
+10_011
+10_012
+10_014
+10_015
+10_Citadel_16
+10_Combined_00
+10_SpreadingBranches
+10_SpreadingLeaves
+11
+11 / WALKING ROOM REFIT
+11 smoked glass 10
+11 smoked glass 12
+11 smoked glass 14
+11 smoked glass 40
+11 smoked glass 7
+11 smoked glass 8
+11_Citadel_18
+12
+12 / RECESSED GLASS ITEM SHOP
+12 beeswax doll 18
+12_001
+12_002
+12_004
+12_005
+12_006
+12_007
+12_008
+12_009
+12_010
+12_011
+12_012
+12_013
+12_014
+12_015
+12_016
+12_018
+12_Citadel_20
+12_Combined_00
+12_Combined_01
+12_SpreadingBranches
+12_SpreadingLeaves
+13
+13 / OWNED ITEMS & USE DESK
+13 blue basalt 27
+13_Holy_10
+14
+14 / FIRST PERSON WALKER
+14 dragon scale 17
+14_001
+14_002
+14_004
+14_005
+14_006
+14_007
+14_008
+14_Combined_00
+14_Combined_01
+14_Holy_14
+14_SpreadingBranches
+14_SpreadingLeaves
+15
+15 / PHYSICAL TRIBUTE FLOW
+15 living ember 16
+15_Holy_16
+16
+16 bound amethyst 26
+16_001
+16_002
+16_004
+16_005
+16_006
+16_007
+16_008
+16_Combined_00
+16_Combined_01
+16_Holy_18
+16_SpreadingBranches
+16_SpreadingLeaves
+17
+17 fossil root 10
+17_Holy_20
+18
+18 abyss shell 10
+18_001
+18_002
+18_005
+18_006
+18_007
+18_008
+18_011
+18_012
+18_015
+18_016
+18_019
+18_020
+18_023
+18_024
+18_027
+18_028
+18_031
+18_032
+18_035
+18_036
+18_039
+18_040
+18_043
+18_044
+18_046
+18_047
+18_051
+18_Combined_00
+18_Combined_01
+18_Combined_02
+18_Saw_10
+18_SpreadingBranches
+18_SpreadingLeaves
+19
+19 nacre 11
+19_Saw_14
+2
+20
+20 masterwork iron 15
+20 masterwork iron 24
+20 masterwork iron 28
+20 masterwork iron 58
+20_001
+20_002
+20_005
+20_007
+20_008
+20_009
+20_013
+20_014
+20_015
+20_019
+20_020
+20_021
+20_025
+20_026
+20_027
+20_031
+20_032
+20_033
+20_037
+20_038
+20_039
+20_043
+20_044
+20_045
+20_049
+20_050
+20_051
+20_055
+20_056
+20_057
+20_061
+20_062
+20_063
+20_067
+20_068
+20_069
+20_073
+20_074
+20_075
+20_079
+20_080
+20_081
+20_085
+20_086
+20_087
+20_091
+20_092
+20_093
+20_097
+20_098
+20_099
+20_101
+20_102
+20_103
+20_107
+20_108
+20_109
+20_Combined_00
+20_Combined_01
+20_Combined_02
+20_Combined_03
+20_Saw_16
+20_SpreadingBranches
+20_SpreadingLeaves
+21
+21 etched silver 19
+21 etched silver 27
+21 etched silver 60
+21_Saw_18
+22
+22 aged gilding 12
+22 aged gilding 13
+22 aged gilding 16
+22 aged gilding 17
+22 aged gilding 19
+22 aged gilding 25
+22 aged gilding 29
+22 aged gilding 59
+22_Saw_20
+23
+23 carved ivory 12
+23 carved ivory 16
+23 carved ivory 18
+23_Dragon_10
+24
+24 spirit jade 11
+24 spirit jade 28
+24_Dragon_14
+25
+25 dawn amber 19
+25_Dragon_16
+26
+26_Dragon_18
+27
+27_Dragon_20
+28
+29
+3
+30
+31
+33_Split_10
+34_Split_14
+35_Split_16
+36_Split_18
+37_Split_20
+38_Iron_02
+39_Iron_04
+4
+40_Citadel_12
+41_Holy_12
+42_Saw_12
+43_Dragon_12
+44_Rune_12
+45_Split_12
+4월
+5
+6
+7
+8
+80 charcoal enamel 13
+80 charcoal enamel 26
+80 charcoal enamel 28
+80 charcoal enamel 33
+80 charcoal enamel 35
+80 charcoal enamel 41
+80 charcoal enamel 8
+81 soft silver 11
+81 soft silver 16
+81 soft silver 30
+81 soft silver 37
+81 soft silver 40
+82 warm gold 11
+82 warm gold 17
+82 warm gold 26
+82 warm gold 28
+82 warm gold 33
+82 warm gold 34
+82 warm gold 39
+82 warm gold 9
+83 plum leather 10
+83 plum leather 14
+83 plum leather 25
+83 plum leather 27
+83 plum leather 32
+83 plum leather 35
+84 ivory pages 12
+84 ivory pages 15
+84 ivory pages 24
+84 ivory pages 25
+84 ivory pages 31
+85 red lacquer 12
+85 red lacquer 27
+85 red lacquer 34
+85 red lacquer 36
+85 red lacquer 42
+86 ghost turquoise 29
+86 ghost turquoise 32
+87 candle flame 14
+9
+Abyss motes
+Abyssal flowing membranes
+Accumulated grudge shard
+Aged backboard
+Amber moving flame
+Anvil stump
+Arch_0
+Arch_1
+Arch_2
+Arch_3
+Arch_4
+Arch_5
+Arch_6
+Arch_7
+Architecture Aged brass
+Architecture Burnt terracotta tiles
+Architecture Cliff moss
+Architecture Deep recesses
+Architecture Forged black iron
+Architecture Fractured slate
+Architecture Heraldic indigo
+Architecture Living hearth windows
+Architecture Old oak
+Architecture Weathered limestone
+Architecture Worn iron edges
+ArmL
+ArmR
+Ascendant energy 0
+Ascendant energy 1
+Ascendant energy 2
+Ascendant energy 3
+Ash drawer
+Ash drawer pull
+Atmosphere / soot and lamplight
+Attached tapering stalactite 0 / 0
+Attached tapering stalactite 0 / 1
+Attached tapering stalactite 0 / 2
+Attached tapering stalactite 0 / 3
+Attached tapering stalactite 1 / 0
+Attached tapering stalactite 1 / 1
+Attached tapering stalactite 1 / 2
+Attached tapering stalactite 1 / 3
+Attached tapering stalactite 2 / 0
+Attached tapering stalactite 2 / 1
+Attached tapering stalactite 2 / 2
+Attached tapering stalactite 2 / 3
+Attached tapering stalactite 3 / 0
+Attached tapering stalactite 3 / 1
+Attached tapering stalactite 3 / 2
+Attached tapering stalactite 3 / 3
+Attached tapering stalactite 4 / 0
+Attached tapering stalactite 4 / 1
+Attached tapering stalactite 4 / 2
+Attached tapering stalactite 4 / 3
+Attached tapering stalactite 5 / 0
+Attached tapering stalactite 5 / 1
+Attached tapering stalactite 5 / 2
+Attached tapering stalactite 5 / 3
+Attached tapering stalactite 6 / 0
+Attached tapering stalactite 6 / 1
+Attached tapering stalactite 6 / 2
+Attached tapering stalactite 6 / 3
+Attached tapering stalactite 7 / 0
+Attached tapering stalactite 7 / 1
+Attached tapering stalactite 7 / 2
+Attached tapering stalactite 7 / 3
+Aura motes
+Awakening life burst
+Awakening shard burst
+Awakening sparks
+Axle inset
+Azure accent crystals
+Back masonry left
+Baked / 01_Brushed_silver
+Baked / 02_Honed_edges
+Baked / 03_Blackened_steel
+Baked / 04_Antique_gold
+Baked / 05_Grip_leather
+Baked / 06_Cyan_inlay
+Baked / 07_Amethyst
+Baked / 10_Arc_energy
+Baked / 20_Abyss_volume
+Baked / 20_Champagne_gold
+Baked / 20_Crimson_heart
+Baked / 20_Obsidian_alloy
+Baked / 20_Polished_edges
+Baked / 20_Quiet_runes
+Baked / 20_Recess_walls
+Baked / Banked furnace heat
+Baked / Black cast iron
+Baked / Black iron
+Baked / Carved dragon bone grip
+Baked / Consecrated white
+Baked / DF Aged dragon dentine
+Baked / DF Blackened forged steel
+Baked / DF Dark leather seams
+Baked / DF Execution broad honed edge
+Baked / DF Execution hammer forged iron
+Baked / DF Execution tempered slab
+Baked / DF Honed blue steel
+Baked / DF Oxblood leather
+Baked / DF Polished ivory cutting edge
+Baked / DF Slayer native black forged spine
+Baked / DF Slayer native molten seam
+Baked / DF Slayer native sculpted blade cortex
+Baked / DF Slayer native sculpted skull cortex
+Baked / DF Slayer native sculpted wing cortex
+Baked / DF Slayer native steel facet
+Baked / DF Warm rivet bronze
+Baked / Forged gunmetal
+Baked / Forged steel
+Baked / Furnace red
+Baked / Iron shallow oxidation
+Baked / Machine bronze
+Baked / Old electrum
+Baked / Oxide red armour
+Baked / Plain honed edge 0
+Baked / Plain honed edge 1
+Baked / Plain honed edge 2
+Baked / Plain iron 0
+Baked / Plain iron 1
+Baked / Plain iron 2
+Baked / Plain leather 0
+Baked / Plain leather 1
+Baked / Plain leather 2
+Baked / Razor ground edge
+Baked / Silver cutting bevel
+Baked / Tempered cutter face
+Baked / Worn drive brass
+Baked / Wrapped oxhide
+Baked moving / Black cast iron
+Baked moving / Forged gunmetal
+Baked moving / Worn drive brass
+Banked ash bed
+Banked heat behind grille
+Bar collar
+BasicTributeSword
+Bell base
+Bell button
+Bell dome
+Bell instruction
+Bell_body
+Bell_lip
+Bell_top
+Bent iron bracket
+Bevel
+Bit_lower
+Bit_middle
+Black button socket
+Blackened iron shell
+Blade
+Blade / before coals
+Blade / inside firebox
+Blade receiving axis
+Blade_back
+Blade_hook
+Blade_lower_left
+Blade_lower_right
+Blade_middle
+Blade_root
+Blade_slab
+Blade_socket
+Blade_tip
+Body
+Body / Abyss bioluminescence
+Body / Barnacled bronze
+Body / Blue translucent looking fins
+Body / Braided hemp
+Body / Calcified shells
+Body / Dark driftwood
+Body / Deep marine recesses
+Body / Fish eye silver
+Body / Frost facets
+Body / Kraken mottled mantle
+Body / Leviathan abyssal root
+Body / Leviathan ancient enamel
+Body / Leviathan black grip
+Body / Leviathan polished cutting bevel
+Body / Leviathan tarred binding
+Body / Leviathan worn platinum
+Body / Living red coral
+Body / Olive kelp
+Body / Pearlescent tooth edges
+Body / Roasted golden fish
+Body / Salt crusted iron
+Body / Salt worn ivory
+Body / Silver blue fish scales
+Body / Sucker rose lip
+Body / Verdigris ship armour
+Bottom worn lip
+Bound ember
+Bound leather strap
+Box_01
+Box_02
+Box_03
+Box_04
+Box_05
+Box_06
+Box_07
+Box_08
+Box_09
+Box_10
+Box_11
+Box_12
+Box_13
+Box_14
+Box_15
+Box_16
+Box_17
+Box_18
+Box_19
+Box_20
+Box_21
+Box_22
+Box_23
+Box_24
+Box_25
+Box_26
+Box_27
+Box_28
+Box_29
+Box_30
+Box_31
+Box_32
+Box_33
+Box_34
+Box_35
+Box_36
+Box_37
+Box_38
+Box_39
+Box_40
+Box_41
+Box_42
+Box_43
+Box_44
+Box_45
+Box_46
+Box_47
+Box_48
+Box_49
+Box_50
+Box_51
+Box_52
+Box_53
+Brace pivot
+Brass perimeter
+Brazier_bowl
+Brazier_lower
+Brazier_upper
+Breath light
+Broken angular wall foot 0
+Broken angular wall foot 1
+Broken angular wall foot 10
+Broken angular wall foot 11
+Broken angular wall foot 12
+Broken angular wall foot 13
+Broken angular wall foot 14
+Broken angular wall foot 15
+Broken angular wall foot 16
+Broken angular wall foot 17
+Broken angular wall foot 18
+Broken angular wall foot 19
+Broken angular wall foot 2
+Broken angular wall foot 20
+Broken angular wall foot 21
+Broken angular wall foot 22
+Broken angular wall foot 23
+Broken angular wall foot 24
+Broken angular wall foot 25
+Broken angular wall foot 26
+Broken angular wall foot 27
+Broken angular wall foot 28
+Broken angular wall foot 29
+Broken angular wall foot 3
+Broken angular wall foot 30
+Broken angular wall foot 31
+Broken angular wall foot 32
+Broken angular wall foot 33
+Broken angular wall foot 34
+Broken angular wall foot 35
+Broken angular wall foot 36
+Broken angular wall foot 37
+Broken angular wall foot 38
+Broken angular wall foot 39
+Broken angular wall foot 4
+Broken angular wall foot 40
+Broken angular wall foot 41
+Broken angular wall foot 42
+Broken angular wall foot 43
+Broken angular wall foot 44
+Broken angular wall foot 45
+Broken angular wall foot 5
+Broken angular wall foot 6
+Broken angular wall foot 7
+Broken angular wall foot 8
+Broken angular wall foot 9
+Cabinet roof
+Cabinet side return
+Caged work lamp
+Calendar paper and ink
+Captive curse spill
+Carved form
+Cash drawer
+Cash drawer pull
+Cast curved spoke
+Cavern reflection / static wet rock
+Ceiling return pipe
+Central power block
+Chain and lantern 0
+Chain and lantern 1
+Chain and lantern 2
+Chain and lantern 3
+Chain and lantern 4
+Chain and lantern 5
+Chain and lantern 6
+Chain and lantern 7
+Chalk rule
+Chalk slate face
+Chalk tray
+Chased chevron
+Chest
+Chipped plinth course 0
+Chipped plinth course 1
+Chipped plinth course 2
+Clinker / glowing coal
+Closed cutter rail 1
+Closed cutter rail 2
+Closed cutter rail 3
+Closed cutter rail 4
+Cloth
+Clouded sky beyond the rock seam
+Coals under the logs 0
+Coals under the logs 1
+Coals under the logs 10
+Coals under the logs 11
+Coals under the logs 12
+Coals under the logs 13
+Coals under the logs 14
+Coals under the logs 15
+Coals under the logs 16
+Coals under the logs 17
+Coals under the logs 18
+Coals under the logs 19
+Coals under the logs 2
+Coals under the logs 3
+Coals under the logs 4
+Coals under the logs 5
+Coals under the logs 6
+Coals under the logs 7
+Coals under the logs 8
+Coals under the logs 9
+Coffin_body
+Coffin_cap
+Coffin_lower
+Cold dust / iron bars
+Collector concealed forearm
+Collector forearm plates
+Collector knuckle ridges
+Collector scarred sickle
+Collector sinewed digit
+Collision
+Compact oxblood motor case
+Consecrated crystals
+Consecration seal radiance
+Consecutive result
+Continuous battle floor / level centre
+Conversion arrow
+Cool room bounce
+Counter recess
+Counter rim
+Counter service bell
+Counter steel edge
+Counter warm bounce
+Counter wheel seam
+Crafted relic
+Crank arm
+Crank fixed bearing
+Cross
+Crossguard spine
+Crown connected rim 13
+Crown light 1 6
+Crown light 2 8
+Crown light 3 10
+Crown red inset
+Crown root brace
+Crown_left
+Crown_right
+Cubby back panel
+Cut clockwork teeth
+Dark receiving throat
+Dark shelf masking the near aperture
+Date 1
+Date 10
+Date 11
+Date 12
+Date 13
+Date 14
+Date 15
+Date 16
+Date 17
+Date 18
+Date 19
+Date 2
+Date 20
+Date 21
+Date 22
+Date 23
+Date 24
+Date 25
+Date 26
+Date 27
+Date 28
+Date 29
+Date 3
+Date 30
+Date 31
+Date 4
+Date 5
+Date 6
+Date 7
+Date 8
+Date 9
+Dawn leak aperture 50
+Dawn leak aperture 51
+Dawn leak aperture 52
+Dawn leak seam 48
+Dawn leak seam 49
+Dawn leak throat 47
+Dawn pommel inset 46
+Daylight filtering through fractured stone
+Decorated sword pictogram
+Deep banked ember bed
+Deep rail buttress flange
+Deep stone reveal
+Desk name
+Detached rock Fractured slate
+Diagonal bridge across the fissure
+Diamond quillon
+Diffuse aperture scattering
+Diffuse silver on the sealed back wall
+Diffuse skylight within the hollow
+Directional Light
+Discarded chalk
+Dissipating smoke
+Distant reptilian face
+Divider
+Dog-eared parchment
+Draft embers
+Dragon / hooked snatcher
+Dragon breath
+Dragon crayon / 1
+Dragon crayon / 2
+Dragon crayon / 3
+Dragon tribute presentation
+Dragon warning / crayon wall marks
+DragonBody
+DragonBoss
+DragonBoss_Animated
+DragonTail
+DragonTeeth
+Drive cog
+Dummy
+Dust and stone
+Dwarven watchfire 0
+Dwarven watchfire 1
+Dwarven watchfire 2
+Dwarven watchfire 3
+Dwarven watchfire 4
+Dwarven watchfire 5
+Dwarven watchfire 6
+Dwarven watchfire 7
+Dwarven watchfire 8
+Dwarven watchfire 9
+Edge heat left
+Edge heat middle
+Edge heat right
+Edge scoring
+Effects
+Ember bounce across worn iron
+Emerging sword 0 0
+Emerging sword 1 1
+Emerging sword 2 2
+Engine and cradle
+Engraved slot number
+Enhancement instrument / 강화 계기판
+Enhancement level
+Entrance fractured shelf -1 / 0
+Entrance fractured shelf -1 / 1
+Entrance fractured shelf -1 / 2
+Entrance fractured shelf 1 / 0
+Entrance fractured shelf 1 / 1
+Entrance fractured shelf 1 / 2
+Exchange practical
+Execution curse FX
+Execution impact afterimage
+Execution scaled FX
+Expanding leather chamber
+Exposed drive wheel
+Eye light
+F10_FX Bell blue flame.001
+F12_FX Hot flame heart.002
+F12_FX Hot flame heart.003
+F12_FX Rising ember.006
+F12_FX Rising ember.007
+F12_FX Rising ember.008
+F12_FX Rising ember.009
+F12_FX Rising ember.010
+F12_FX Rising ember.011
+F12_FX Spectral flame.004
+F12_FX Spectral flame.005
+F12_FX Spectral flame.006
+F12_FX Spectral flame.007
+F12_FX Wandering spirit.001
+F14_FX Hot flame heart.002
+F14_FX Hot flame heart.003
+F14_FX Rising ember.008
+F14_FX Rising ember.009
+F14_FX Rising ember.010
+F14_FX Rising ember.011
+F14_FX Rising ember.012
+F14_FX Rising ember.013
+F14_FX Rising ember.014
+F14_FX Rising ember.015
+F14_FX Spectral flame.004
+F14_FX Spectral flame.005
+F14_FX Spectral flame.006
+F14_FX Spectral flame.007
+F16_FX Hot flame heart.004
+F16_FX Hot flame heart.005
+F16_FX Hot flame heart.006
+F16_FX Hot flame heart.007
+F16_FX Rising ember.010
+F16_FX Rising ember.011
+F16_FX Rising ember.012
+F16_FX Rising ember.013
+F16_FX Rising ember.014
+F16_FX Rising ember.015
+F16_FX Rising ember.016
+F16_FX Rising ember.017
+F16_FX Rising ember.018
+F16_FX Rising ember.019
+F16_FX Spectral flame.008
+F16_FX Spectral flame.009
+F16_FX Spectral flame.010
+F16_FX Spectral flame.011
+F16_FX Spectral flame.012
+F16_FX Spectral flame.013
+F16_FX Spectral flame.014
+F16_FX Spectral flame.015
+F16_FX Wandering spirit.001
+F18_FX Hot flame heart.004
+F18_FX Hot flame heart.005
+F18_FX Hot flame heart.006
+F18_FX Hot flame heart.007
+F18_FX Rising ember.014
+F18_FX Rising ember.015
+F18_FX Rising ember.016
+F18_FX Rising ember.017
+F18_FX Rising ember.018
+F18_FX Rising ember.019
+F18_FX Rising ember.020
+F18_FX Rising ember.021
+F18_FX Rising ember.022
+F18_FX Rising ember.023
+F18_FX Rising ember.024
+F18_FX Rising ember.025
+F18_FX Rising ember.026
+F18_FX Rising ember.027
+F18_FX Spectral flame.008
+F18_FX Spectral flame.009
+F18_FX Spectral flame.010
+F18_FX Spectral flame.011
+F18_FX Spectral flame.012
+F18_FX Spectral flame.013
+F18_FX Spectral flame.014
+F18_FX Spectral flame.015
+F18_FX Wandering spirit.002
+F18_FX Wandering spirit.003
+F20_FX Hot flame heart.004
+F20_FX Hot flame heart.005
+F20_FX Rising ember.036
+F20_FX Rising ember.037
+F20_FX Rising ember.038
+F20_FX Rising ember.039
+F20_FX Rising ember.040
+F20_FX Rising ember.041
+F20_FX Rising ember.042
+F20_FX Rising ember.043
+F20_FX Rising ember.044
+F20_FX Rising ember.045
+F20_FX Rising ember.046
+F20_FX Rising ember.047
+F20_FX Rising ember.048
+F20_FX Rising ember.049
+F20_FX Rising ember.050
+F20_FX Rising ember.051
+F20_FX Rising ember.052
+F20_FX Rising ember.053
+F20_FX Soul seal arc.004
+F20_FX Soul seal arc.005
+F20_FX Spectral flame.008
+F20_FX Spectral flame.009
+F20_FX Spectral flame.010
+F20_FX Spectral flame.011
+F20_FX Wandering spirit.004
+F20_FX Wandering spirit.005
+FX / Recessed sealed core
+FX / crimson channel heat
+FX / cutter contact sparks
+FX / living violet wing membranes
+Face
+Faded conversion pictogram / any sword equals one
+Falling blade soul 0
+Falling blade soul 1
+Fang_lower
+Fang_root
+Fang_tip
+Fang_upper
+Fence_top
+Final probability
+Fine gold chase
+Fire / primary warm light
+Firebox darkness
+Firebox internal
+First runic shoulder armor
+Fish 1
+Fish 2
+Fish 3
+Flared red jaw housing
+Floating section pin
+Flowstone rising from wall toe 0
+Flowstone rising from wall toe 1
+Flowstone rising from wall toe 10
+Flowstone rising from wall toe 11
+Flowstone rising from wall toe 2
+Flowstone rising from wall toe 3
+Flowstone rising from wall toe 4
+Flowstone rising from wall toe 5
+Flowstone rising from wall toe 6
+Flowstone rising from wall toe 7
+Flowstone rising from wall toe 8
+Flowstone rising from wall toe 9
+Flush brass row divider
+Flush brass slot divider
+Flying sword blade
+Flying sword crossguard
+Flying sword grip
+Flying sword lumen
+Folded leather rib
+Folded side lip
+Folding brace lower
+Folding brace upper
+Folding tray
+Foot bolt
+Foot retaining cleat
+Foot.L
+Foot.R
+Footer rule
+ForeFoot.L
+ForeFoot.R
+ForeLower.L
+ForeLower.R
+ForeToe01.L
+ForeToe01.R
+ForeToe02.L
+ForeToe02.R
+ForeToe03.L
+ForeToe03.R
+ForeToe04.L
+ForeToe04.R
+ForeUpper.L
+ForeUpper.R
+Forearm.L
+Forearm.R
+ForgeContact.011
+ForgeContact.012
+Forged anvil / waisted silhouette
+Forged bowl / inner surface and rolled rim
+Forged connecting rod
+Forged foot
+Forged gantry crown
+Forged hammer head
+Forged iron housing
+Forged iron tray
+Forged mounting plate
+Forged pommel
+Forged rod
+Forged steel blade
+Forged teardrop plate
+Former window / solid wall backing
+Foundation
+Fractured daylight lip -1 / 0
+Fractured daylight lip -1 / 1
+Fractured daylight lip -1 / 2
+Fractured daylight lip -1 / 3
+Fractured daylight lip -1 / 4
+Fractured daylight lip -1 / 5
+Fractured daylight lip -1 / 6
+Fractured daylight lip 1 / 0
+Fractured daylight lip 1 / 1
+Fractured daylight lip 1 / 2
+Fractured daylight lip 1 / 3
+Fractured daylight lip 1 / 4
+Fractured daylight lip 1 / 5
+Fractured daylight lip 1 / 6
+Fragment gilt chase
+Frame
+Front apron
+Front engine diagonal
+Front masonry / side extension
+Front red half cover
+Front work ledge
+FrontNormal.011
+FrontNormal.012
+FuneraryBell
+Funerary_00
+Funerary_00.001
+Funerary_02
+Funerary_02.001
+Funerary_04
+Funerary_04.001
+Funerary_06
+Funerary_06.001
+Funerary_08
+Funerary_08.001
+Funerary_10
+Funerary_10.001
+Funerary_12
+Funerary_12.001
+Funerary_14
+Funerary_14.001
+Funerary_16
+Funerary_16.001
+Funerary_18
+Funerary_18.001
+Funerary_20
+Funerary_20.002
+Furnace foundry mark
+Furnace hand tools
+GPT6 — THE LAST SHIFT
+Gantry rear leg
+Gate
+Ghost merchant — wall visit
+GhostMerchant_Spectral
+Glass top bead
+Glass vertical beading
+Gold reroll price
+Golden central spine
+Golden inner flame
+Grade caption
+Grate crossbar
+Great fractured buttress 0
+Great fractured buttress 1
+Great fractured buttress 10
+Great fractured buttress 11
+Great fractured buttress 12
+Great fractured buttress 13
+Great fractured buttress 14
+Great fractured buttress 15
+Great fractured buttress 16
+Great fractured buttress 17
+Great fractured buttress 18
+Great fractured buttress 19
+Great fractured buttress 2
+Great fractured buttress 20
+Great fractured buttress 21
+Great fractured buttress 22
+Great fractured buttress 23
+Great fractured buttress 24
+Great fractured buttress 25
+Great fractured buttress 26
+Great fractured buttress 27
+Great fractured buttress 28
+Great fractured buttress 29
+Great fractured buttress 3
+Great fractured buttress 30
+Great fractured buttress 31
+Great fractured buttress 32
+Great fractured buttress 33
+Great fractured buttress 34
+Great fractured buttress 35
+Great fractured buttress 36
+Great fractured buttress 37
+Great fractured buttress 38
+Great fractured buttress 39
+Great fractured buttress 4
+Great fractured buttress 40
+Great fractured buttress 41
+Great fractured buttress 42
+Great fractured buttress 43
+Great fractured buttress 44
+Great fractured buttress 45
+Great fractured buttress 5
+Great fractured buttress 6
+Great fractured buttress 7
+Great fractured buttress 8
+Great fractured buttress 9
+Green addition
+Green wash
+Grilled fish / Dark driftwood
+Grilled fish / Deep marine recesses
+Grilled fish / Fish eye silver
+Grilled fish / Pearlescent tooth edges
+Grilled fish / Roasted golden fish
+Grip
+Grip anchor
+Grip braid
+Grip ferrule
+Grip winding
+GripSocket
+GripSocket.011
+GripSocket.012
+Growing upper mana shard
+Guard
+Guard sapphire
+Hammer / laid on heel
+Hammer / raised in hand
+Hammer contact / blade face
+Hammer scale / spent slag
+Hammer sparks
+HammerContact
+Hammered front rim
+Hammered mounting rivet
+Hammered rivet
+Hand-marked draw ledger
+Hand.L
+Hand.R
+Handle
+Handle shaft
+Hanging iron ring 0
+Hanging iron ring 2
+Hanging ironwork Forged black iron
+Hanging ironwork Living hearth windows
+Hanging kelp 0
+Hanging kelp 1
+Hardened wedge nose
+Hardy hole inset
+Head
+Header rule
+Header separator
+Heart of consecration
+Hearth / accumulated wear
+Hearth ember bed
+Hearth retaining teeth
+Heat instruction
+Heavy pommel
+Heavy red column armour
+Heavy timber lintel
+Heavy upper lip
+Heel step
+Held sword / first person grip
+Hickory grip
+Hidden wrist
+HindFoot.L
+HindFoot.R
+HindHock.L
+HindHock.R
+HindLower.L
+HindLower.R
+HindToe01.L
+HindToe01.R
+HindToe02.L
+HindToe02.R
+HindToe03.L
+HindToe03.R
+HindUpper.L
+HindUpper.R
+Hinge
+Hinge knuckle
+Hinge pin
+Hips
+Honed travelling cutter
+Honed travelling cutter(Clone)
+Hood soot accumulation
+Hook_crown
+Hook_lower
+Hook_point
+Hook_return
+Hook_shoulder
+Hook_spine
+How to buy
+Incoming sword hatch
+Individual cubby shelf
+Infilled old window brick
+Ink stroke
+Inset tile
+Inspection notice
+Inspection print
+Instrument support
+Interlocking cavern shell / open geological seam
+Interlocking chain
+Iris radial tissue
+Iron crank back
+Iron grip collar
+Iron pommel
+Iron rim from window
+Iron strap
+Island
+Jaw
+Jaw retaining strap
+Jaw_crown_-1
+Jaw_crown_1
+Jaw_hinge
+Jaw_joint
+Jaw_lower
+Jaw_root_-1
+Jaw_root_1
+Jaw_side_-1
+Jaw_side_1
+Jaw_tip
+Jaw_tip_-1
+Jaw_tip_1
+Jaw_upper
+Kelp ribbon / Olive kelp
+Lamp cage wire
+Lamp socket
+Lantern
+Lantern glow
+Lantern_left
+Lantern_right
+Latest strike
+Lazy soot draft
+Leaf
+Leather grip winding
+Leather tabletop inset
+Leather wrapped grip
+Ledger heading
+Ledger lamp shade
+Ledger shaded lamp (1)
+Left wall
+LeviathanHead
+LeviathanRig
+LeviathanWaterForm
+Light-absorbing tunnel surface
+Live run account
+LiveHammerContact
+Living FX
+Living crown 0
+Living crown 1
+Living crown 10
+Living crown 11
+Living crown 12
+Living crown 13
+Living crown 14
+Living crown 15
+Living crown 2
+Living crown 3
+Living crown 4
+Living crown 5
+Living crown 6
+Living crown 7
+Living crown 8
+Living crown 9
+Living crown apex
+Living eye aperture
+Long hooked digit
+Long red guide back
+Long upper jaw spine
+Loose flake beside watchfire 0 / 0
+Loose flake beside watchfire 0 / 1
+Loose flake beside watchfire 0 / 2
+Loose flake beside watchfire 0 / 3
+Loose flake beside watchfire 0 / 4
+Loose flake beside watchfire 0 / 5
+Loose flake beside watchfire 0 / 6
+Loose flake beside watchfire 0 / 7
+Loose flake beside watchfire 1 / 0
+Loose flake beside watchfire 1 / 1
+Loose flake beside watchfire 1 / 2
+Loose flake beside watchfire 1 / 3
+Loose flake beside watchfire 1 / 4
+Loose flake beside watchfire 1 / 5
+Loose flake beside watchfire 1 / 6
+Loose flake beside watchfire 1 / 7
+Loose flake beside watchfire 2 / 0
+Loose flake beside watchfire 2 / 1
+Loose flake beside watchfire 2 / 2
+Loose flake beside watchfire 2 / 3
+Loose flake beside watchfire 2 / 4
+Loose flake beside watchfire 2 / 5
+Loose flake beside watchfire 2 / 6
+Loose flake beside watchfire 2 / 7
+Loose flake beside watchfire 3 / 0
+Loose flake beside watchfire 3 / 1
+Loose flake beside watchfire 3 / 2
+Loose flake beside watchfire 3 / 3
+Loose flake beside watchfire 3 / 4
+Loose flake beside watchfire 3 / 5
+Loose flake beside watchfire 3 / 6
+Loose flake beside watchfire 3 / 7
+Loose flake beside watchfire 4 / 0
+Loose flake beside watchfire 4 / 1
+Loose flake beside watchfire 4 / 2
+Loose flake beside watchfire 4 / 3
+Loose flake beside watchfire 4 / 4
+Loose flake beside watchfire 4 / 5
+Loose flake beside watchfire 4 / 6
+Loose flake beside watchfire 4 / 7
+Loose flake beside watchfire 5 / 0
+Loose flake beside watchfire 5 / 1
+Loose flake beside watchfire 5 / 2
+Loose flake beside watchfire 5 / 3
+Loose flake beside watchfire 5 / 4
+Loose flake beside watchfire 5 / 5
+Loose flake beside watchfire 5 / 6
+Loose flake beside watchfire 5 / 7
+Loose flake beside watchfire 6 / 0
+Loose flake beside watchfire 6 / 1
+Loose flake beside watchfire 6 / 2
+Loose flake beside watchfire 6 / 3
+Loose flake beside watchfire 6 / 4
+Loose flake beside watchfire 6 / 5
+Loose flake beside watchfire 6 / 6
+Loose flake beside watchfire 6 / 7
+Loose flake beside watchfire 7 / 0
+Loose flake beside watchfire 7 / 1
+Loose flake beside watchfire 7 / 2
+Loose flake beside watchfire 7 / 3
+Loose flake beside watchfire 7 / 4
+Loose flake beside watchfire 7 / 5
+Loose flake beside watchfire 7 / 6
+Loose flake beside watchfire 7 / 7
+Loose flake beside watchfire 8 / 0
+Loose flake beside watchfire 8 / 1
+Loose flake beside watchfire 8 / 2
+Loose flake beside watchfire 8 / 3
+Loose flake beside watchfire 8 / 4
+Loose flake beside watchfire 8 / 5
+Loose flake beside watchfire 8 / 6
+Loose flake beside watchfire 8 / 7
+Loose flake beside watchfire 9 / 0
+Loose flake beside watchfire 9 / 1
+Loose flake beside watchfire 9 / 2
+Loose flake beside watchfire 9 / 3
+Loose flake beside watchfire 9 / 4
+Loose flake beside watchfire 9 / 5
+Loose flake beside watchfire 9 / 6
+Loose flake beside watchfire 9 / 7
+Loose iron chain 0
+Loose iron chain 1
+Loose iron chain 2
+Loose iron chain 3
+Loose iron chain 4
+Loose iron chain 5
+Loose iron chain 6
+Loose iron chain 7
+Loose iron chain 8
+Low desk task pool
+Low flame / licking above the coals
+Low poly ember core
+Low poly rising flame
+Low rear guide bridge
+Low soot ceiling
+Low stretcher
+Low wall bumper
+Lower gearbox bottom lip
+Lower gearbox dark well
+Lower gearbox side cheek
+Lower guide ramp
+Lower hoop
+Lower lid
+Lower stump hoop
+LowerNeck
+Lower_crossbeam
+Luminous fragment seam
+Machinery
+Main drive bearing pedestal
+Maker brass plaque
+Mana helix 0
+Mana helix 1
+Masonry / missing stone
+Merchant day
+MerchantTripo
+Mindstone
+Monumental red cutter casing
+Motion_Attendant sword
+Motion_Floating main blade fragment
+Motion_Halo sword 0
+Motion_Halo sword 1
+Motion_Halo sword 10
+Motion_Halo sword 11
+Motion_Halo sword 12
+Motion_Halo sword 13
+Motion_Halo sword 14
+Motion_Halo sword 15
+Motion_Halo sword 16
+Motion_Halo sword 17
+Motion_Halo sword 2
+Motion_Halo sword 3
+Motion_Halo sword 4
+Motion_Halo sword 5
+Motion_Halo sword 6
+Motion_Halo sword 7
+Motion_Halo sword 8
+Motion_Halo sword 9
+Motion_Spiral trailing sword 0
+Motion_Spiral trailing sword 1
+Motion_Spiral trailing sword 2
+Motion_Spiral trailing sword 3
+Motion_Spiral trailing sword 4
+Motion_Spiral trailing sword 5
+Motion_Sword halo 0
+Motion_Sword halo 1
+Motion_Unfinished second rune orbit
+Moving enamel button
+Nail_head
+Nail_shaft
+Narrow forged fuller
+Narrow red guide shroud
+Narrow shop / left masonry infill
+Narrow shop / matching brick face
+Narrow shop / right masonry infill
+Nearest silhouette only
+Neck
+Neck.01
+Neck.02
+Neck.03
+Needle
+Oak and iron leaf Aged brass
+Oak and iron leaf Old oak
+Oak grip
+Odds context
+Offset reduction gearbox
+Oil hole
+Old nail
+One sword only
+Open forged power cradle
+Open gearbox rear well
+Open lightless passage / 4m depth
+Oracle mirror 21
+Orbit_0
+Orbit_1
+Orbit_2
+Orbital ridge
+Orbiting golden leaves 0
+Orbiting golden leaves 1
+Orbiting golden leaves 2
+Ornate shoulders
+Outcome blade 95
+Outcome blade bevel 96
+Outcome label
+Outcome light
+Overhead gantry
+Overlapping roof stratum 0
+Overlapping roof stratum 1
+Overlapping roof stratum 10
+Overlapping roof stratum 11
+Overlapping roof stratum 12
+Overlapping roof stratum 13
+Overlapping roof stratum 14
+Overlapping roof stratum 15
+Overlapping roof stratum 16
+Overlapping roof stratum 17
+Overlapping roof stratum 18
+Overlapping roof stratum 19
+Overlapping roof stratum 2
+Overlapping roof stratum 20
+Overlapping roof stratum 21
+Overlapping roof stratum 22
+Overlapping roof stratum 23
+Overlapping roof stratum 24
+Overlapping roof stratum 25
+Overlapping roof stratum 26
+Overlapping roof stratum 27
+Overlapping roof stratum 28
+Overlapping roof stratum 29
+Overlapping roof stratum 3
+Overlapping roof stratum 30
+Overlapping roof stratum 31
+Overlapping roof stratum 32
+Overlapping roof stratum 33
+Overlapping roof stratum 34
+Overlapping roof stratum 35
+Overlapping roof stratum 36
+Overlapping roof stratum 37
+Overlapping roof stratum 38
+Overlapping roof stratum 39
+Overlapping roof stratum 4
+Overlapping roof stratum 40
+Overlapping roof stratum 41
+Overlapping roof stratum 42
+Overlapping roof stratum 43
+Overlapping roof stratum 44
+Overlapping roof stratum 45
+Overlapping roof stratum 5
+Overlapping roof stratum 6
+Overlapping roof stratum 7
+Overlapping roof stratum 8
+Overlapping roof stratum 9
+Overlapping scale
+Overlapping vent louvre
+Oxhide grip
+Painted line
+Pass-through lip
+Past day X
+Patched lower iron lip
+Pauldron
+Peened fastener
+Peened rivet
+Pelvis
+Permanent collection note
+Permanent item slot 1
+Permanent item slot 2
+Permanent item slot 3
+Permanent item slot 4
+Permanent item slot 5
+Permanent item slot 6
+Permanent item slot 7
+Permanent item slot 8
+Physical sword / anvil placement
+Pinned tribute demand
+Plain crossguard
+Plain forged tang socket
+Plain peened pommel
+Plain steel back brace
+Plain wrapped tang
+Player eye camera
+Plus
+Polished striking cap
+Polished striking face
+Presentation front
+Price and stock
+Probability bar 0
+Probability bar 1
+Probability bar 2
+Probability bar 3
+Probability bar 4
+Protective cage ring
+Purchase counter lip
+Quota met lamp
+Quota ready / bell glint
+Rack empty-space notice
+Rack slot label
+Rack steel rail
+Rack task light
+Raised hearth
+Raised hearth refractory foundation
+Rare rising sparks
+Rear ambient
+Rear apron
+Rear left return
+Rear masonry / side extension
+Rear service return / brick facing
+Rear service return brick
+Rear sill brick facing
+Rear structural timber
+Rear wall / continuous lintel
+Rear wall / sill masonry
+Rear wall / sill masonry (1)
+Rear weight-bearing jaw strut
+Recess backing
+Recess backing (1)
+Recess item light
+Recess shadow shell
+Recessed account
+Recessed cliff collision 0
+Recessed cliff collision 1
+Recessed cliff collision 10
+Recessed cliff collision 11
+Recessed cliff collision 12
+Recessed cliff collision 13
+Recessed cliff collision 14
+Recessed cliff collision 15
+Recessed cliff collision 16
+Recessed cliff collision 17
+Recessed cliff collision 18
+Recessed cliff collision 19
+Recessed cliff collision 2
+Recessed cliff collision 20
+Recessed cliff collision 21
+Recessed cliff collision 22
+Recessed cliff collision 23
+Recessed cliff collision 24
+Recessed cliff collision 25
+Recessed cliff collision 26
+Recessed cliff collision 27
+Recessed cliff collision 28
+Recessed cliff collision 29
+Recessed cliff collision 3
+Recessed cliff collision 30
+Recessed cliff collision 31
+Recessed cliff collision 32
+Recessed cliff collision 33
+Recessed cliff collision 34
+Recessed cliff collision 35
+Recessed cliff collision 36
+Recessed cliff collision 37
+Recessed cliff collision 38
+Recessed cliff collision 39
+Recessed cliff collision 4
+Recessed cliff collision 40
+Recessed cliff collision 41
+Recessed cliff collision 42
+Recessed cliff collision 43
+Recessed cliff collision 44
+Recessed cliff collision 45
+Recessed cliff collision 46
+Recessed cliff collision 47
+Recessed cliff collision 48
+Recessed cliff collision 49
+Recessed cliff collision 5
+Recessed cliff collision 50
+Recessed cliff collision 51
+Recessed cliff collision 52
+Recessed cliff collision 53
+Recessed cliff collision 54
+Recessed cliff collision 55
+Recessed cliff collision 56
+Recessed cliff collision 57
+Recessed cliff collision 58
+Recessed cliff collision 59
+Recessed cliff collision 6
+Recessed cliff collision 60
+Recessed cliff collision 61
+Recessed cliff collision 62
+Recessed cliff collision 63
+Recessed cliff collision 64
+Recessed cliff collision 65
+Recessed cliff collision 66
+Recessed cliff collision 67
+Recessed cliff collision 68
+Recessed cliff collision 69
+Recessed cliff collision 7
+Recessed cliff collision 70
+Recessed cliff collision 71
+Recessed cliff collision 8
+Recessed cliff collision 9
+Recessed enamel
+Recessed furnace housing
+Recessed oil channel
+Red deletion
+Red enamel
+Red load-bearing engine cheek
+Refined Eye Surface Skin
+Reflected light on the left calcite
+Refractory jamb
+Released shadow / awakening only
+Relic family
+Relic subheading
+Relic title
+Relic vending / salvaged iron retrofit
+Repaired walking floor
+Reroll / red physical button
+Reroll crank
+Resting sword 1
+Resting sword 2
+Resting sword 3
+Results rule
+Reversing hand
+Rework / shelf and atmosphere
+Right wall
+Right wall warning notices
+Rigid cutter guide
+Rigid_FUN_black.002
+Rigid_FUN_bone.001
+Rigid_FUN_bronze
+Rigid_FUN_bronze.002
+Rigid_FUN_cloth.001
+Rigid_FUN_earth.001
+Rigid_FUN_iron
+Rigid_FUN_iron.002
+Rigid_FUN_rust.001
+Rigid_FUN_silver.002
+Rigid_FUN_soul.002
+Rigid_FUN_stone.001
+Rigid_FUN_stoneEdge.001
+Rigid_FUN_wood.002
+Rigid_FUN_woodLight.002
+Rim brace 0
+Rim brace 1
+Rim brace 2
+Rim brace 3
+Rim fastening 0
+Rim fastening 1
+Rim fastening 2
+Rim fastening 3
+Rising life current 0
+Rising life current 1
+Rising life current 2
+Rivet
+Riveted fascia
+Riveted jamb
+Room engulfed in fire
+Root
+Root_tip
+Roots
+Rough binding
+Round calendar — April 15
+Rounded form
+Rune inlay
+Rune seal
+Rune_06
+Rune_08
+Rune_10
+Rune_14
+Rune_16
+Rune_18
+Rune_20
+Rusty nail
+Sacred silver blade
+Same parchment as draw tickets
+Sap pollen
+Satellite_0
+Satellite_1
+Satellite_2
+Satellite_3
+Satellite_4
+Satellite_5
+Satellite_6
+Satellite_7
+Scale keel
+ScarecrowRig
+ScarecrowSkin
+Scarred upright
+Scene-local atmosphere and exposure
+Scorched wood insert
+Scored edge
+Scratched instruction plate
+Seafood_00
+Seafood_02
+Seafood_04
+Seafood_06
+Seafood_08
+Seafood_10
+Seafood_12
+Seafood_14
+Seafood_16
+Seafood_18
+Seafood_20
+Seal
+Sealed abyss reflected glow
+Sealed heat housing
+Sealed inner abyss / Leviathan sealed inner core
+Seated chain link
+Seated hex rivet
+Seated vent shutter
+Secondary bearing pedestal
+Security crossbar
+Segmented orbit energy
+Segmented orbit metal
+Selection and price rail
+Service identity
+Service right return
+Shaft
+Sharp steel nose
+Shelf dust
+Shelf support
+Shell petal 0
+Shell petal 1
+Shell petal 2
+Shell petal 3
+Shell petal 4
+Shell petal 5
+Shell petal 6
+Shell petal 7
+Shield
+Shin.L
+Shin.R
+Shop cell 1
+Shop cell 2
+Shop cell 3
+Shop heading
+Shop title plate
+Shop/window masonry mullion
+Short steel shoulder brace
+Sickle talon
+Side brick course
+Siege diagonal truss
+Silver fish / Blue translucent looking fins
+Silver fish / Deep marine recesses
+Silver fish / Fish eye silver
+Silver fish / Pearlescent tooth edges
+Silver fish / Silver blue fish scales
+Simple forged iron blade
+Single cast gearbox cradle
+Single iron tack
+Single solid oak tabletop
+SkeletonSummon
+SkeletonSummon_Rig
+Skeleton_Body
+Skewer and grip / Dark driftwood
+Skull
+Sky diffusion on the fracture walls
+Slim engine head bridge
+Slot end
+Slow dust in diffuse light
+Small forge scar
+Smoke rubbed into jamb -1
+Smoke rubbed into jamb 1
+Socket.Breath
+Socket.Eye.L
+Socket.Eye.R
+Socket.ForeClaw.L
+Socket.ForeClaw.R
+Socket.TailHit
+Soft silver bounce behind the opening
+Solid rubble at wall foot 0
+Solid rubble at wall foot 1
+Solid rubble at wall foot 10
+Solid rubble at wall foot 11
+Solid rubble at wall foot 12
+Solid rubble at wall foot 13
+Solid rubble at wall foot 14
+Solid rubble at wall foot 15
+Solid rubble at wall foot 16
+Solid rubble at wall foot 17
+Solid rubble at wall foot 18
+Solid rubble at wall foot 19
+Solid rubble at wall foot 2
+Solid rubble at wall foot 20
+Solid rubble at wall foot 21
+Solid rubble at wall foot 22
+Solid rubble at wall foot 23
+Solid rubble at wall foot 24
+Solid rubble at wall foot 25
+Solid rubble at wall foot 26
+Solid rubble at wall foot 27
+Solid rubble at wall foot 28
+Solid rubble at wall foot 29
+Solid rubble at wall foot 3
+Solid rubble at wall foot 30
+Solid rubble at wall foot 31
+Solid rubble at wall foot 32
+Solid rubble at wall foot 33
+Solid rubble at wall foot 34
+Solid rubble at wall foot 35
+Solid rubble at wall foot 36
+Solid rubble at wall foot 37
+Solid rubble at wall foot 38
+Solid rubble at wall foot 39
+Solid rubble at wall foot 4
+Solid rubble at wall foot 40
+Solid rubble at wall foot 41
+Solid rubble at wall foot 42
+Solid rubble at wall foot 43
+Solid rubble at wall foot 44
+Solid rubble at wall foot 45
+Solid rubble at wall foot 5
+Solid rubble at wall foot 6
+Solid rubble at wall foot 7
+Solid rubble at wall foot 8
+Solid rubble at wall foot 9
+Soot trail below hood rivet
+Sooted masonry course
+Soul local glow
+Spade_lower
+Spade_upper
+Spine
+Spirit dose 3
+Splayed iron support 0
+Splayed iron support 1
+Splayed iron support 2
+Splayed iron support 3
+Split cast gearbox
+Split charred wood 0
+Split charred wood 1
+Split charred wood 2
+Split charred wood 3
+Split charred wood 4
+Split charred wood 5
+Spreading living branches
+Spring light plume 1
+Spring light plume 2
+Spring light plume 3
+Spring light plume 4
+SpringLower
+SpringUpper
+Spun iron shade
+Square hammered rivet
+Square timber leg
+Square-section iron bar
+Stamp
+Stamp bottom
+Stamp top
+Static 01 soot iron
+Static 02 worn steel
+Static 03 aged brass
+Static 05 oxblood leather
+Static 07 deep recess
+Static 13 blue basalt
+Static 21 etched silver
+Static 22 aged gilding
+Static 23 carved ivory
+Static Fate black leather
+Static Merchant dark patinated bronze
+Static Merchant relief silver
+Static Restored crown polished gold
+Static Sheath aged pale body
+Static Sheath warm forged gold
+Steel fuller
+Steel lower cradle
+Stem
+Stock_bottom
+Stock_side_-1
+Stock_side_1
+Stock_top
+Stone arch Weathered limestone
+Stone dust on forging
+Stone lintel
+Straight iron crossbar
+Strap nail
+Strike contact
+Strike scoring
+Stump split seam
+Subtle threshold fill
+Surge
+Suspended blade section
+Suspended cliff shard 0
+Suspended cliff shard 1
+Suspended cliff shard 2
+Suspended cliff shard 3
+Suspended cliff shard 4
+Suspended cliff shard 5
+Suspended cliff shard 6
+Suspended cliff shard 7
+Suspended cliff shard 8
+Suspended rune motes
+Suspension cable
+Suspension cable (1)
+Sword
+Sword balance
+Sword currency pictogram
+Sword identity
+Sword intake / interact holding a sword
+Sword resting socket
+Tail.01
+Tail.02
+Tail.03
+Tail.04
+Tail.05
+Tail.06
+Tail.07
+Tail.08
+Tail.09
+Tapered rounded horn
+Tarnished brass shell
+Telekinetic axis
+Tempered guide spine
+Tempered silver guard inset
+Thick carbide cutter
+Thick vent rim
+Thigh.L
+Thigh.R
+Thin rainwater in stone 0
+Thin rainwater in stone 1
+Thin rainwater in stone 10
+Thin rainwater in stone 11
+Thin rainwater in stone 12
+Thin rainwater in stone 2
+Thin rainwater in stone 3
+Thin rainwater in stone 4
+Thin rainwater in stone 5
+Thin rainwater in stone 6
+Thin rainwater in stone 7
+Thin rainwater in stone 8
+Thin rainwater in stone 9
+Ticket 0 / 0
+Ticket 0 / 1
+Ticket 0 / 10
+Ticket 0 / 11
+Ticket 0 / 12
+Ticket 0 / 13
+Ticket 0 / 14
+Ticket 0 / 15
+Ticket 0 / 16
+Ticket 0 / 17
+Ticket 0 / 18
+Ticket 0 / 19
+Ticket 0 / 2
+Ticket 0 / 20
+Ticket 0 / 21
+Ticket 0 / 22
+Ticket 0 / 23
+Ticket 0 / 24
+Ticket 0 / 25
+Ticket 0 / 26
+Ticket 0 / 27
+Ticket 0 / 28
+Ticket 0 / 29
+Ticket 0 / 3
+Ticket 0 / 30
+Ticket 0 / 31
+Ticket 0 / 4
+Ticket 0 / 5
+Ticket 0 / 6
+Ticket 0 / 7
+Ticket 0 / 8
+Ticket 0 / 9
+Ticket 1 / 0
+Ticket 1 / 1
+Ticket 1 / 10
+Ticket 1 / 11
+Ticket 1 / 12
+Ticket 1 / 13
+Ticket 1 / 14
+Ticket 1 / 15
+Ticket 1 / 16
+Ticket 1 / 17
+Ticket 1 / 18
+Ticket 1 / 19
+Ticket 1 / 2
+Ticket 1 / 20
+Ticket 1 / 21
+Ticket 1 / 22
+Ticket 1 / 23
+Ticket 1 / 24
+Ticket 1 / 25
+Ticket 1 / 26
+Ticket 1 / 27
+Ticket 1 / 28
+Ticket 1 / 29
+Ticket 1 / 3
+Ticket 1 / 30
+Ticket 1 / 31
+Ticket 1 / 4
+Ticket 1 / 5
+Ticket 1 / 6
+Ticket 1 / 7
+Ticket 1 / 8
+Ticket 1 / 9
+Ticket 2 / 0
+Ticket 2 / 1
+Ticket 2 / 10
+Ticket 2 / 11
+Ticket 2 / 12
+Ticket 2 / 13
+Ticket 2 / 14
+Ticket 2 / 15
+Ticket 2 / 16
+Ticket 2 / 17
+Ticket 2 / 18
+Ticket 2 / 19
+Ticket 2 / 2
+Ticket 2 / 20
+Ticket 2 / 21
+Ticket 2 / 22
+Ticket 2 / 23
+Ticket 2 / 24
+Ticket 2 / 25
+Ticket 2 / 26
+Ticket 2 / 27
+Ticket 2 / 28
+Ticket 2 / 29
+Ticket 2 / 3
+Ticket 2 / 30
+Ticket 2 / 31
+Ticket 2 / 4
+Ticket 2 / 5
+Ticket 2 / 6
+Ticket 2 / 7
+Ticket 2 / 8
+Ticket 2 / 9
+Ticket 3 / 0
+Ticket 3 / 1
+Ticket 3 / 10
+Ticket 3 / 11
+Ticket 3 / 12
+Ticket 3 / 13
+Ticket 3 / 14
+Ticket 3 / 15
+Ticket 3 / 16
+Ticket 3 / 17
+Ticket 3 / 18
+Ticket 3 / 19
+Ticket 3 / 2
+Ticket 3 / 20
+Ticket 3 / 21
+Ticket 3 / 22
+Ticket 3 / 23
+Ticket 3 / 24
+Ticket 3 / 25
+Ticket 3 / 26
+Ticket 3 / 27
+Ticket 3 / 28
+Ticket 3 / 29
+Ticket 3 / 3
+Ticket 3 / 30
+Ticket 3 / 31
+Ticket 3 / 4
+Ticket 3 / 5
+Ticket 3 / 6
+Ticket 3 / 7
+Ticket 3 / 8
+Ticket 3 / 9
+Ticket 4 / 0
+Ticket 4 / 1
+Ticket 4 / 10
+Ticket 4 / 11
+Ticket 4 / 12
+Ticket 4 / 13
+Ticket 4 / 14
+Ticket 4 / 15
+Ticket 4 / 16
+Ticket 4 / 17
+Ticket 4 / 18
+Ticket 4 / 19
+Ticket 4 / 2
+Ticket 4 / 20
+Ticket 4 / 21
+Ticket 4 / 22
+Ticket 4 / 23
+Ticket 4 / 24
+Ticket 4 / 25
+Ticket 4 / 26
+Ticket 4 / 27
+Ticket 4 / 28
+Ticket 4 / 29
+Ticket 4 / 3
+Ticket 4 / 30
+Ticket 4 / 31
+Ticket 4 / 4
+Ticket 4 / 5
+Ticket 4 / 6
+Ticket 4 / 7
+Ticket 4 / 8
+Ticket 4 / 9
+Timber corbel
+Timber ledger frame
+Today circled by hand
+Tomb
+Tomb_body
+Tomb_center
+Tomb_left
+Tomb_peak
+Tomb_right
+Top bearing seat
+Transaction subtitle
+Transparent glass pane
+Tribute / into darkness
+Tribute / slot alignment
+Tribute counter / iron value meter
+Tribute instruction
+Tribute resting slots
+Tribute value
+Turn arrow
+Twin shaft red engine
+Two-tier salvaged relic shelf
+Uneven oak plank
+Upper arch soot -1
+Upper arch soot 1
+Upper brow
+Upper pump handle
+Upper retention hook
+Upper stump hoop
+Upper throat lip
+UpperArm.L
+UpperArm.R
+UpperNeck
+Upper_lintel
+Upright mounting plate
+Upright_-1
+Upright_1
+Value caption
+Vent side rim
+Violet wing motes
+Visual
+Wall strap
+Warm cooking steam
+Warm dust / work lamp
+Warm lamp glass
+Warm reflected firelight
+Weapon rack slot 1
+Weapon rack slot 2
+Weapon rack slot 3
+Weathered shale rubble 0
+Weathered shale rubble 1
+Weathered shale rubble 10
+Weathered shale rubble 100
+Weathered shale rubble 101
+Weathered shale rubble 102
+Weathered shale rubble 103
+Weathered shale rubble 104
+Weathered shale rubble 105
+Weathered shale rubble 106
+Weathered shale rubble 107
+Weathered shale rubble 108
+Weathered shale rubble 109
+Weathered shale rubble 11
+Weathered shale rubble 110
+Weathered shale rubble 111
+Weathered shale rubble 112
+Weathered shale rubble 113
+Weathered shale rubble 114
+Weathered shale rubble 116
+Weathered shale rubble 118
+Weathered shale rubble 119
+Weathered shale rubble 12
+Weathered shale rubble 120
+Weathered shale rubble 121
+Weathered shale rubble 122
+Weathered shale rubble 123
+Weathered shale rubble 124
+Weathered shale rubble 125
+Weathered shale rubble 126
+Weathered shale rubble 127
+Weathered shale rubble 128
+Weathered shale rubble 129
+Weathered shale rubble 130
+Weathered shale rubble 131
+Weathered shale rubble 132
+Weathered shale rubble 133
+Weathered shale rubble 134
+Weathered shale rubble 135
+Weathered shale rubble 136
+Weathered shale rubble 137
+Weathered shale rubble 138
+Weathered shale rubble 139
+Weathered shale rubble 14
+Weathered shale rubble 140
+Weathered shale rubble 141
+Weathered shale rubble 142
+Weathered shale rubble 143
+Weathered shale rubble 144
+Weathered shale rubble 145
+Weathered shale rubble 146
+Weathered shale rubble 147
+Weathered shale rubble 148
+Weathered shale rubble 149
+Weathered shale rubble 15
+Weathered shale rubble 150
+Weathered shale rubble 151
+Weathered shale rubble 152
+Weathered shale rubble 153
+Weathered shale rubble 154
+Weathered shale rubble 155
+Weathered shale rubble 156
+Weathered shale rubble 157
+Weathered shale rubble 158
+Weathered shale rubble 159
+Weathered shale rubble 16
+Weathered shale rubble 160
+Weathered shale rubble 161
+Weathered shale rubble 162
+Weathered shale rubble 163
+Weathered shale rubble 164
+Weathered shale rubble 165
+Weathered shale rubble 166
+Weathered shale rubble 167
+Weathered shale rubble 168
+Weathered shale rubble 169
+Weathered shale rubble 17
+Weathered shale rubble 170
+Weathered shale rubble 171
+Weathered shale rubble 172
+Weathered shale rubble 173
+Weathered shale rubble 174
+Weathered shale rubble 18
+Weathered shale rubble 19
+Weathered shale rubble 2
+Weathered shale rubble 20
+Weathered shale rubble 21
+Weathered shale rubble 22
+Weathered shale rubble 23
+Weathered shale rubble 24
+Weathered shale rubble 25
+Weathered shale rubble 26
+Weathered shale rubble 27
+Weathered shale rubble 28
+Weathered shale rubble 29
+Weathered shale rubble 3
+Weathered shale rubble 30
+Weathered shale rubble 31
+Weathered shale rubble 32
+Weathered shale rubble 33
+Weathered shale rubble 34
+Weathered shale rubble 35
+Weathered shale rubble 36
+Weathered shale rubble 37
+Weathered shale rubble 38
+Weathered shale rubble 39
+Weathered shale rubble 4
+Weathered shale rubble 40
+Weathered shale rubble 41
+Weathered shale rubble 42
+Weathered shale rubble 43
+Weathered shale rubble 44
+Weathered shale rubble 45
+Weathered shale rubble 46
+Weathered shale rubble 47
+Weathered shale rubble 48
+Weathered shale rubble 49
+Weathered shale rubble 5
+Weathered shale rubble 50
+Weathered shale rubble 51
+Weathered shale rubble 52
+Weathered shale rubble 53
+Weathered shale rubble 54
+Weathered shale rubble 55
+Weathered shale rubble 56
+Weathered shale rubble 57
+Weathered shale rubble 58
+Weathered shale rubble 59
+Weathered shale rubble 60
+Weathered shale rubble 62
+Weathered shale rubble 63
+Weathered shale rubble 64
+Weathered shale rubble 65
+Weathered shale rubble 66
+Weathered shale rubble 67
+Weathered shale rubble 68
+Weathered shale rubble 69
+Weathered shale rubble 7
+Weathered shale rubble 70
+Weathered shale rubble 71
+Weathered shale rubble 72
+Weathered shale rubble 73
+Weathered shale rubble 74
+Weathered shale rubble 75
+Weathered shale rubble 76
+Weathered shale rubble 77
+Weathered shale rubble 78
+Weathered shale rubble 79
+Weathered shale rubble 8
+Weathered shale rubble 80
+Weathered shale rubble 81
+Weathered shale rubble 82
+Weathered shale rubble 83
+Weathered shale rubble 84
+Weathered shale rubble 85
+Weathered shale rubble 86
+Weathered shale rubble 87
+Weathered shale rubble 88
+Weathered shale rubble 89
+Weathered shale rubble 9
+Weathered shale rubble 90
+Weathered shale rubble 91
+Weathered shale rubble 92
+Weathered shale rubble 93
+Weathered shale rubble 94
+Weathered shale rubble 95
+Weathered shale rubble 96
+Weathered shale rubble 97
+Weathered shale rubble 98
+Weathered shale rubble 99
+Wedge arch stone
+White hot fuller
+White oath seal
+Whole paper — outcome colour flows across both sides
+Window breast wall
+Window header plaque
+Window lintel masonry
+Window task fill
+WingFinger01.L
+WingFinger01.R
+WingFinger02.L
+WingFinger02.R
+WingFore.L
+WingFore.R
+WingInner01.L
+WingInner01.R
+WingInner02.L
+WingInner02.R
+WingLead01.L
+WingLead01.R
+WingLead02.L
+WingLead02.R
+WingUpper.L
+WingUpper.R
+Wing_middle_-1
+Wing_middle_1
+Wing_root_-1
+Wing_root_1
+Wing_tip_-1
+Wing_tip_1
+Woody bud shell 0
+Woody bud shell 1
+Woody bud shell 10
+Woody bud shell 2
+Woody bud shell 3
+Woody bud shell 4
+Woody bud shell 5
+Woody bud shell 6
+Woody bud shell 7
+Woody bud shell 8
+Woody bud shell 9
+Work lamp pool
+Work ledge metal scuffs
+Work stance / approach from front
+Working crank link
+Working hammer / animated pivot
+WorldTree_00
+WorldTree_02
+WorldTree_04
+WorldTree_06
+WorldTree_08
+WorldTree_10
+WorldTree_12
+WorldTree_14
+WorldTree_16
+WorldTree_18
+WorldTree_20
+Worn flagstone
+Worn flagstone / side extension
+Worn silver shell
+Worn stencil fleck
+Worn transaction counter
+apron
+badge
+bell
+bellows
+blackstone
+brace
+burial
+butterfingers
+candle
+chalk
+chime
+coal
+coin
+collar
+collector
+contractink
+cornerstone
+creditshelf
+crown
+cup
+dawnsheath
+dawnsheath_refined
+deeppearl
+delivery
+dice
+dopaminesyringe
+dragonheart
+dragonpardon
+dragonseal
+dualaltar
+echo
+echodust
+endlessaxle
+eternalseed
+everwick
+fateknife
+file
+firstseal
+fork
+funeralledger
+gear
+ghostledger
+glass
+glove
+goldgear
+grudge
+headless
+hearth
+hold
+holy
+hook
+hourglass
+idol
+incense
+insurance
+ironcomb
+kingcup
+knot
+ledger
+letter
+lifecontract
+locket
+loop
+mallet
+mirror
+mold
+mourning
+nail
+oath
+oblivion
+obsidian
+oil
+oracledie
+ossuary
+patchbag
+patience
+perfectcore
+phoenix
+pin
+powder
+rage
+receipt
+redglass
+repair
+restoredholy
+rewind
+rivet
+royalchange
+royalnail
+royalseal
+safe
+scales
+seal
+shard
+sicklehammer
+sieve
+silverpermit
+spark
+speed
+spine
+star
+starshard
+steelcore
+still
+supply
+swordcocoon
+testament
+thirdeye
+thorn
+thread
+thricecrown
+ticketdamage
+ticketgreat
+tickethold
+ticketsuccess
+token
+tongs
+tooth
+twinseal
+underworldpass
+voucher
+ward
+watch
+wax
+× 지움    + 추가
+강화 위험은 모루 확률에 반영
+검 요구가치
+대성공
+대성공 channel
+성공
+성공 channel
+손상
+손상 channel
+올려놓은 가치
+유지
+유지 channel
+추 첨 표
+파괴
+파괴 channel
+
+==== AudioClips (392) ====
+ActionDenied
+AngrySwordImpact
+AngrySwordThrow
+Bite
+Bloom
+BoneJoint
+BoneSwing
+BonusReceipt
+BossMusic
+Break
+BreathIgnite
+BreathLoop
+Burst
+C_Vowels
+Cancel
+ChalkUse
+Charge
+CitadelContact
+ClawImpact
+ClawWhoosh
+Close
+Cloth1
+Cloth2
+Cloth3
+Cloth4
+CodexStamp
+Collapse
+Compression
+ContractStamp
+Counter drag
+CrownWind
+DeepBoneBreak01
+DeepBoneBreak02
+DeepBoneBreak03
+DeepBoneBreak04
+DeepBoneBreak05
+DeepBoneBreak06
+DeepBoneBreak07
+DeepBoneBreak08
+DeepBoneBreak09
+DeepBoneBreak10
+DefeatGroan
+Deflect
+Distant throat
+Dragon fire breath
+DragonApproach
+DragonDeathSelected
+DragonFinalLaugh
+DragonIntroRoar
+DragonSnatch
+DragonSnatchRecorded
+Draw
+DummyContact
+EarthScrape
+ElementSelect
+EndingClockRewind
+EndingCredits
+EntranceFallingRubble
+EntranceIgnition
+EntranceParry
+FeverOverdrive
+Flight
+Foot1
+Foot2
+Foot3
+GateContact
+GateYield
+Gather
+GlideLoop
+GreatStrike
+Grind
+Hearth crackle loop
+IdleBreath
+Impact
+ImpactStone04
+IncenseFade
+Inhale
+Install
+KeyCharge
+KeyFlight
+KeyLatch
+KeyRecall
+KeyTurn
+Latch
+Launch
+LifePulse
+Masonry slam
+MenuClick
+MenuClose
+MenuOpen
+MerchantArrival
+Motor
+Open
+PhaseBurst
+PhaseCharge
+PlayerHurt
+PlayerSwing
+PlayerSwordHit
+PlayerSwordSwing
+PortalOpen
+PortalSeal
+PortalVoid
+PortalWhispers
+PortalWind
+PowderUse
+Pressure
+Preview
+ProtectionCatch
+Radiance
+Raise
+RattleStep1
+RattleStep2
+RattleStep3
+RattleStep4
+RattleStep5
+RattleStep6
+Ready
+RelicAcquire
+RelicDiscard
+RelicReveal
+RelicStamp1
+RelicStamp2
+RelicStamp3
+RelicTick
+Reveal
+RewindUse
+Roar
+Sanctuary
+ShopArrival
+ShopReroll
+Snarl
+SoulFlight
+SoulRend
+SpringLight
+SpringMaximum
+SpringStrong
+SpringWeak
+StarCharge
+StarterGift
+Steel heating hiss
+Stone1
+Stone2
+Stone3
+Stone4
+Stone5
+Stone6
+Surge
+SwordBreak
+SwordDamage
+SwordDrop
+SwordDrop2
+SwordDrop3
+SwordDrop4
+SwordDrop5
+SwordFeed
+SwordLift
+SwordLift2
+SwordRecallAccent
+SwordRecallBlade
+SwordSet
+TailGround
+TailWhoosh
+Tide
+TributeBell
+WallSlam
+WardArm
+WardHit
+WingBeat
+WingFold
+absurdly
+afraid
+bring_money
+capable
+careful
+competent
+fine_sword
+kidnapper
+kill
+king
+last_sword
+laugh
+listen
+listen_again
+not_enough
+relic_space
+rich
+seen
+something_good
+stranger
+turn
+very_competent
+
+==== Textures (541) ====
+1
+10
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+11
+110
+12
+13
+14
+15
+16
+17
+18
+19
+2
+20
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+21
+210
+22
+23
+24
+25
+26
+27
+28
+29
+3
+30
+3000
+3001
+3002
+3003
+3004
+3005
+3006
+3007
+3008
+3009
+3010
+31
+32
+33
+34
+35
+36
+37
+38
+39
+4
+40
+41
+42
+43
+44
+45
+5
+6
+7
+8
+9
+AD
+AE
+AF
+AG
+AI
+AL
+AM
+AO
+AQ
+AR
+AS
+AT
+AU
+AW
+AX
+AZ
+AreaTex
+BA
+BB
+BD
+BE
+BF
+BG
+BH
+BI
+BJ
+BL
+BM
+BN
+BO
+BQ
+BR
+BS
+BT
+BV
+BW
+BY
+BZ
+BayerMatrix
+Broken stone pits
+CA
+CC
+CD
+CF
+CG
+CH
+CI
+CK
+CL
+CM
+CN
+CO
+CR
+CU
+CV
+CW
+CX
+CY
+CZ
+DE
+DF_Dentine
+DF_Iron
+DF_Ivory
+DF_Steel
+DJ
+DK
+DM
+DO
+DZ
+DebugFont
+DragonCrayon_03_CrownBrow
+DragonHealthSlate
+Dragon_BaseColor_2K
+Dragon_Normal_2K
+DustFalloff
+EC
+EE
+EG
+EH
+ER
+ES
+ET
+Exposed aggregate grain
+FI
+FJ
+FK
+FM
+FO
+FR
+Font Texture
+GA
+GB
+GD
+GE
+GF
+GG
+GH
+GI
+GL
+GM
+GN
+GP
+GQ
+GR
+GS
+GT
+GU
+GW
+GY
+HK
+HM
+HN
+HR
+HT
+HU
+HammerCoin
+Hide pores
+ID
+IE
+IL
+IM
+IN
+IO
+IQ
+IR
+IS
+IT
+JE
+JM
+JO
+JP
+KE
+KG
+KH
+KI
+KM
+KN
+KP
+KR
+KW
+KY
+KZ
+Keratin striations
+LA
+LB
+LC
+LDR_LLL1_0
+LDR_LLL1_1
+LDR_LLL1_10
+LDR_LLL1_11
+LDR_LLL1_12
+LDR_LLL1_13
+LDR_LLL1_14
+LDR_LLL1_15
+LDR_LLL1_16
+LDR_LLL1_17
+LDR_LLL1_18
+LDR_LLL1_19
+LDR_LLL1_2
+LDR_LLL1_20
+LDR_LLL1_21
+LDR_LLL1_22
+LDR_LLL1_23
+LDR_LLL1_24
+LDR_LLL1_25
+LDR_LLL1_26
+LDR_LLL1_27
+LDR_LLL1_28
+LDR_LLL1_29
+LDR_LLL1_3
+LDR_LLL1_30
+LDR_LLL1_31
+LDR_LLL1_4
+LDR_LLL1_5
+LDR_LLL1_6
+LDR_LLL1_7
+LDR_LLL1_8
+LDR_LLL1_9
+LI
+LK
+LR
+LS
+LT
+LU
+LV
+LY
+Large01
+Large02
+MA
+MC
+MD
+ME
+MF
+MG
+MH
+MK
+ML
+MM
+MN
+MO
+MP
+MQ
+MR
+MS
+MT
+MU
+MV
+MW
+MX
+MY
+MZ
+Medium01
+Medium02
+Medium03
+Medium04
+Medium05
+Medium06
+MerchantTripo_BaseColor
+MerchantTripo_ORM
+NA
+NC
+NE
+NF
+NG
+NI
+NL
+NO
+NP
+NR
+NU
+NZ
+OM
+PA
+PE
+PF
+PG
+PH
+PK
+PL
+PM
+PN
+PR
+PS
+PT
+PW
+PY
+Paper grain
+PollenSoft
+QA
+RE
+RO
+RS
+RU
+RW
+RuneInvocation
+SA
+SB
+SC
+SD
+SE
+SG
+SH
+SI
+SJ
+SK
+SL
+SM
+SN
+SO
+SR
+SS
+ST
+SV
+SX
+SY
+SZ
+ScarecrowBaseColor
+SearchTex
+Skeleton_BaseColor
+SoftFlame
+SoftParticle
+Soot-dark hammered iron
+Splash Screen Unity Logo
+TC
+TD
+TF
+TG
+TH
+TJ
+TK
+TL
+TM
+TN
+TO
+TR
+TT
+TV
+TW
+TZ
+T_CharredWood_Albedo
+T_ForgeIron_Albedo
+T_SootBrick_Albedo
+Thin01
+Thin02
+UA
+UG
+UM
+US
+UY
+UZ
+Uneven soot mask
+VA
+VC
+VE
+VG
+VI
+VN
+VU
+WF
+WS
+Worn shelf timber
+XK
+YE
+YT
+ZA
+ZM
+ZW
+altar
+apron
+badge
+bell
+bellows
+blackstone
+brace
+burial
+butterfingers
+candle
+chalk
+chime
+coal
+cocoon
+coin
+collar
+collector
+contractink
+cornerstone
+creditshelf
+crown
+cup
+dawnsheath
+deeppearl
+delivery
+dice
+discount
+dopamine
+dragonheart
+dragonpardon
+dragonseal
+echo
+echodust
+endlessaxle
+eternalseed
+everwick
+file
+firstseal
+fork
+funeralledger
+fusion
+gear
+ghostledger
+glass
+glove
+goldgear
+grudge
+headless
+hearth
+hold
+holy
+hook
+hourglass
+idol
+incense
+insurance
+ironcomb
+kingcup
+knife
+knot
+ledger
+letter
+lifecontract
+locket
+loop
+mallet
+mirror
+mold
+mourning
+nail
+oath
+oblivion
+obsidian
+oil
+oracledie
+ossuary
+patchbag
+patience
+perfectcore
+phoenix
+pin
+powder
+rage
+redglass
+repair
+rewind
+rivet
+royalchange
+royalnail
+royalseal
+safe
+scales
+seal
+shard
+sicklehammer
+sieve
+silverpermit
+spark
+speed
+spine
+star
+starshard
+steelcore
+still
+supply
+testament
+thirdeye
+thorn
+thread
+ticketdamage
+ticketdamage print
+ticketgreat
+ticketgreat print
+tickethold
+tickethold print
+ticketsuccess
+ticketsuccess print
+token
+tongs
+tooth
+twinseal
+voucher
+ward
+watch
+wax
+
+==== AnimationClips (65) ====
+Attack
+Awaken_12
+Awaken_16
+Awaken_2
+Awaken_20
+Awaken_4
+Awaken_6
+Awaken_9
+DRG_AirBreath
+DRG_ClawSwipe_L
+DRG_ClawSwipe_R
+DRG_Collapse
+DRG_DefeatFall
+DRG_DownedIdle
+DRG_Fly
+DRG_FlyToGlide
+DRG_Glide
+DRG_GlideToFly
+DRG_GroundBreath
+DRG_HitReact
+DRG_Idle
+DRG_Land
+DRG_OverheadSlash_L
+DRG_OverheadSlash_R
+DRG_PhaseTwo
+DRG_PounceSlam
+DRG_Stagger
+DRG_TailSweep
+DRG_TakeOff
+DRG_Turn_L
+DRG_Turn_R
+DRG_Walk
+DRG_WalkStart
+DRG_WalkStop
+Death
+FORGETAX_FUNERARY
+Idle
+Idle_12
+Idle_16
+Idle_2
+Idle_20
+Idle_4
+Idle_6
+Idle_9
+LeviathanRig|Breath
+LeviathanRig|Collapse
+LeviathanRig|Emerge
+LeviathanRig|Idle
+LeviathanRig|Swim
+Run
+ScarecrowRig|HitMaximum
+ScarecrowRig|HitNormal
+ScarecrowRig|HitStrong
+ScarecrowRig|HitWeak
+Spawn
+
+==== MonoBehaviour instance counts by script ====
+  127  ForgeWeaponEffect
+    1  GhostLanternFlame
+    1  DragonCombatFx

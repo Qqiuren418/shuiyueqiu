@@ -1,0 +1,3 @@
+script: DragonBattle  instances: 1
+
+--- inst 0 pid=5352 name='' len=84 strings=[]

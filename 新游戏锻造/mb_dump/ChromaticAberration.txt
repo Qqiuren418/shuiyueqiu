@@ -1,0 +1,4 @@
+script: ChromaticAberration  instances: 2
+
+--- inst 0 pid=2543 name='ChromaticAberration' len=64 strings=['ChromaticAberration']
+--- inst 1 pid=23176 name='ChromaticAberration' len=64 strings=['3', 'ChromaticAberration']

@@ -1,0 +1,3 @@
+script: DragonExecutionAura  instances: 1
+
+--- inst 0 pid=23358 name='' len=124 strings=['-']

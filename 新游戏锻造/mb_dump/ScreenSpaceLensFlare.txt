@@ -1,0 +1,3 @@
+script: ScreenSpaceLensFlare  instances: 1
+
+--- inst 0 pid=2538 name='ScreenSpaceLensFlare' len=216 strings=['ScreenSpaceLensFlare']

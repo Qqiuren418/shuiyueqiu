@@ -1,0 +1,7 @@
+script: Vignette  instances: 5
+
+--- inst 0 pid=2526 name='Vignette' len=100 strings=['Vignette']
+--- inst 1 pid=2544 name='Vignette' len=100 strings=['Vignette']
+--- inst 2 pid=520 name='Vignette' len=100 strings=['Vignette', '\n']
+--- inst 3 pid=132 name='Vignette' len=100 strings=['Vignette']
+--- inst 4 pid=23179 name='Vignette' len=100 strings=['Vignette']

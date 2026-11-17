@@ -1,0 +1,5 @@
+script: ForgeReactiveRelicVisual  instances: 3
+
+--- inst 0 pid=23223 name='' len=160 strings=['l', 'grudge']
+--- inst 1 pid=23513 name='' len=64 strings=['l', 'bellows']
+--- inst 2 pid=23526 name='' len=100 strings=['l', 'rewind']

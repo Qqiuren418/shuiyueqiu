@@ -1,0 +1,10 @@
+script: RunebladeRig  instances: 8
+
+--- inst 0 pid=23249 name='' len=220 strings=['각성의 검']
+--- inst 1 pid=23265 name='' len=408 strings=['대마법사의 마력기관']
+--- inst 2 pid=23338 name='' len=224 strings=['주문 새긴 룬검']
+--- inst 3 pid=23402 name='' len=500 strings=['아카샤 · 창세를 품은 검']
+--- inst 4 pid=23456 name='' len=192 strings=['마력의 파편']
+--- inst 5 pid=23463 name='' len=276 strings=['깨어나는 마력의 룬검']
+--- inst 6 pid=23494 name='' len=468 strings=['현실에 금을 내는 검']
+--- inst 7 pid=23522 name='' len=264 strings=['마력 과충전검']

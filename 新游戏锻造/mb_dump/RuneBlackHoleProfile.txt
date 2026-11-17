@@ -1,0 +1,3 @@
+script: RuneBlackHoleProfile  instances: 1
+
+--- inst 0 pid=23186 name='RuneBlackHole' len=216 strings=['y', 'RuneBlackHole']

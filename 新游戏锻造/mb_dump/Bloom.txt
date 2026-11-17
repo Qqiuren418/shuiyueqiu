@@ -1,0 +1,7 @@
+script: Bloom  instances: 5
+
+--- inst 0 pid=2520 name='Bloom' len=164 strings=['Bloom']
+--- inst 1 pid=2528 name='Bloom' len=164 strings=['Bloom', 'f', '3']
+--- inst 2 pid=522 name='Bloom' len=164 strings=['Bloom', ')', '{']
+--- inst 3 pid=130 name='Bloom' len=164 strings=['Bloom', '3', '\\', '{']
+--- inst 4 pid=23189 name='Bloom' len=164 strings=['Bloom']

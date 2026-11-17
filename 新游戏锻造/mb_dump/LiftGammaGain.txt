@@ -1,0 +1,3 @@
+script: LiftGammaGain  instances: 1
+
+--- inst 0 pid=2518 name='LiftGammaGain' len=112 strings=['LiftGammaGain']

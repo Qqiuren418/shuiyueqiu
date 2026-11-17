@@ -1,0 +1,4 @@
+script: unk_script_6077378723840  instances: 2
+
+--- inst 0 pid=2526 name='Vignette' len=100 strings=['Vignette']
+--- inst 1 pid=2544 name='Vignette' len=100 strings=['Vignette']

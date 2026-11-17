@@ -1,0 +1,10 @@
+script: unk_script_6253472382977  instances: 8
+
+--- inst 0 pid=23226 name='' len=84 strings=['dopaminesyringe']
+--- inst 1 pid=23295 name='' len=80 strings=['fateknife']
+--- inst 2 pid=23368 name='' len=80 strings=['thricecrown']
+--- inst 3 pid=23377 name='' len=80 strings=['swordcocoon']
+--- inst 4 pid=23412 name='' len=80 strings=['dualaltar']
+--- inst 5 pid=23528 name='' len=84 strings=['underworldpass']
+--- inst 6 pid=23530 name='' len=88 strings=['dawnsheath_refined']
+--- inst 7 pid=23559 name='' len=80 strings=['restoredholy']

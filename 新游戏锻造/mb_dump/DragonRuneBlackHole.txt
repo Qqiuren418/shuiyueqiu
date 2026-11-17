@@ -1,0 +1,3 @@
+script: DragonRuneBlackHole  instances: 1
+
+--- inst 0 pid=5351 name='' len=44 strings=[]

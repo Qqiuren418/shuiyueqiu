@@ -1,0 +1,3 @@
+script: DragonEncounter  instances: 1
+
+--- inst 0 pid=5306 name='' len=460 strings=[]

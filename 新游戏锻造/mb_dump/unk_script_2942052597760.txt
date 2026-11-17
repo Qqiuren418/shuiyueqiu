@@ -1,0 +1,3 @@
+script: unk_script_2942052597760  instances: 1
+
+--- inst 0 pid=2540 name='ColorCurves' len=560 strings=['ColorCurves']

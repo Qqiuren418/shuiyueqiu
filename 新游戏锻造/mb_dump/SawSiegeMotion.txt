@@ -1,0 +1,8 @@
+script: SawSiegeMotion  instances: 6
+
+--- inst 0 pid=23389 name='' len=828 strings=['\n', '\n', '=', 'f']
+--- inst 1 pid=23406 name='' len=408 strings=['\n']
+--- inst 2 pid=23427 name='' len=1572 strings=['\n']
+--- inst 3 pid=23486 name='' len=804 strings=['\n']
+--- inst 4 pid=23517 name='' len=744 strings=['\n']
+--- inst 5 pid=23570 name='' len=352 strings=['\n']

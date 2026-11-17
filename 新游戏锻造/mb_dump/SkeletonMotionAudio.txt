@@ -1,0 +1,3 @@
+script: SkeletonMotionAudio  instances: 1
+
+--- inst 0 pid=23432 name='' len=320 strings=[]

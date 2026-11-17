@@ -1,0 +1,3 @@
+script: GhostMerchantAppearance  instances: 1
+
+--- inst 0 pid=529 name='' len=48 strings=['|', 'f']

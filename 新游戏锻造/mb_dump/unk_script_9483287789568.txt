@@ -1,0 +1,3 @@
+script: unk_script_9483287789568  instances: 1
+
+--- inst 0 pid=2533 name='PC_Renderer' len=280 strings=['PC_Renderer']

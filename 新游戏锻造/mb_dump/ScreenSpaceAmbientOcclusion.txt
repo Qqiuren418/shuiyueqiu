@@ -1,0 +1,3 @@
+script: ScreenSpaceAmbientOcclusion  instances: 1
+
+--- inst 0 pid=2547 name='ScreenSpaceAmbientOcclusion' len=112 strings=['ScreenSpaceAmbientOcclusion']

@@ -1,0 +1,5 @@
+script: unk_script_914828034049  instances: 3
+
+--- inst 0 pid=522 name='Bloom' len=164 strings=['Bloom', ')', '{']
+--- inst 1 pid=130 name='Bloom' len=164 strings=['Bloom', '3', '\\', '{']
+--- inst 2 pid=23189 name='Bloom' len=164 strings=['Bloom']

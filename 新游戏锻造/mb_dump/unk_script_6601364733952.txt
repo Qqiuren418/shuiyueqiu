@@ -1,0 +1,4 @@
+script: unk_script_6601364733952  instances: 2
+
+--- inst 0 pid=2524 name='Tonemapping' len=120 strings=['Tonemapping', '\n']
+--- inst 1 pid=2537 name='Tonemapping' len=120 strings=['Tonemapping', '\n']

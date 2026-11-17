@@ -1,0 +1,10 @@
+script: unk_script_2770253905921  instances: 8
+
+--- inst 0 pid=13887 name='' len=88 strings=['벨 누르기 · 라운드 종료']
+--- inst 1 pid=13890 name='' len=52 strings=[]
+--- inst 2 pid=13896 name='' len=72 strings=['상납 장부 확인']
+--- inst 3 pid=13899 name='' len=64 strings=['새로고침']
+--- inst 4 pid=13911 name='' len=88 strings=['든 검을 철창 밖으로 상납']
+--- inst 5 pid=13919 name='' len=108 strings=[')']
+--- inst 6 pid=13921 name='' len=144 strings=['든 검을 넣어 가열하기', 'THE FIRE STAYS LIT. YOUR ITEMS ARE ON THE DESK BESIDE IT.']
+--- inst 7 pid=13940 name='' len=52 strings=[]

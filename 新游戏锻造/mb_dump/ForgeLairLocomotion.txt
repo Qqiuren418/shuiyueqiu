@@ -1,0 +1,3 @@
+script: ForgeLairLocomotion  instances: 1
+
+--- inst 0 pid=5345 name='' len=64 strings=[]

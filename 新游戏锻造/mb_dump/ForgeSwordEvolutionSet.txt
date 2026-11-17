@@ -1,0 +1,3 @@
+script: ForgeSwordEvolutionSet  instances: 1
+
+--- inst 0 pid=23187 name='SwordEvolution' len=1012 strings=[';', 'SwordEvolution']

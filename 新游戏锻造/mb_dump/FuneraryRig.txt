@@ -1,0 +1,14 @@
+script: FuneraryRig  instances: 12
+
+--- inst 0 pid=23205 name='' len=452 strings=['망자들의 공동묘지']
+--- inst 1 pid=23222 name='' len=92 strings=['녹슨 관못']
+--- inst 2 pid=23240 name='' len=272 strings=['묘지기의 낫']
+--- inst 3 pid=23273 name='' len=100 strings=['수의 감은 묘지칼']
+--- inst 4 pid=23312 name='' len=112 strings=['망자를 깨우는 종']
+--- inst 5 pid=23319 name='' len=388 strings=['뿌리째 뽑힌 무덤']
+--- inst 6 pid=23356 name='' len=96 strings=['깨진 묘비 대검']
+--- inst 7 pid=23436 name='' len=96 strings=['무덤지기의 삽']
+--- inst 8 pid=23446 name='' len=112 strings=['망자를 깨우는 종']
+--- inst 9 pid=23468 name='' len=92 strings=['관뚜껑 대검']
+--- inst 10 pid=23473 name='' len=272 strings=['망령을 밝히는 횃불', '\r']
+--- inst 11 pid=23524 name='' len=440 strings=['명계의 열쇠']

@@ -1,0 +1,464 @@
+There are not enough mips in the source texture. The pass will be skipped. attempts to blit too many slices. The pass will be skipped. attempts to blit too many slices. There are not enough slices in t
+----
+The pass will be skipped. attempts to blit too many slices. There are not enough slices in the source array. The pass will be skipped. attempts to use a null material. attribute is required because Typ
+----
+ContainsGenericParameters is true. but got  camera overlay can only be executed on the main thread
+ cannot be unmarshalled component component instead. contains a null parameter; please make sure all p
+----
+Until this is fixed the null parameters will not be considered by the system. contains no data controls when doing  could not be found destination needs to be a valid texture handle. does not have a va
+----
+RecordRenderGraph method. Please implement this method, or consider turning on Compatibility Mode (RenderGraph disabled) in the menu Edit
+----
+Cannot load scenario data.. Cannot load shared data.. Final Point Size: . No receiver for uri . Please commit the newly serialized value.. Will skip rendering.'........and you're free....the tribute co
+----
+AddRenderPasses(): Missing material. .GetElementType() returned null..Transient resource are always assumed to be both read and written..
+----
+OcclusionCullingCommon.cs.
+----
+ProbeReferenceVolume.Debug.cs.
+----
+Canceled).A task was canceled.A temporary error occurred on an authoritative name server.  Try again later.A type '
+----
+Public Key Token or without a public key token. To fix this, please either turn on unsafeTypeForwarding flag in the configuration file or remove the TypeForwardedFrom attribute.A type must implement IC
+----
+IComparable to support comparison.A valid high surrogate character is between 0xd800 and 0xdbff, inclusive.A valid low surrogate character is between 0xdc00 and 0xdfff, inclusive.A.D.AABB(Center:
+----
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+----
+FLIPAPVAPV Index Allocation failed.APVFragmentationOverlayAPV
+----
+IntermediateASMO-708AbilityAbortedAbsentAbsoluteUriAbyss / chargeAbyss / collapseAbyss / releaseAbyss / spherical event horizonAbyss / travelling massAccelerometerAccess deniedAccess to the path
+----
+WithRebindingAddNewBinding()Action ID:
+----
+Action count cannot exceed ushort.MaxValue
+----
+Action must be part of an asset (given action '
+----
+Action must have nameAction number
+----
+ActionEventPtr is invalidActionStartActivation Attributes are not supported for types not deriving from MarshalByRefObject.Active Occlusion ContextsActivity TimespanActual dead forest beyond portalActu
+----
+ActualValueAdaptive BatchingAdaptive DecalsAdaptive FramerateAdaptive LODAdaptive Layer CullingAdaptive LutAdaptive MSAAAdaptive Performance Management has already initialized an active loader in this
+----
+Please make sure to stop all subsystems and deinitialize the active loader before initializing a new one.Adaptive Performance is disabled via Settings.Adaptive PhysicsAdaptive Probe Volumes have not be
+----
+Cleanup.Adaptive ResolutionAdaptive Resolution Scale:
+----
+AllocateNewInstancesAllocation a RTHandle from another one is forbidden.Allocator index into TryFunction delegate table exceeds maximum.Already bound to an IEditorPlayerConnectionAlready existsAlready
+----
+Was OnUpdate() called recursively?Already ownedAlready received device with id
+----
+Already received this run
+----
+Further tributes do not grant it again.AltAltGrAlternation conditions cannot be comments.Alternation conditions do not capture and cannot be named.AlwaysAmbientTemperatureSensorAmbiguous implementation
+----
+Ambiguous match found.Ambiguous overloads found for An Int32 must be provided for the filter criteria.An action map called 'An address incompatible with the requested protocol was usedAn attempt was ma
+----
+An attempt was made to transition a task to a final state when it had already completed.An der markierten Wand entsteht ein Durchgang zu einem weiteren Raum.
+Errichte neben dem Tributtisch eine T
+----
+An element of innerExceptio
+
+---
+----
+Argument occlusionProbes is null or has fewer elements than positions.Argument serializeElement must not be null.Argument string consists of whitespace characters only.Argument tetrahedronIndices is nu
+----
+Argument tilemap cannot be nullArithmetic operation resulted in an overflow.Armed wardArrayArray cannot be null.Array element type is Object, 'dt' attribute is null.Array lengths must be the same.Array
+----
+Begin XR RenderingBegin.BeginGroupBeginProfileBeginXRRenderingBehaviorBei einem Bruch:
+----
+Chance, den Schlag aufzuheben. Normales Schmieden l
+----
+Schmiederausch um 1 auf. Nur das st
+----
+Schwert wirkt.BellBellWaitBest hitBestFit is only supported for dynamic fonts. Font '
+----
+BestFitMappingBig5Big5-HKSCSBilinearBilinearDebugDrawBinary format of the specified custom attribute was invalid.Binary stream '
+----
+BinaryHeader. Possible causes are invalid stream or object version change between serialization and deserialization.BinaryObjectMapBinaryReader encountered an invalid string length of
+----
+Binding accessor is not validBinding accessor must point to composite or part bindingBinding count cannot exceed ushort.MaxValueBinding index
+----
+Broken masonryBroken standing stoneBroken steel receiptBroken sword / beveled salvageBuffer cannot be null.Buffer too small (expected:
+----
+Burst failed to compile the function pointer
+----
+Burst.Compiler.IL.Tests.TestCompilerAttributeBurstScopeBut if...ButtonButton
+----
+Button.onClickButtonGridButtonWithOneModifierButtonWithTwoModifiersBy disabling mip caching, the data on GPU accurately reflects what the TextureStreamer calculates. While this can significantly increa
+----
+CPU-to-GPU traffic, it can be an invaluable tool to validate that the Streamer behaves as expected.Byref qualifier must be the last one of a typeByteByte array for GUID must be exactly
+----
+BytesCC.E.CACASESENSITIVETESTCCSID00858CCSID00924CCSID01140CCSID01141CCSID01142CCSID01143CCSID01144CCSID01145CCSID01146CCSID01147CCSID01148CCSID0114
+
+---
+----
+BytesCC.E.CACASESENSITIVETESTCCSID00858CCSID00924CCSID01140CCSID01141CCSID01142CCSID01143CCSID01144CCSID01145CCSID01146CCSID01147CCSID01148CCSID01149CDATACLEARCLR
+----
+SafeSerializationManager
+----
+RealTypeCMS3DESwrapCMSRC2wrapCNCN-GBCP00858CP00924CP01140CP01141CP
+
+---
+----
+Disabling TAA DisconnectMsg.ProcessDiscovery / forged sealDiscreteButtonDisk full. Path
+----
+Dispatch APV DebugDispersing wing airflowDisplayDisplay Display BricksDisplay Buffer Graphics FormatDisplay CellsDisplay Color GamutDisplay Culling StatsDisplay IndexDisplay Index FragmentationDisplay
+----
+ProbesDisplay Status CodesDisplay Streaming ScoreDisplay Subdivision bricks.Display flagDisplayInfoAttributeDisplayNameDisponible al terminar el contrato.Dispon
+----
+DissolvingDistant moving mist skyDistant spectral resonanceDll was not found.DltDo not use RemotingSurrogateSelector when deserializatingDon't know how to convert PrimitiveValue to '
+----
+Don't make me find another one.Door thresholdDoorAlignDoorCloseEyesDoubleDownDown ArrowDownArrowDownedDowned breathingDownedIdleDownsample ColorDpadDpadAxisDraft embersDragon / Dragon / Attack exertion
+----
+Dragon / Attack ground contactDragon / Attack sweepDragon / Body collapseDragon / Breath ignitionDragon / Breath inhaleDragon / Defeat groanDragon / Downed breathingDragon / FootstepDragon / Hover wing
+----
+Dragon / LandingDra
+
+---
+----
+DrawGizmosDrawMeshInstanced is not supported.DrawMeshInstancedProcedural is not supported.DrawProcedural is required for the On-Tile post processing feature but it is not supported by the platform. Pas
+----
+DrawWireOverlayDropdown ListDropdown.valueDry Clay SoilDry SandDu kannst gerade nicht hinaus.Du kannst sie noch nicht errichten.Due time too largeDummyMethodDuplicateDuplicate AttributeUsageAttribute c
+----
+Dwarf./Tomorrow, bring me every sword you have./Every last one./It's our last day. Let's keep things pleasant./The last day already?/Well./You've worked hard./You'll finally see your family again./You'
+----
+Of course./Your family. The city you called home./I wiped them all out./Don't worry. You'll be joining them soon./But...Dwarven watchfire DynamicDynamic resolution is not supported. Using fallback to R
+----
+Dynamic resolution is not supported. Will be using fallback to Render Scale Multiplier.DynamicExplicitDynamicOriginClic
+
+---
+----
+Dynamic resolution is not supported. Will be using fallback to Render Scale Multiplier.DynamicExplicitDynamicOriginClickableEE
+----
+Dry Clay SoilDry SandDu kannst gerade nicht hinaus.Du kannst sie noch nicht errichten.Due time too largeDummyMethodDuplicateDuplicate AttributeUsageAttribute cannot be specified on an attribute type.Du
+----
+Mecanismo do arrependimento:
+
+---
+----
+Angebot kostenlos erneuern.Either obj or ctx must be nullEither the IAsyncResult object did not come from the corresponding async method on this type, or EndRead was called multiple times with the same
+----
+IAsyncResult.Either the IAsyncResult object did not come from the corresponding async method on this type, or EndWrite was called multiple times with the same IAsyncResult.Either type or assembly attri
+----
+El amo de tus tributos espera fuera.El port
+----
+El primer tributo de esta forma aumenta en
+----
+Una vez por partida.Electrical arc / Electrical breaker / final cutElegir ubicaci
+----
+Element Element 'ElementTypesElementsEmergeEmerging swordEmpty charcoalEmpty file name is not legal.Empty path name is not legal.Empty platform user account handleEmpty render passEmpty saveEmpty secon
+----
+Empty tagEmpty usage entry at index
+----
+Enable DebugEnable STP upscaling filter in the render pipeline asset to use these debug view
+
+---
+----
+FileHandle is invalid and may not be read from.FileHandle.Close cannot be called twice on the same FileHandleFileHandle.JobHandle cannot be called on a closed FileHandleFileLoad
+----
+FusionLogFileName is emptyFileNotFound
+----
+FusionLogFilter LayersFilter Rendering Layers by LightFilter and debug selected lighting features in the system.Final tribute / dragon voiceFinalJudgementFindFindSlotsForEntriesFireFire Torch
+----
+FirePairFirebox internalFirstEntryFish SkewerFive outcome weights requiredFixing up a partially available ValueType chain is not implemented.Flags
+----
+FlickerFloating itemFloating merchandiseFlooded floorFlyFlyToGlideFlying polygon embersFocusFogFolding trayFoliageFontFont '
+----
+Font name cannot be emptyFont size and style overrides are only supported for dynamic fonts. Font '
+----
+YieldGatherGathered blade radianceGathering ground halo GearVRGeneral failureGeneral non-predefined entity reference is not supported in this parser.GeneratePropertyBagsForTypesQualifiedWithAttribute T
+----
+Realtime declaration:
+----
+Generic argument can't be byref or pointer typeGenericArgumentsGenericParameterPositionGermanGesperrtGet Method not found for 'Get it wrong and I'll kill you.GetDataGetEncodingGetFileInfo must have a v
+----
+FileInfoResult to write into.GetGenericValueImpl should be remapped to an intrinsicGetHashCodeGetHashCode() on Span and ReadOnlySpan is not supported.GetInstanceGetRayIntersectionAllGetRayIntersectionN
+----
+AllocGetRenderPassEventRange: invalid renderPassEvent value can
+
+---
+----
+Instalar o sinoInstalar port
+----
+Instalar salidaInstalar sa
+----
+Instale a porta primeiro.Instale na parede indicada para abrir uma passagem para outro c
+----
+Instale uma porta para o exterior ao lado da mesa de tributos.Instale uma porta para o exterior ao lado da mesa de tributos.Instale uma porta para outro c
+----
+Install a door leading outside beside the tribute stand.Install a door to another room on the marked wall.Install exitInstall gateInstall on the marked wall to open a passage to another room.
+Install a
+----
+Install the bellInstall the door first.Installation consumes this sword. It cannot be retrieved.Installation dustInstalled soul bellInstal
+----
+Instance Culler StatsInstance Occlusion TestInstance constructor requires a targetInstance is read-only.Instance not validInstanceDataSystemBufferInstanceOcclusionCullerShaderVariablesInstanceOcclusion
+----
+TestInstancing is not supported.Instantiate failed because the clone was destroyed during creation. This can happen if DestroyImmediate is called in M
+
+---
+----
+Instale uma porta para o exterior ao lado da mesa de tributos.Instale uma porta para outro c
+----
+TestInstancing is not supported.Instantiate failed because the clone was destroyed during creation. This can happen if DestroyImmediate is called in MonoBehaviour.Awake.Inst
+----
+Instala una puerta al exterior junto al altar del tributo.Insufficient close tag:
+----
+Insufficient hexa
+
+---
+----
+Invalid Vector3 index!Invalid Vector4 index!Invalid XR setup for single-pass, trying to add too many views! Max supported:
+----
+Invalid XR setup for single-pass, trying to render too many views! Max supported:
+----
+Invalid action name 'Invalid alpha valueInvalid argumentsInvalid array spec, multi-dimensional array cannot be boundInvalid array type '
+----
+Invalid array/generic specInvalid attribute value markup.Invalid attribute: Invalid beforeRender setting 'Invalid cast from '
+----
+Invalid character in array spec Invalid color valueInvalid column index!Invalid container type.Invalid custom attribute data formatInvalid custom attribute formatInvalid custom error mode: Invalid data
+----
+Invalid data format.Invalid declaration markupInvalid declaration markup.Invalid descriptor - must supply a valid providerType field!Invalid element '
+----
+Invalid exception thrown from custom
+----
+LogException(). Message:
+----
+Invalid expected type.Invalid font-weight valueInvalid font-weight value:
+----
+Invalid forge probability.Invalid generic arguments separator Invalid generic arguments specInv
+
+---
+----
+Invalid Vector4 index!Invalid XR setup for single-pass, trying to add too many views! Max supported:
+----
+Invalid forge probability.Invalid generic arguments separator Invalid generic arguments specInvalid group name: Group names mu
+
+---
+----
+Invalid forge probability.Invalid generic arguments separator Invalid generic arguments specInvalid group name: Group names must begin with a word character.Invalid handleInvalid handle to path
+----
+Invalid handle.Invalid imported texture. Both a color and a depthStencil format are provided. The texture needs
+
+---
+----
+Invalid argumentsInvalid array spec, multi-dimensional array cannot be boundInvalid array type '
+----
+Invalid handle.Invalid imported texture. Both a color and a depthStencil format are provided. The texture needs to either have a color format or a 
+
+---
+----
+LocalLocal abyss spillLocal furnace air / runtimeLocal keyword
+----
+Local onlyLocalDataStoreSlot storage has been freed.LocalOnly; Lock violationLock violation on path
+----
+LockBufferForWrite requires a valid GraphicsBufferLockedLog Input DepthLoggerLogicalCallContextLookLook at the exit placement spot beside the tribute stand.Look at the wall between the anvil and furnac
+----
+Look to the right of the furnace.Low flame / licking above the coalsLow level rendergraph error: Attachments in renderpass do not match.Low level rendergraph error: Shading rate image attachment in ren
+----
+Low level rendergraph error: last subpass with shader resolve must have all input attachments as memoryless attachments.Low level rendergraph error: last subpass with shader resolve must have one color
+----
+Low soot ceilingLowFreqMotorLower mouth interiorLtLuLucharLutarLutar com sua espada atual?MM4M5MASK
+----
+MEDIUMMBMM.ddMM/dd/yyyy
+
+---
+----
+KeysChangedModify the brightness of probe visualizations. Decrease this number to make very bright probes more visible.Modify the size of the arrows used in the virtual offset debug visualization.Modul
+----
+MonMondayMoney Vending Machine
+----
+PerMagnusLindborgMono INTERNAL ERROR (Should not happen): Collation tailoring table is broken for culture
+----
+MonoBehaviourMonoPInvokeCallbackAttributeMonthMonth must be between one and twelve.Months value must be between
+----
+More than byte.MaxValue InputActionMaps in a single InputActionStateMore than ushort.MaxValue bindings in a single InputActionStateMore than ushort.MaxValue-1 controls in a single InputActionStateMore
+----
+MaxValue-1 interactions in a single InputActionStateMore tickets mean a higher chance of being drawn.Motion Reprojection
+----
+This Sqrt Luma Feedback Diff, B
+----
+Attendant swordMotion
+----
+Spiral trailing swordMotorMouseMouse:
+----
+MouseBackMouseForwardMouseLeftMouseMiddleMouseRightMouth / sustained breathMoveMove
+
+---
+----
+MouseBackMouseForwardMouseLeftMouseMiddleMouseRightMouth / sustained breathMoveMoveDir:
+----
+MultiTapMultiple Adaptive Resolution scalers created. They will interfere with each other.Multiple PlayerInputManagers in the game. There should only be one PlayerInputManagerMultiple custom attributes
+----
+Must be an array type.Must be less than or equal to the size of the collection.Must complete Convert() operation or call Encoder.Reset() before calling GetBytes() or GetByteCount(). Encoder '
+----
+Must either have an action (call WithAction()) to apply binding to or have a custom callback to apply the binding (call OnApplyBinding())Must provide at least one rank.Must set actions on PlayerInput i
+----
+Must specify binding flags describing the invoke operation required (BindingFlags.InvokeMethod CreateInstance GetField SetField GetProperty SetProperty).Must specify valid information for parsing
+
+---
+----
+IndexSpringLightSpringMaximumSpringStrongSpringWeakSprite Assets/Sprite Assets/Default Sprite AssetSprite was changed for one not readable or with Crunch Compression. Resetting the AlphaHitThreshold to
+----
+Square-section iron barStack can only contain Overlay cameras. The camera: Stack empty.Stack is not empty. Did you skip a call to Release?StackTraceStringStacked tribute restStaggerStale NFS file handl
+----
+StandardNameStanding wall remnantStandingIgnitionStareStart index cannot be less than 0 or greater than input length.Start screen
+----
+StartIndex cannot be less than zero.Starter gift / airy revealStarter gift / light rays Starter relic / eight paper sunraysStarterRelicsStarterRelics/ChooseStarterRelics/ChosenStartingState count canno
+----
+MaxValueState format '
+----
+StdSteam nameSteam native library missing; local progress retainedSteam play
+
+---
+----
+LinkedList.The Mesh LOD index (
+----
+The Month parameter must be in the range 1 through 12.The NativeArray can not be Disposed because it was allocated with a custom allocator, use CollectionHelper.Dispose in com.unity.collections package
+----
+The NativeArray can not be Disposed because it was not allocated with a valid allocator.The NeutralResourcesLanguageAttribute on the assembly
+----
+The NeutralResourcesLanguageAttribute specifies an invalid or unrecognized ultimate resource fallback location:
+----
+The Object you want to instantiate is null.The ObjectDispatcher is invalid or has been disposed.The ObjectManager found an invalid number of fixups. This usually indicates a problem in the Formatter.Th
+----
+On-Tile Validation layer has detected an issue:  render pass 'The On-Tile Validation layer is activated with the setting 'Tile-Only Mode' on the URP Renderer. When activated, it is not allowed to sampl
+----
+The NativeArray can not be Disposed because it was allocated with a custom allocator, use CollectionHelper.Dispose in com.unity.collections package.The NativeArray can not be Disposed because it was no
+----
+The NeutralResourcesLanguageAttribute on the assembly
+----
+This can occur for many reasons, including very large inputs or excessive backtracking caused by nested quantifiers, back-references and other factors.The ResourceReader class does not know how to read
+----
+The ScriptableRenderContext member is not set.The SupportedOnRenderPipelineAttribute Attribute targets an invalid RenderPipelineAsset. One of the types cannot be assigned from RenderPipelineAsset:
+----
+The SupportedOnRenderPipelineAttribute parameters cannot be null.The SupportedOnRendererAttribute Attribute targets an invalid ScriptableRendererData. One of the types cannot be assigned from Scriptabl
+----
+The TimeSpan parameter cannot be specified more precisely than whole minutes.The TimeSpan parameter must be within plus or minus 14.0 hours.The TryExecuteTaskInline call to the
+
+---
+----
+The TimeSpan parameter cannot be specified more precisely than whole minutes.The TimeSpan parameter must be within plus or minus 14.0 hours.The TryExecuteTaskInline call to the underlyin
+
+---
+----
+The ResourceReader class does not know how to read this version of .resources files. Expected version:
+----
+The TimeSpan parameter cannot be specified more precisely than whole minutes.The TimeSpan parameter must be within plus or minus 14.0 hours.The TryExecuteTaskInline call to the underlying scheduler suc
+----
+The TypedReference must be initialized.The UTC representation of the date falls outsi
+
+---
+----
+Reader class does not know how to read this version of .resources files. Expected version:
+----
+The TypedReference must be initialized.The UTC representation of the date falls outside the year range 1-9999.The UTC time represented when the 
+
+---
+----
+The TypedReference must be initialized.The UTC representation of the date falls outside the year range 1-9999.The UTC time represented when the offset is 
+
+---
+----
+The SupportedOnRenderPipelineAttribute Attribute targets an invalid RenderPipelineAsset. One of the types cannot be assigned from RenderPipelineAsset:
+----
+The TypedReference must be initialized.The UTC representation of the date falls outside the year range 1-9999.The UTC time represented when the offset is applied must be between year 0 and 10,000.The U
+----
+SerializationHolder object is designed to transmit information about other types and is n
+
+---
+----
+The elements of the AdjustmentRule array must be in chronological order and must not overlap.The enumerator is positioned before the first element of the collection or after the last elementThe event h
+----
+The event has been disposed.The field handle and the type handle are incompatible.The file '
+----
+The first tribute of this form adds
+----
+Once per run.The fragment attachments of the passes have different sizes or sample counts.
+The full screen feature
+----
+The given key was not present in the dictionary.The given module
+----
+The given object does not implement the ISerializable interface.The handle is invalid.The highest (most dense) probe subdivision level displayed in the debug view.The implementation of the IObjectRefer
+----
+The lock is being disposed while still being used. It either is being held by a thread and/or has active waiters waiting to acquire the lock.The lower bound of target array must be zero.The lowest (lea
+----
+The master of your tribute awaits outside.The maximumCount argument must be a positive number. If a maximum is not required, use the constructor without a maxCount parameter.The member must be either a
+----
+Instance methods are not supportedThe method
+----
+IL2CPP!The method cannot be called twice on the same instance.The method has
+----
+The method or operation is not implemented.The method signature cannot be null.The mode argument specifies an invalid value.The name can be no more than 260 cha
+
+---
+----
+The method or operation is not implemented.The method signature cannot be null.The mode argument specifies an invalid value.The name can be no more than 260 characters in length.The native render pass
+----
+All passes in the native render pass need to use the same depth 
+
+---
+----
+There are too many threads currently waiting on the event. A maximum of
+----
+There must be at least a partial date with a year present in the input.There seems to be an issue with the formatting of the
+----
+Possible issues include: missing or misplaced closing '
+----
+Please review the tag syntax.There seems to be an issue with the formatting of the
+----
+Please review the tag syntax.Thermal Warning LevelThird warning / simulated masonryThis .resources file should not be read with this reader. The resource reader type is
+----
+This API cannot be called during the Render Graph execution. Call the API outside of SetRenderFunc().This API cannot be called during the Render Graph high-level recording step. Call the API within Add
+----
+UnsafePass()/AddComputePass()/AddRasterRenderPa
+
+---
+----
+UnsafePass()/AddComputePass()/AddRasterRenderPass() or outside of RecordRenderGra
+
+---
+----
+There seems to be an issue with the formatting of the
+----
+UnsafePass()/AddComputePass()/AddRasterRenderPass() or outside of RecordRenderGraph().This API cannot be called when Render Graph is active. Call the API outside of RecordRenderGraph().This API cannot
+----
+Twenty-four days, starting today.Twin seal duplicateTwistTwoModifiersType Type 'Type '
+----
+Type and assembly attributes cannot be specified togetherType constructor threw an exception.Type is missing for member of type Object '
+----
+Type is not a delegateType is not supported.Type must be a Pointer.Type must be a runtime Type object.Type must be a type provided by the runtime.Type not found: Type of argument is not compatible with
+----
+Type passed in must be derived from System.Attribute or System.Attribute itself.Type passed to
+----
+Type provided must be an Enum.Type
+----
+Type constructor threw an exception.Type is missing for member of type Object '
+----
+Type: TypeLoadAssemblyNameTypeLoadClassNameTypeLoadMessageArgTypeLoadResourceIDTypeNameTypeObjTypeUtilityTypeUtility: Cannot construct an array, since TypeUtility: Cannot instantiate an array, since Ty
+----
+Reference can only be made on nested value Types.TypedReferences cannot be redefined as primitives.TypesTypes not ava
+
+---
+----
+Reference can only be made on nested value Types.TypedReferences cannot be redefined as primitives.TypesTypes not available for ISerializ
+
+---
+----
+Reference can only be made on nested value Types.TypedReferences cannot be redefined as primitives.TypesTypes not available for ISerializable object '
+----
+Types used as layouts have to be InputControls or InputDevices; 'UUDMScopeUIUI/CancelUI/ClickUI/MiddleClickUI/NavigateUI/PointUI/RightClickUI/ScrollWheelUI/SubmitUIR.ComputeTransformMatrixUIR.RaiseEngi
+----
+UpdateUInt16UInt32UInt64UKUNC paths should be of the form
+----
+Usage string cannot be emptyUsagePage(
+----
+Use Light's Shadow Layer MaskUse a sword you don't need.Use existing collectible sword prefab with physicsUse of unassigned Unicode characer is prohibited in this IdnMapping, at
+----
+Use the checkbox to disable High Dynamic Range in the scene.Use the checkbox to disable MSAA in the scene.Use the drop-down to select a 3D GameObject attribute, like Texture Coordinates or Vertex Color
+----
+Use the drop-down to select a Material property to visualize on every GameObject on screen.Use the drop-down to select a mipmap property to debug.Use the drop-down to select the material texture slot t
+----
+The slot indices follow the default order by which texture properties appear in the Material Inspector.
+The default order is itself defined by the order in which (non-hidden) texture properties appear

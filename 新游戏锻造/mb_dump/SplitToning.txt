@@ -1,0 +1,4 @@
+script: SplitToning  instances: 2
+
+--- inst 0 pid=2519 name='SplitToning' len=96 strings=['SplitToning']
+--- inst 1 pid=23190 name='SplitToning' len=96 strings=['SplitToning']

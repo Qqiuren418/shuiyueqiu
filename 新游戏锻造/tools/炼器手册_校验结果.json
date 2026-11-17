@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "docx_bytes": 55713,
+  "markdown_bytes": 64042,
+  "visible_body_chars_no_whitespace": 19907,
+  "main_chapters": 15,
+  "tables": 15,
+  "real_list_paragraphs": 222,
+  "preserved_source_links": 18,
+  "evidence_entries": 17,
+  "xml_and_relationship_files_parsed": 21,
+  "markdown_docx_body_identical": true,
+  "table_grid_and_cell_widths_identical": true,
+  "manual_visual_check": {
+    "application": "Microsoft Word",
+    "pages": 35,
+    "sample": "opening pages, process table, final source pages",
+    "status": "no overflow or obstructed text observed"
+  },
+  "review_fixes": [
+    "clarified merged and skipped case steps",
+    "clarified remaining capacity budget and rejected overload drafts"
+  ]
+}

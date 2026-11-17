@@ -1,0 +1,12 @@
+script: ForgeLairFirelight  instances: 10
+
+--- inst 0 pid=5302 name='' len=36 strings=[]
+--- inst 1 pid=5304 name='' len=36 strings=[]
+--- inst 2 pid=5317 name='' len=36 strings=[]
+--- inst 3 pid=5321 name='' len=36 strings=[]
+--- inst 4 pid=5324 name='' len=36 strings=[]
+--- inst 5 pid=5326 name='' len=36 strings=[]
+--- inst 6 pid=5330 name='' len=36 strings=[]
+--- inst 7 pid=5332 name='' len=36 strings=[]
+--- inst 8 pid=5337 name='' len=36 strings=[]
+--- inst 9 pid=5339 name='' len=36 strings=[]

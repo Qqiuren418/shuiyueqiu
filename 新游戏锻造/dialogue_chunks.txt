@@ -1,0 +1,163 @@
+Applications/angularVelocity/configuration/system.runtime.remoting
+
+IntermediateASMO-708AbilityAbortedAbsentAbsoluteUriAbyss / chargeAbyss / collapseAbyss / releaseAbyss / spherical event horizonAbyss / travelling massAccelerometerAccess deniedAccess to the path "
+
+BottleneckBottleneck BottlenecksBottomBounded arena water gridBoxBreachBreachWarningBreakBreathBreath / impact bounceBreath / mouth bounceBreath ignitionBreath inhaleBreath nozzleBrief blade arcBroad curved rising radianceBroad rising covenant ribbon Broken masonryBroken standing stoneBroken steel receiptBroken sword / beveled salvageBuffer cannot be null.Buffer too small 
+
+Circular reference detected. Cannot add Citadel / additional workshopCitadel / colossal strike presentationCitadel / contact splintersCitadel / expanding pressure shellCitadel / radial displaced airCitadel cavern / distant low reflectionCitadel cavern reflectionCitadel contact / interrupted thudCitadel contact / piercing transientCitadel contact impact frameCitadel displaced airCitadel distant wall impactCitadel gate audioCitadel gate resource missingCitadel low structural impactCitadel mass gatheringCitadel pressure ring Citadel room reward Citadel slam profile missingCitadel strike lightClampClamp
+
+'Don't make me find another one.Door thresholdDoorAlignDoorCloseEyesDoubleDownDown ArrowDownArrowDownedDowned breathingDownedIdleDownsample ColorDpadDpadAxisDraft embersDragon / Dragon / Attack exertionDragon / Attack ground contactDragon / Attack sweepDragon / Body collapseDragon / Breath ignitionDragon / Breath inhaleDragon / Defeat groanDragon / Downed breathingDragon / FootstepDragon / Hover wingbeatDragon / LandingDragon / PainDragon / Phase pressure waveDragon / Phase roarDragon / Resting throatDragon / SlamDragon / Tail lateral sweepDragon / Tail soil dragDragon / TakeoffDragon / Takeoff roarDragon / Takeoff wingsDragon / Transformation chargeDragon / Wing clothDragon / Wing downstrokeDragon / departing embersDragon / ember stareDragon / sustained rising ADragon FX / Dragon FX quadDragon SFX voiceDragon SFX voice Dragon approaching beyond wallDragon arena / dark cavern reverbDragon arena / spatial sound poolDragon combat FX poolDragon crayon / Dragon crest and healthDragon encounter requires an Animator/controller and player target.Dragon health HUDDragon murmur / Dragon phase two needs the authored body regions.Dragon snatch displacementDragon voiceDragon wall impactDragonWarningDrau
+
+en wartet dein Tributherr.DrawDraw Additional Lights ShadowmapDraw Cells used for loading and streaming.Draw CommandsDraw DBufferDraw Decal Forward EmissiveDraw Decal Screen SpaceDraw Decal To GBufferDraw Depth OnlyDraw GBufferDraw IMGUI/SoftwareCursor OverlayDraw Main Light ShadowmapDraw Opaques Forward OnlyDraw Screen Space IMGUI/SoftwareCursor - OffscreenDraw Screen Space UIToolkit/uGUI - OffscreenDraw UIToolkit/uGUI OverlayDraw XR Occlusion MeshDrawGizmosDrawMeshInstanced is not supported.DrawMeshInstancedProcedural is not supported.DrawProcedural is required for the On-Tile post processing feature but it is not supported by the platform. Pass will not execute.DrawWireOverlayDropdown ListDropdown.valueDry Clay SoilDry SandDu kannst gerade nicht hinaus.Du kannst sie noch nicht errichten.Due time too largeDummyMethodDuplicateDuplicate AttributeUsageAttribute cannot be specified on an attribute type.Duplicate device ID 
+
+Tomorrow, bring me every sword you have./Every last one./It's our last day. Let's keep things pleasant./The last day already?
+
+You've worked hard./You'll finally see your family again./You're keeping your promise?/Of course./Your family. The city you called home./I wiped them all out./Don't worry. You'll be joining them soon./But...Dwarven watchfire DynamicDynamic resolution is not supported. Using fallback to Render Scale Multiplier 
+
+ BeginLayoutGroup must be called first.EndProfileEndRead can only be called once for each asynchronous operation.EndWrite can only be called once for each asynchronous operation.EndXRRenderingEnding / iron-bound cofferEnding arena missingEnding clock voiceEnding voiceEndlessEndless / dragon exitEndless / dragon rematch passageEndless / exit placement previewEndless exit gate resource missingEnglishEnhanced Key UsageEnhancedTouch API is not enabled
+
+EnsureValidOcclusionTestResultsEnterEntityId should be 8 bytesEntityId size has changed, please update the code belowEntrance / Brazier fireEntrance / Falling gritEntrance / FootstepsEntrance / IgnitionEntrance / ParryEntrance / Ruin settlingEntrance / Wall collisionEntrance / blackout and impact flashEntry point was not found.EntryPointEnumEnum underlying type and the object must be same type or object must be a String. Type passed in was '
+
+FadingOutFafnir / chargeFafnir / flightFafnir / rendFafnir living curseFailedFailed SupportsRenderTextureFormat
+
+'Failing lamp / hot contactsFailure has occurred while loading a type.FallenFallen workshop / FalseFavoritesFeature is not supported for remote machines.Feature requires a process identifier.FebFebruaryFever / orbit Fever / overdrive audioFever / prismatic shrapnelFever / rainbow room flashFever / rising embersFever / sustain audioFever sustained middleFidelityFX Super Resolution 1.0Field '
+
+OpenForge/CitadelRoom/DustForge/CitadelRoom/GateForge
+
+DragonEyeForge/DragonTailForge/EndingDissolveForge/FeverRainbowForge
+
+NotoSansCJKtc-RegularForge/FurnaceAirForge/FurnaceHazeForge/HammerCoinForge/HolyProtectionForge/Installations/FuneraryBellForge/InteractionMaskForge/InteractionOutlineForge/Localization/ForgeTaxForge/Localization/LanguagesForge/Localization/MenuForge/Localization/MerchantDialogueForge/Localization/NotebookForge/MerchantShadowForge/Practice/DummyForge/Practice
+
+wardForge/StarterRelicRaysForge/SwordEvolutionForge/SwordMetamorphosisForge/TemperedMetalForge/TemperedMetalInstancedForge/WorkshopReflectionForgeSecurity/staticForgeSurfaceFinishForgeTax Steam callbacks
+
+ForgeTax.LanguageForgeTax.Practice.CachedTop.v1ForgeTax.Practice.Flag.ForgeTax.Practice.Pending.ForgeTax/CitadelSurfaceForgeTax/Drifting ashForgeTax/Merchant/MaterialSurfaceForgeTax/SeafoodSurfaceForgeTax/Standalone/Runeblade EnergyForgeTax/Tempered metalForgeTax/Weapon surfaceForgeTax/WorldTree/LivingSurfaceForged runeForged steel 
+
+'Gallery / central working lightGallery / three sword rackGallery combined masonryGallery hanging lanternGallery surfaces / Gallery sword slotGameObjectGamepadGarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release
+
+ Bruch aufgehobenHeld sword soft fillHelpURLHidden summon preparationHidden/Internal-GUITextureClipTextHidden/Internal-UIE-ColorConversionBlitHidden/Internal-UIRAtlasBlitCopyHidden/Internal-UIRDefaultHidden/InternalErrorShaderHidden/Physics2D
+
+PolygonGeometryHidden/TextCore/Distance Field SSDHidden/TextCore/SpriteHidden
+
+GaussianBlurHidden/Universal Render Pipeline/FallbackErrorHidden/Universal Render Pipeline/FallbackLoadingHidden/Universal Render Pipeline/ScreenSpaceShadowsHide empty scopesHide profiling scopes where elapsed time in each category is zeroHierarchyFlattenedNode
+
+Highlight Renderers affected by Selected LightHighlight Renderers that cast shadows for the Selected LightHighlightedHindFoot.HindHock.HindLower.HindToe02.HindUpper.Hinged predatory jawHintHistory buffer has been disposedHistory depth cannot be negativeHitMaximumHitNormalHitReactHitStrongHitWeakHm?/Du hast... gerade.../Du kleiner Wicht./Kaum hast du ein anst
+
+G-gut gemacht./V-vorerst.../Schmiede weiter...HoldHold the sword you want to take.HoldingClockHoly ambient radianceHoly audio / Holy audio / BurstHoly audio / CompressionHoly audio / DrawHoly audio / GatherHoly audio / LaunchHoly audio / PressureHoly audio / RadianceHoly audio bank is incompleteHoly blade protectionHoly cancellation soft haloHoly light leaking from throatHoly radiance material missingHoly soft white haloHoly sword / covenant of dawnHoly sword 
+
+ Break cancelledHomeHonor your contract through May 8...Hooked lower jawHorizontalHorizontalSliderThumbExtentHost is downHot steel streaksHour, Minute, and Second parameters describe an un-representable DateTime.Hover wingbeatHow far from the Scene Camera to draw debug visualization for Cells and Bricks. Large distances can impact Editor performance.How far from the Scene Camera to draw probe debug visualizations. Large distances can impact Editor performance.How long a texture should be shown as "recently updated".Hue ToleranceHuh?/You... just.../You little runt./One decent sword in your hands,/and you think that changes anything?!
+
+Me escuta primeiro./Se me matar, nunca vai sair daqui./Por favor./B-bom trabalho./P-por enquanto.../Continue forjando...II don't care how many swords you offer.I hear a merchant comes by every three days.I'll give you three swords every day.I'll pay you well.I'm feeling generous. Take one for free.I'm only saying this once.I/O error occurred.I18N, Version
+
+InteractionInteraction / Interaction / ActionDeniedInteraction / AngrySwordImpactInteraction / AngrySwordThrowInteraction / ChalkUseInteraction / ContractStampInteraction / ElementSelectInteraction / IncenseFadeInteraction / MenuClickInteraction / MenuCloseInteraction / MenuOpenInteraction / PowderUseInteraction / RelicAcquireInteraction / RelicDiscardInteraction / RewindUseInteraction / ShopRerollInteraction / StarChargeInteraction / SwordDamageInteraction / SwordFeedInteraction / SwordLiftInteraction / SwordSetInteraction / TributeBellInteraction / WardArmInteraction cannot be null or emptyInteraction count cannot exceed ushort.MaxValue-1Interaction count cannot exceed ushort.MaxValue
+
+. Be careful to not have recursive aggregation, A contains B, B contains A, ... which will produce an infinite loop.LensFlareScreenLensFlareScreenSpac PrefilterLensFlareScreenSpace CompositionLensFlareScreenSpace DownsampleLensFlareScreenSpace UpsampleLensFlareScreenSpace Write to BloomTextureLensed photon coronaLethal wound / dark red peripheral visionLeviathan / BreathLeviathan / CollapseLeviathan / EmergeLeviathan / InhaleLeviathan / ReadyLeviathan / TideLeviathan / flowing wakeLeviathan / fluid silhouetteLeviathan / living water and trailing currentsLeviathan / transient water formLeviathan mouth / flame originLeviathan rider / combat targetLeviathan's FangLibere a passagem e tente novamente.LibraryLicenseContextLicenseUnavailableLid plankLid strapLieferung
+
+' is not a valid instance of a type.Only the field value can be specified to set a field value.Only types inherited from UnityEngine.Component are supported.Only types inherited from UnityEngine.Object are supported.Only universal renderer supports Decal renderer feature.Opacity of texture mipmap streaming debug colors.OpaqueOpaque spectral doorwayOpaque sword shadow / cull Open OpeningOpening / dragon murmurOpening / dragon roarOpening / dragon speechOpeningStareOperation abortedOperation already in progressOperation canceledOperation caused a stack overflow.Operation in progressOperation is not supported on this platform.Operation is not valid due to the current state of the object.Operation not supportedOperation on non-blocking socket would blockOperations that change non-concurrent collections must have exclusive access. A concurrent update was performed on this collection and corrupted its state. The collection's state is no longer correct.Oracle mirrorOrdinalComparerOrientationOrigin
+
+SPHERESPUTPackageManagerPackages/com.unity.render-pipelines.core/Packages/com.unity.render-pipelines.universal
+
+ is a directoryPause/AfterNoPause/BeforeInsultPause/BeforeQuestionPause/BreakPay attention.PcPdPePelvisPenPending duplicate placement probePer View StatsPerformance ModePerformance Mode 
+
+Period too largePermissionStatePfPhase pressure wavePhase release / displaced airPhase release / expanding pressure frontPhase roarPhase two / chest reflected heatPhase two / rising scarlet embersPhaseTwoPhonePhysics2D/DrawElements
+
+Positive number required.Post-processingPostalCodePouncePounceSlamPower of the gatePowerCutPowerVRPractice / elastic impact voicePractice / energy fragmentsPractice / impact lightPractice dummyPractice sword airPractice target contactPreSolveEvent
+
+ insteadReturn value address cannot be 0.Return value has an invalid typeReturnTributeReturningReturning steelReturningToPlayerReversible Tonemapped Input ColorReversing handRevisionReward / warm spillRider seat / animated head anchorRightRight AltRight ArrowRight ButtonRight ControlRight ShiftRight SystemRight claw afterimageRight wallRight-clickRightAltRightAppleRightArrowRightBracketRightClickRightCommandRightCtrlRightHandRightMetaRightShiftRightWindowsRigid blade shadow geometryRigid blade shadow onlyRising curse flameRising key resonanceRisingGrowlRotationRound sword Rounding digits must be between 0 and 15, inclusive.RowRunRune annulusRune black-hole profile/materials missingRunning async code belongs to the previous CodeLoaded scope and must be cancelled before Code ReloadRupture / boiling horizonRupture / delayed spherical pressureRupture / ground pressure frontRupture / lightless detonation volumeRupture / radial fracturesR
+
+TimeZoneInformationSaSafe handle has been closedSafeSerializationManagerSalvage / newly fractured bevelSalvage / oxidized steelSalvage / worn leather and oxideSanctuarySap heart / gathering pressureSatSaturation ToleranceSaturdaySaveSave belongs to a newer versionSavingSaw combat / Saw combat / BiteSaw combat / GrindSaw combat / MotorSaw ground contact glowSaw hot chipsSaw stone debrisSaw torn ground slabsScScaleScale
+
+" in the Inspector for more information.ScriptableRenderContext.SubmitScriptableRenderer.AddRenderPassesScriptableRenderer.ClearRenderingStateScriptableRenderer.InternalFinishRenderingCommonScriptableRenderer.SetPerCameraShaderVariablesScriptableRenderer.SetupCullingParametersScrollScroll DownScroll LeftScroll Left/RightScroll LockScroll RightScroll UpScroll Up/DownScroll WheelScrollHorizontalScrollRect.valueScrollVerticalScrollWheelScrollbar.valueSeafood rehearsalSearch / CodeSecondary2DMotionSecondaryActionSecondaryTriggerSeconds must be a positive valueSecurity crossbarSegure a espada que deseja levar.Select another lighting scenario to blend with the active lighting scenario.Select the display color for each Rendering LayerSelect which HDR brightness debug information to overlay on the screen.SelectAllSelectChildrenSelectPrefabRootSelectedSelected Depth Attachment Format is not supported on this platform, falling back to DefaultSelected Depth Texture Format Selection is out of range.Sensitivity 
+
+ heated basic swordStartIndex cannot be less than zero.Starter gift / airy revealStarter gift / light rays Starter relic / eight paper sunraysStarterRelicsStarterRelics/ChooseStarterRelics/ChosenStartingState count cannot exceed byte.MaxValueState format '
+
+Stop NaNsStop Unity from streaming probe data in or out of GPU memory.Stored effectStory / clock rewindStory / dragon voiceStory / ending creditsStory / execution screamStory / opening roarStory / reward chestStpConstantBufferDataStpPreTaaStpSetupStpTaaStreakStream cannot be null.Stream does not appear to be an InputEventTrace 
+
+ in the main camera's Universal Renderer Data asset to use this debug overlay.SwordSword airSword contactSword drop voiceSword drop voice Sword energy arcSword flight / draw and settleSword flight / metal contactSword flight / metal contact Sword flight / passageSword flight / sustained airSword grip / combat poseSword identitySword impact sparksSword placement contactSword resting socketSword usedSword wake SyncWriteGPUComponentJobsSynchronizedSystem call failedSystem error.System.System.ArraySystem.Buffers.ArrayPoolEventSourceSystem.Diagnostics.Trace.CorrelationManagerSlotSystem.Globalization.HijriCalendarSystem.Globalization.ThaiBuddhistCalendarSystem.Globalization.UmAlQuraCalendarSystem.ObjectSystem.ReadOnlySpan
+
+ TagTypeInfoTagValueTags are not sortedTailTail / displaced airTail / failing electricsTail / lateral rolling soilTail / masonry impactTail / momentary impact rimTail / rising throatTail air pressureTail lateral sweepTail pressure wakeTail soil dragTail.Tail.03Tail.05Tail.07Tail.09Tail0TailSweepTailThroughTakeOffTakeoffTakeoff roarTakeoff wingsTapTapered sacred torrentTarget ColorTarget array type is not compatible with the type of items in the collection.Target binding index 
+
+ cannot modify the upload handlerUniversal Light Cookie AtlasUniversal Render Pipeline/Universal Render Pipeline/Baked LitUniversal Render Pipeline/Complex LitUniversal Render Pipeline/LitUniversal Render Pipeline
+
+PBRLitUniversal Render Pipeline/Particles/LitUniversal Render Pipeline/Particles/Simple LitUniversal Render Pipeline/Particles/UnlitUniversal Render Pipeline/Simple LitUniversal Render Pipeline
+
+ ultradustWork lamp poolWorld tree / World tree / awakening heart pressureWorld tree / breath rolling outwardWorld tree / crown windWorld tree / gathering sapWorld tree / inside sanctuaryWorld tree / living sanctuaryWorld tree / living shield soundWorld tree / reactionWorld tree authored orbit leaf missingWorld tree event / World tree event / BloomWorld tree event / BreakWorld tree event / CancelWorld tree event / LifePulseWorld tree event / RaiseWorld tree event / WardHitWorld tree rehearsalWorld tree shield audio clip missingWorldDocumentRaycasterWorldTree authored orbit leaves / animated wardWorn AsphaltWorn flagstoneWorn iron bandsWraith anatomical surfaceWraith face echoWrappedExceptionWrite fault on path 
+
+ckZwerg./Morgen bringst du mir all deine Schwerter./Jedes einzelne./Es ist der letzte Tag. Machen wir keinen 
+
+Schon der letzte Tag?/Nun gut./Du hast hart gearbeitet./Endlich siehst du deine Familie wieder.
+
+api64.dllsteamclient64.dllstepCounterstickstick/downstick/leftstick/rightstick
+
+Por favor./B-buen trabajo./D-de momento.../Sigue forjando...
+
+vRuntime/Lighting/ProbeVolume/ProbeVolumeBlendStates.computeU
+
+tRuntime/Lighting/ProbeVolume/ProbeVolumeUploadData.computeU
+
+xRuntime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.computeU
+
+Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshaderU
+
+Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshaderU
+
+Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshaderU
+
+vRuntime/Profiler/ScriptBindings/ProfilerRecorder.bindings.h
+
+nRuntime/Graphics/CommandBuffer/RenderingCommandBuffer.h
+
+zRuntime/GameCode/AsyncInstantiate/AsyncInstantiateOperation.h
+
+zRuntime/Graphics/RayTracing/RayTracingAccelerationStructure.h
+
+tRuntime/Transform/ScriptBindings/TransformScriptBindings.h
+
+fRuntime/Profiler/ScriptBindings/Profiler.bindings.h
+
+dRuntime/Profiler/ScriptBindings/Sampler.bindings.h
+
+vRuntime/Transform/ScriptBindings/TransformAccess.bindings.h
+
+bRuntime/Scripting/Marshalling/BindingsAllocator.h
+
+bRuntime/Graphics/Director/TexturePlayableOutput.h
+
+rRuntime/Graphics/ScriptableRenderLoop/ScriptableCulling.h
+
+hRuntime/Graphics/ScriptableRenderLoop/RendererList.h
+
+rModules/Animation/ScriptBindings/AnimationClip.bindings.h
+
+jModules/Animation/ScriptBindings/Animation.bindings.h
+
+hModules/Animation/ScriptBindings/Animator.bindings.h
+
+rModules/Animation/ScriptBindings/AvatarBuilder.bindings.h
+
+dModules/Animation/Director/AnimationClipPlayable.h
+
+bModules/Animation/Director/AnimationHumanStream.h
+
+pModules/Animation/Director/AnimationLayerMixerPlayable.h
+
+fModules/Animation/Director/AnimationMixerPlayable.h
+
+hModules/Animation/Director/AnimationOffsetPlayable.h
+
+hModules/Animation/Director/AnimationPlayableOutput.h
+
+dModules/Animation/Director/AnimationPosePlayable.h
+
+rModules/Animation/Director/AnimationRemoveScalePlayable.h
+
+vModules/Animation/ScriptBindings/AnimationStream.bindings.h
+
+XModules/Animation/Director/AnimationStream.h
+
+nModules/Animation/Director/AnimatorControllerPlayable.h
+
+zModules/Director/ScriptBindings/DataPlayableOutput.bindings.h
+
+tModules/Director/ScriptBindings/PlayableSystems.bindings.h
+
+lModules/UnityAnalytics/RemoteSettings/RemoteSettings.h

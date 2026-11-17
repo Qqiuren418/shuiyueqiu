@@ -1,0 +1,3 @@
+script: ForgeDragonWarningMarks  instances: 1
+
+--- inst 0 pid=13922 name='' len=84 strings=[]

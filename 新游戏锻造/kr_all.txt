@@ -1,0 +1,907 @@
+===== [ForgeEnhancementBalance] pid=524 name='OpeningBalance' =====
+  'OpeningBalance'
+===== [GPT6ForgeInteractable] pid=13887 name='' =====
+  '벨 누르기 · 라운드 종료'
+===== [GPT6ForgeInteractable] pid=13896 name='' =====
+  '상납 장부 확인'
+===== [GPT6ForgeInteractable] pid=13899 name='' =====
+  '새로고침'
+===== [GPT6ForgeInteractable] pid=13911 name='' =====
+  '든 검을 철창 밖으로 상납'
+===== [GPT6ForgeInteractable] pid=13919 name='' =====
+  '모루 작업 · 검 놓고 망치 들기'
+===== [GPT6ForgeInteractable] pid=13921 name='' =====
+  '든 검을 넣어 가열하기'
+  'THE FIRE STAYS LIT. YOUR ITEMS ARE ON THE DESK BESIDE IT.'
+===== [ForgeAudioMixProfile] pid=23181 name='AudioMix' =====
+  'AudioMix'
+  'holy'
+  'worldtree'
+  'citadel'
+  'rune'
+  'funerary'
+  'flight'
+  'player'
+  'dragon'
+  'music'
+  'forge'
+  'interactions'
+  'room'
+  'other'
+  'leviathan'
+  'saw'
+  'fang'
+  'Holy audio / Gather'
+  'Holy audio / Pressure'
+  'Holy audio / Radiance'
+  'Holy audio / Draw'
+  'Holy audio / Launch'
+  'Holy audio / Compression'
+  'Holy audio / Burst'
+  'World tree / gathering sap'
+  'World tree / crown wind'
+  'World tree / inside sanctuary'
+  'World tree / breath rolling outward'
+  'World tree / reaction'
+  'World tree event / Raise'
+  'World tree event / LifePulse'
+  'World tree event / Bloom'
+  'World tree event / WardHit'
+  'World tree event / Break'
+  'World tree event / Cancel'
+  'Citadel contact / piercing transient'
+  'Citadel contact / interrupted thud'
+  'Citadel cavern / distant low reflection'
+  'Citadel mass gathering'
+  'Citadel displaced air'
+  'Citadel distant wall impact'
+  'Citadel low structural impact'
+  'Citadel cavern reflection'
+  'Abyss / charge'
+  'Abyss / travelling mass'
+  'Abyss / release'
+  'Abyss / collapse'
+  'Portal spatial voice'
+  'Portal accent'
+  'Rising key resonance'
+  'Dead realm pressure'
+  'Outward portal wind'
+  'Distant spectral resonance'
+  'Skeleton motion'
+  'Soul bell ring'
+  'Sword flight / passage'
+  'Sword flight / draw and settle'
+  'Sword flight / sustained air'
+  'Sword flight / metal contact'
+  'Sword air'
+  'Sword contact'
+  'Player hurt'
+  'Quiet cloth footsteps'
+  'Practice sword air'
+  'Practice target contact'
+  'Practice / elastic impact voice'
+  'Dragon / Attack exertion'
+  'Dragon / Attack ground contact'
+  'Dragon / Attack sweep'
+  'Dragon / Body collapse'
+  'Dragon / Breath ignition'
+  'Dragon / Breath inhale'
+  'Dragon / Defeat groan'
+  'Dragon / Downed breathing'
+  'Dragon / Footstep'
+  'Dragon / Hover wingbeat'
+  'Dragon / Landing'
+  'Dragon / Pain'
+  'Dragon / Phase pressure wave'
+  'Dragon / Phase roar'
+  'Dragon / Resting throat'
+  'Dragon / Slam'
+  'Dragon / Tail lateral sweep'
+  'Dragon / Tail soil drag'
+  'Dragon / Takeoff'
+  'Dragon / Takeoff roar'
+  'Dragon / Takeoff wings'
+  'Dragon / Transformation charge'
+  'Dragon / Wing cloth'
+  'Dragon / Wing downstroke'
+  'Dragon SFX voice'
+  'Mouth / sustained breath'
+  'Wings / passing air'
+  'Boss orchestra'
+  'Forge hammer impact'
+  'Forge reward resonance'
+  'Forge result audio'
+  'Sword drop voice'
+  'Quiet hammer set'
+  'Fever / overdrive audio'
+  'Furnace heating legacy'
+  'Interaction / RelicAcquire'
+  'Interaction / ShopReroll'
+  'Interaction / WardArm'
+  'Interaction / ElementSelect'
+  'Interaction / SwordLift'
+  'Interaction / SwordSet'
+  'Interaction / SwordDamage'
+  'Interaction / TributeBell'
+  'Interaction / SwordFeed'
+  'Interaction / RelicDiscard'
+  'Interaction / ChalkUse'
+  'Interaction / PowderUse'
+  'Interaction / StarCharge'
+  'Interaction / RewindUse'
+  'Interaction / MenuClick'
+  'Interaction / MenuOpen'
+  'Interaction / MenuClose'
+  'Interaction / ActionDenied'
+  'Interaction / IncenseFade'
+  'Interaction / ContractStamp'
+  'Interaction / AngrySwordThrow'
+  'Interaction / AngrySwordImpact'
+  'Interaction voice'
+  'Vending intake motor'
+  'Tribute bell voice'
+  'Vending selector button'
+  'Blade strain voice'
+  'Sword placement contact'
+  'Muted menu contact'
+  'Relic tally audio'
+  'Relic receipt contact'
+  'Discovery / forged seal'
+  'Starter gift / airy reveal'
+  'Wallet / coin counting'
+  'Furnace ambience volume'
+  'Shop arrival audio'
+  'Merchant arrival'
+  'Citadel gate audio'
+  'Dragon voice'
+  'Dragon wall impact'
+  'Dragon approaching beyond wall'
+  'Dragon snatch displacement'
+  'Gate blade contact'
+  'Gate iron yielding'
+  'Opening / dragon speech'
+  'Opening / dragon roar'
+  'Tail / rising throat'
+  'Tail / masonry impact'
+  'Tail / failing electrics'
+  'Tail / displaced air'
+  'Other'
+  'Story / reward chest'
+  'Story / ending credits'
+  'Story / opening roar'
+  'Story / execution scream'
+  'Story / clock rewind'
+  'Entrance / Wall collision'
+  'Entrance / Brazier fire'
+  'Entrance / Falling grit'
+  'Entrance / Parry'
+  'Entrance / Footsteps'
+  'Entrance / Ignition'
+  'Entrance / Ruin settling'
+  'Leviathan / Tide'
+  'Leviathan / Inhale'
+  'Leviathan / Breath'
+  'Leviathan / Emerge'
+  'Leviathan / Collapse'
+  'Leviathan / Ready'
+  'Saw combat / Motor'
+  'Saw combat / Grind'
+  'Saw combat / Bite'
+  'Merchant / speech'
+  'Fafnir / charge'
+  'Fafnir / rend'
+  'Fafnir / flight'
+  'Rematch / door passage'
+===== [ForgeCodexCatalogueAsset] pid=23182 name='Catalogue' =====
+  'Catalogue'
+  '낡은 검'
+  '다듬은 검'
+  '쓸 만한 철검'
+  '두꺼운 철검'
+  '성질난 쇳조각'
+  '마력의 파편'
+  '휴대용 철문'
+  '물어뜯는 검'
+  '각성의 검'
+  '뭔가 이상한 철판 대검'
+  '빛이 깃든 은빛 검'
+  '이게 톱인지 검인지'
+  '용왕의 송곳니'
+  '주문 새긴 룬검'
+  '부러져도 붙어 있는 검'
+  '이중 철판 대검'
+  '축복이 새겨진 검'
+  '철판도 씹는 톱검'
+  '어린 용의 턱'
+  '깨어나는 마력의 룬검'
+  '혼자 있기 싫은 검'
+  '통째로 뜯어낸 성문'
+  '어둠을 가르는 서광의 검'
+  '맞물려 도는 강철 톱검'
+  '어린 용의 아가리'
+  '마력 과충전검'
+  '검을 거느리는 검'
+  '손잡이 달린 요새'
+  '왕의 자격을 묻는 성검'
+  '강철을 갈아먹는 분쇄검'
+  '비룡을 낚는 갈고리'
+  '대마법사의 마력기관'
+  '양심 없는 검'
+  '산맥을 짓누르는 성채'
+  '새벽을 여는 약속의 성검'
+  '산맥을 깎는 절단기'
+  '용왕의 목을 거두는 단두대'
+  '현실에 금을 내는 검'
+  '천검을 거느린 군주'
+  '대륙을 가르는 철의 성채'
+  '엑스칼리버'
+  '멈추지 않는 파멸의 톱니'
+  '용살검 그람 : 파프니르의 저주'
+  '아카샤 · 창세를 품은 검'
+  '이기어검(以氣馭劍)'
+  '주워 온 나뭇가지'
+  '100'
+  '제법 단단한 나뭇가지'
+  '101'
+  '부러질 생각이 없는 몽둥이'
+  '102'
+  '뒤늦게 싹이 난 몽둥이'
+  '103'
+  '뭔가 깨어나는 씨앗'
+  '104'
+  '분명 나뭇가지였던 몽둥이'
+  '105'
+  '숲을 품은 꽃봉오리'
+  '106'
+  '천년을 머금은 고목'
+  '107'
+  '생명의 샘을 품은 거목'
+  '108'
+  '세계를 떠받치는 나무'
+  '109'
+  '세계수 : 위그드라실'
+  '110'
+  '미역 묶은 칼조각'
+  '200'
+  '오징어뼈 칼'
+  '201'
+  '게딱지 톱검'
+  '202'
+  '냉동 참치'
+  '203'
+  '생선꼬치'
+  '204'
+  '구운 생선꼬치'
+  '205'
+  '복어 철퇴'
+  '206'
+  '산호 제단 검'
+  '207'
+  '고래의 턱날'
+  '208'
+  '크라켄 촉수 다리'
+  '209'
+  '레비아탄의 송곳니'
+  '210'
+  '녹슨 관못'
+  '3000'
+  '수의 감은 묘지칼'
+  '3001'
+  '무덤지기의 삽'
+  '3002'
+  '깨진 묘비 대검'
+  '3003'
+  '관뚜껑 대검'
+  '3004'
+  '망자를 깨우는 종'
+  '3005'
+  '망령을 밝히는 횃불'
+  '3006'
+  '묘지기의 낫'
+  '3007'
+  '뿌리째 뽑힌 무덤'
+  '3008'
+  '망자들의 공동묘지'
+  '3009'
+  '명계의 열쇠'
+  '3010'
+===== [CitadelSlamProfile] pid=23183 name='CitadelSlam' =====
+  'CitadelSlam'
+===== [DragonEntranceArt] pid=23184 name='EntranceArt' =====
+  'EntranceArt'
+  'Foundation'
+  'Worn flagstone'
+  'Back masonry left'
+  'Window breast wall'
+  'Window lintel masonry'
+  'Left wall'
+  'Right wall'
+  'Sooted masonry course'
+  'Side brick course'
+  'Low soot ceiling'
+  'Heavy timber lintel'
+  'Timber corbel'
+  'Iron strap'
+  'Peened rivet'
+  'Low wall bumper'
+  'Ceiling return pipe'
+  'Worn flagstone / side extension'
+  'Front masonry / side extension'
+  'Raised hearth'
+  'Ash drawer'
+  'Ash drawer pull'
+  'Firebox darkness'
+  'Refractory jamb'
+  'Wedge arch stone'
+  'Maker brass plaque'
+  'Hearth ember bed'
+  'Clinker / glowing coal'
+  'Hearth retaining teeth'
+  'Grate crossbar'
+  'Front work ledge'
+  'Raised hearth refractory foundation'
+  'Soot trail below hood rivet'
+  'Smoke rubbed into jamb -1'
+  'Upper arch soot -1'
+  'Smoke rubbed into jamb 1'
+  'Upper arch soot 1'
+  'Hood soot accumulation'
+  'Work ledge metal scuffs'
+  'Anvil stump'
+  'Stump split seam'
+  'Lower stump hoop'
+  'Upper stump hoop'
+  'Forged anvil / waisted silhouette'
+  'Polished striking face'
+  'Tapered rounded horn'
+  'Heel step'
+  'Hardy hole inset'
+  'Strike scoring'
+  'Foot retaining cleat'
+  'Foot bolt'
+  'Interlocking chain'
+  'Hickory grip'
+  'Leather grip winding'
+  'Forged hammer head'
+  'Polished striking cap'
+  'Bucket tapered staves'
+  'Dark water surface'
+  'Bucket lip'
+  'Bucket binding'
+  'Bucket bail'
+  'Hammer scale / spent slag'
+  'Suspension cable'
+  'Spun iron shade'
+  'Warm lamp glass'
+  'Protective cage ring'
+  'Lamp cage wire'
+  'Weapon instrument support / follows moved station'
+  'Forged iron housing'
+  'Brass perimeter'
+  'Recessed enamel'
+  'Peened fastener'
+  'Header separator'
+  'Results rule'
+  'Inset tile'
+  'Outcome light'
+  'Probability bar 0'
+  'Probability bar 1'
+  'Probability bar 2'
+  'Probability bar 3'
+  'Probability bar 4'
+  'Instrument support'
+  'Patched lower iron lip'
+  'Deep stone reveal'
+  'Riveted jamb'
+  'Stone lintel'
+  'Worn transaction counter'
+  'Counter steel edge'
+  'Square-section iron bar'
+  'Bar collar'
+  'Security crossbar'
+  'Pass-through lip'
+  'Window header plaque'
+  'Bell base'
+  'Bell dome'
+  'Bell button'
+  'Light-absorbing tunnel surface'
+  'Rounded form'
+  'Iris radial tissue'
+  'Orbital ridge'
+  'Scale keel'
+  'Collector concealed forearm'
+  'Collector forearm plates'
+  'Collector sinewed digit'
+  'Collector knuckle ridges'
+  'Collector scarred sickle'
+  'Forged mounting plate'
+  'Recessed account'
+  'Divider'
+  'Hammered rivet'
+  'Edge scoring'
+  'Lamp socket'
+  'Quota met lamp'
+  'Aged backboard'
+  'Rack steel rail'
+  'Steel lower cradle'
+  'Upper retention hook'
+  'Timber ledger frame'
+  'Chalk slate face'
+  'Chalk rule'
+  'Chalk tray'
+  'Discarded chalk'
+  'Ledger lamp shade'
+  'Pinned tribute demand'
+  'Single iron tack'
+  'Inspection notice'
+  'Former window / solid wall backing'
+  'Infilled old window brick'
+  'Rear wall / sill masonry'
+  'Rear wall / continuous lintel'
+  'Rear left return'
+  'Shop/window masonry mullion'
+  'Service right return'
+  'Rear structural timber'
+  'Repaired walking floor'
+  'Rear sill brick facing'
+  'Recess backing'
+  'Cabinet side return'
+  'Cabinet roof'
+  'Purchase counter lip'
+  'Shop title plate'
+  'Individual cubby shelf'
+  'Cubby back panel'
+  'Transparent glass pane'
+  'Glass vertical beading'
+  'Glass top bead'
+  'Selection and price rail'
+  'Blade'
+  'Guard'
+  'Grip'
+  'Cash drawer'
+  'Cash drawer pull'
+  'Iron crank back'
+  'Handle shaft'
+  'Crank arm'
+  'Oak grip'
+  'Riveted fascia'
+  'Bottom worn lip'
+  'Square hammered rivet'
+  'Scored edge'
+  'Dark receiving throat'
+  'Upper throat lip'
+  'Lower guide ramp'
+  'Slot end'
+  'Counter rim'
+  'Counter recess'
+  'Counter wheel seam'
+  'Black button socket'
+  'Red enamel'
+  'Painted line'
+  'Turn arrow'
+  'Scratched instruction plate'
+  'Ornate shoulders'
+  'Conversion arrow'
+  'Worn stencil fleck'
+  'Single solid oak tabletop'
+  'Front apron'
+  'Rear apron'
+  'Square timber leg'
+  'Forged foot'
+  'Low stretcher'
+  'Flush brass slot divider'
+  'Flush brass row divider'
+  'Leather tabletop inset'
+  'Uneven oak plank'
+  'Bent iron bracket'
+  'Shelf support'
+  'Scarred upright'
+  'Dog-eared parchment'
+  'Header rule'
+  'Stamp'
+  'Stamp top'
+  'Stamp bottom'
+  'Cross'
+  'Green wash'
+  'Plus'
+  'Footer rule'
+  'Rusty nail'
+  'Narrow shop / left masonry infill'
+  'Narrow shop / right masonry infill'
+  'Narrow shop / matching brick face'
+  'Dragon crayon / 1'
+  'Dragon crayon / 2'
+  'Dragon crayon / 3'
+  'Rear masonry / side extension'
+  'Rear service return brick'
+  'Same parchment as draw tickets'
+  'Ink stroke'
+  'Merchant day'
+  'Old nail'
+===== [FuneraryPortalProfile] pid=23185 name='FuneraryPortal' =====
+  'FuneraryPortal'
+===== [RuneBlackHoleProfile] pid=23186 name='RuneBlackHole' =====
+  'RuneBlackHole'
+===== [ForgeSwordEvolutionSet] pid=23187 name='SwordEvolution' =====
+  'SwordEvolution'
+===== [EvolutionCatalogue] pid=23188 name='EvolutionCatalogue' =====
+  'EvolutionCatalogue'
+  '낡은 검'
+  '두꺼운 철검'
+  '휴대용 철문'
+  '성질난 쇳조각'
+  '물어뜯는 검'
+  '마력의 파편'
+  '각성의 검'
+  '뭔가 이상한 철판 대검'
+  '통째로 뜯어낸 성문'
+  '손잡이 달린 요새'
+  '산맥을 짓누르는 성채'
+  '대륙을 가르는 철의 성채'
+  '빛이 깃든 은빛 검'
+  '어둠을 가르는 서광의 검'
+  '왕의 자격을 묻는 성검'
+  '새벽을 여는 약속의 성검'
+  '엑스칼리버'
+  '이게 톱인지 검인지'
+  '맞물려 도는 강철 톱검'
+  '강철을 갈아먹는 분쇄검'
+  '산맥을 깎는 절단기'
+  '멈추지 않는 파멸의 톱니'
+  '용왕의 송곳니'
+  '어린 용의 아가리'
+  '비룡을 낚는 갈고리'
+  '용왕의 목을 거두는 단두대'
+  '용살검 그람 : 파프니르의 저주'
+  '주문 새긴 룬검'
+  '마력 과충전검'
+  '대마법사의 마력기관'
+  '현실에 금을 내는 검'
+  '아카샤 · 창세를 품은 검'
+  '부러져도 붙어 있는 검'
+  '검을 거느리는 검'
+  '양심 없는 검'
+  '천검을 거느린 군주'
+  '이기어검(以氣馭劍)'
+  '다듬은 검'
+  '쓸 만한 철검'
+  '이중 철판 대검'
+  '축복이 새겨진 검'
+  '철판도 씹는 톱검'
+  '어린 용의 턱'
+  '깨어나는 마력의 룬검'
+  '혼자 있기 싫은 검'
+===== [ForgeSwordColliderLayout] pid=23191 name='' =====
+  '7DFA7B8F214558BC2637B5AD8437B52393074993B36EED8CA10124571010917A'
+===== [EvolutionRig] pid=23196 name='' =====
+  '생선꼬치'
+===== [EvolutionRig] pid=23197 name='' =====
+  '부러져도 붙어 있는 검'
+===== [EvolutionRig] pid=23198 name='' =====
+  '크라켄 촉수 다리'
+===== [EvolutionRig] pid=23201 name='' =====
+  '용왕의 목을 거두는 단두대'
+===== [FuneraryRig] pid=23205 name='' =====
+  '망자들의 공동묘지'
+===== [ForgeSwordColliderLayout] pid=23207 name='' =====
+  '77F63060CE6E7B58B7307157674992FC6255AAF70B09B40344AEF3503D441B92'
+===== [EvolutionRig] pid=23215 name='' =====
+  '검을 거느리는 검'
+===== [ForgeSwordColliderLayout] pid=23216 name='' =====
+  '23F82FB840A6C5972B3B643478FD36659D4A734AA790261776913D1C6EEADC0D'
+===== [EvolutionRig] pid=23218 name='' =====
+  '구운 생선꼬치'
+===== [EvolutionRig] pid=23219 name='' =====
+  '혼자 있기 싫은 검'
+===== [ForgeSwordColliderLayout] pid=23221 name='' =====
+  '5264E523414CE24FA608F09AED6BC5A8029AC3F7AED5CAEC9DD841D12BB555B6'
+===== [FuneraryRig] pid=23222 name='' =====
+  '녹슨 관못'
+===== [ForgeReactiveRelicVisual] pid=23223 name='' =====
+  'grudge'
+===== [ForgeStagedRelicView] pid=23226 name='' =====
+  'dopaminesyringe'
+===== [ForgeSwordColliderLayout] pid=23227 name='' =====
+  '35FBA764607B7584B4F96D798B4D2EF40F958408742F31A38D0055D2DF15DDFC'
+===== [EvolutionRig] pid=23228 name='' =====
+  '왕의 자격을 묻는 성검'
+===== [EvolutionRig] pid=23232 name='' =====
+  '복어 철퇴'
+===== [ForgeSwordColliderLayout] pid=23235 name='' =====
+  '86B017134774373F6D0C4317B0784F320A8D443E05EE1BD32D886DD30CBF55A5'
+===== [EvolutionRig] pid=23236 name='' =====
+  '강철을 갈아먹는 분쇄검'
+===== [EvolutionRig] pid=23239 name='' =====
+  '비룡을 낚는 갈고리'
+===== [FuneraryRig] pid=23240 name='' =====
+  '묘지기의 낫'
+===== [ForgeSwordColliderLayout] pid=23241 name='' =====
+  'A5EEBBD58C5781EB90BF830D19CDC40B3B99879829428150F01F7DC4D4887514'
+===== [EvolutionRig] pid=23243 name='' =====
+  '레비아탄의 송곳니'
+===== [ForgeSwordColliderLayout] pid=23247 name='' =====
+  '87DD32217D8E56EBD6F1A49354B4B1B5BCA974B02460BCD2A15554F0D2636FF3'
+===== [RunebladeRig] pid=23249 name='' =====
+  '각성의 검'
+===== [EvolutionRig] pid=23250 name='' =====
+  '산맥을 짓누르는 성채'
+===== [ForgeSwordColliderLayout] pid=23252 name='' =====
+  '84C5E1869C62C01E115C4BDF83A0AE7FA44F85F4691AD5082BFC16D3A59AC624'
+===== [EvolutionRig] pid=23262 name='' =====
+  '용왕의 송곳니'
+===== [EvolutionRig] pid=23264 name='' =====
+  '이게 톱인지 검인지'
+===== [RunebladeRig] pid=23265 name='' =====
+  '대마법사의 마력기관'
+===== [ForgeSwordColliderLayout] pid=23266 name='' =====
+  '760F99BE2DBD19160E68BF16FDA39D4FC78FE9D17A16BBDEDA2786549C72189C'
+===== [WorldTreeRig] pid=23267 name='' =====
+  '숲을 품은 꽃봉오리'
+===== [ForgeSwordColliderLayout] pid=23268 name='' =====
+  'D448E07982A4398DB5DA28155F89BAFF25572AF1DFC1CA72F0C958A745BBCC15'
+===== [EvolutionRig] pid=23270 name='' =====
+  '오징어뼈 칼'
+===== [ForgeSwordColliderLayout] pid=23271 name='' =====
+  'AAF66E1AAC5A6F99E11FFDD975B2E39B6696DD1758F6E02EA75E222A4C095204'
+===== [FuneraryRig] pid=23273 name='' =====
+  '수의 감은 묘지칼'
+===== [EvolutionRig] pid=23274 name='' =====
+  '맞물려 도는 강철 톱검'
+===== [ForgeSwordColliderLayout] pid=23275 name='' =====
+  '0B758120095EC555D0F8C90A55D2372B431C4B5A128E2AD8A270F1A044202DD2'
+===== [EvolutionRig] pid=23276 name='' =====
+  '용살검 그람 : 파프니르의 저주'
+===== [ForgeSwordColliderLayout] pid=23277 name='' =====
+  'D6A279DBA1C9F454A63283BA94F357BC5346470FEC4A59963C8F2E90851D9147'
+===== [ForgeSwordColliderLayout] pid=23279 name='' =====
+  'E3E3D9D51CABEA9FC42F7808D2C1A19A0C46C63E024856A8E6148A2F2E70D6C5'
+===== [EvolutionRig] pid=23284 name='' =====
+  '멈추지 않는 파멸의 톱니'
+===== [ForgeSwordColliderLayout] pid=23288 name='' =====
+  '86C6BD4A332909BB3ED57239B816C3A587C1D38A8C2812783946E12C09BB8C6D'
+===== [ForgeSwordColliderLayout] pid=23289 name='' =====
+  'F64486E736ADB234B1C62E537E052D99160D32E968B0132A3186EA86C41E4AA5'
+===== [ForgeSwordColliderLayout] pid=23292 name='' =====
+  'C13E7923EECE6275519D884BCC75B38761E4D895600E579413207D3AA01E2A1D'
+===== [ForgeStagedRelicView] pid=23295 name='' =====
+  'fateknife'
+===== [ForgeSwordColliderLayout] pid=23299 name='' =====
+  '939A6D39B8D8AF22812CC13B9B3329F000531203518D4FD8071133ACC5D7DFB0'
+===== [ForgeSwordColliderLayout] pid=23307 name='' =====
+  '517DE130851E316FC6AB7E3D0D1C959CF96452D25C40D1BF161A24B6FA2AF7DA'
+===== [ForgeSwordColliderLayout] pid=23309 name='' =====
+  '954B935083CB977565AFE5733522A48CE73047A921C8A789604822FE28862894'
+===== [FuneraryRig] pid=23312 name='' =====
+  '망자를 깨우는 종'
+===== [FuneraryRig] pid=23319 name='' =====
+  '뿌리째 뽑힌 무덤'
+===== [EvolutionRig] pid=23321 name='' =====
+  '물어뜯는 검'
+===== [WorldTreeRig] pid=23324 name='' =====
+  '분명 나뭇가지였던 몽둥이'
+===== [ForgeSwordColliderLayout] pid=23325 name='' =====
+  'AD537D336C481E056C21286514E491AAC9E5E7EB05927142E0420411E792BED8'
+===== [ForgeSwordColliderLayout] pid=23329 name='' =====
+  '098B0353BA39EB93960D2191B97CB0A3AF34100AD75A4C93DFA617728076CDAB'
+===== [EvolutionRig] pid=23333 name='' =====
+  '통째로 뜯어낸 성문'
+===== [ForgeSwordColliderLayout] pid=23337 name='' =====
+  '52249072F3E4FD8EDE1E54CBFF926ADF5924382EDE01B8310E4C2140F466825A'
+===== [RunebladeRig] pid=23338 name='' =====
+  '주문 새긴 룬검'
+===== [ForgeSwordColliderLayout] pid=23339 name='' =====
+  '62F1D86C2E232FEE4D1201F0D3778F9BC792DD5788F62606FB80216C790E735E'
+===== [EvolutionRig] pid=23343 name='' =====
+  '어둠을 가르는 서광의 검'
+===== [ForgeSwordColliderLayout] pid=23346 name='' =====
+  '9C68F97A85FE04CC8E5D3D0AA7E22D5EF2289A7D9305501065AEEA456C682B80'
+===== [ForgeSwordColliderLayout] pid=23349 name='' =====
+  '2D559F0088A1544CBFAE7ED8E8D6B2FE2744F064405B93D9036F31EB5E0A6496'
+===== [FuneraryRig] pid=23356 name='' =====
+  '깨진 묘비 대검'
+===== [WorldTreeRig] pid=23359 name='' =====
+  '세계를 떠받치는 나무'
+===== [ForgeSwordColliderLayout] pid=23360 name='' =====
+  '9B889DDF63E49B80F128682C838391CF8B26A3712ED8308906AB3315F15A970C'
+===== [WorldTreeRig] pid=23365 name='' =====
+  '부러질 생각이 없는 몽둥이'
+===== [ForgeSwordColliderLayout] pid=23366 name='' =====
+  '3999ADFD5D77041AA5C31CE8ACA18727BD4040417D087A0626F4D272EEE01A4A'
+===== [ForgeStagedRelicView] pid=23368 name='' =====
+  'thricecrown'
+===== [ForgeSwordColliderLayout] pid=23369 name='' =====
+  'A309445490D79CE6037F4D5113D5C5D12ADC9ED4EA8FCC6BE0CE35781DBC253A'
+===== [WorldTreeRig] pid=23373 name='' =====
+  '주워 온 나뭇가지'
+===== [ForgeSwordColliderLayout] pid=23374 name='' =====
+  'EA23AAEF2DDCA5E81EF0FE033AF3102253CBEC0567B51BABCFC6F6D6C3074029'
+===== [ForgeSwordColliderLayout] pid=23375 name='' =====
+  '9E968C7EC5B693F512DD233B63253CF60F104D1EB380325390896609E58E6645'
+===== [WorldTreeRig] pid=23376 name='' =====
+  '천년을 머금은 고목'
+===== [ForgeStagedRelicView] pid=23377 name='' =====
+  'swordcocoon'
+===== [EvolutionRig] pid=23379 name='' =====
+  '양심 없는 검'
+===== [ForgeSwordColliderLayout] pid=23382 name='' =====
+  'F60EE51DE65FDF80002385B8BB4A288023593AEAA55051DDBF93C275FC4F9CCC'
+===== [EvolutionRig] pid=23383 name='' =====
+  '철판도 씹는 톱검'
+===== [EvolutionRig] pid=23390 name='' =====
+  '게딱지 톱검'
+===== [EvolutionRig] pid=23391 name='' =====
+  '고래의 턱날'
+===== [ForgeSwordColliderLayout] pid=23393 name='' =====
+  '65420884D3AA5E1EC3928EFAAEC91A3D7DD4C3E2A4AF97DCF231B54475CD21BE'
+===== [ForgeSwordColliderLayout] pid=23396 name='' =====
+  'C79181D3A21209D34E01C4731377C6B374F81C529E4E162A69CE379E394559B6'
+===== [ForgeSwordColliderLayout] pid=23398 name='' =====
+  '81C7C4838F46BB1D76EE93204426DF5AD9BC6AADAA330A90884C1CA2A444E242'
+===== [EvolutionRig] pid=23400 name='' =====
+  '대륙을 가르는 철의 성채'
+===== [EvolutionRig] pid=23401 name='' =====
+  '낡은 검'
+===== [RunebladeRig] pid=23402 name='' =====
+  '아카샤 · 창세를 품은 검'
+===== [ForgeSwordColliderLayout] pid=23403 name='' =====
+  '7AB7D52F47F6200621B3204C01718388FBB7DDE81A03C8554ABBF35BEB0CF160'
+===== [WorldTreeRig] pid=23409 name='' =====
+  '뭔가 깨어나는 씨앗'
+===== [ForgeSwordColliderLayout] pid=23410 name='' =====
+  'BC272A91192C94DBDD4E96AAF58B3C5659C2382BBBB9959D63D69098DF992E0D'
+===== [ForgeStagedRelicView] pid=23412 name='' =====
+  'dualaltar'
+===== [WorldTreeRig] pid=23414 name='' =====
+  '뒤늦게 싹이 난 몽둥이'
+===== [EvolutionRig] pid=23416 name='' =====
+  '이기어검(以氣馭劍)'
+===== [ForgeSwordColliderLayout] pid=23420 name='' =====
+  'C0AEDE0BFA9ECAD14E48C0F242D020D072B5533BD65269227BBEE63F68CEB3D7'
+===== [EvolutionRig] pid=23421 name='' =====
+  '냉동 참치'
+===== [ForgeSwordColliderLayout] pid=23423 name='' =====
+  '3638321D7E49CDE7CF720382C92B58DF368AD5A117347B907CCB4ED3145E47DE'
+===== [EvolutionRig] pid=23428 name='' =====
+  '어린 용의 아가리'
+===== [ForgeSwordColliderLayout] pid=23430 name='' =====
+  '3910013A4CA9ED52DD36753E90D3111A19D6CEC0E6BFF92D6E628D2EDD21A4C7'
+===== [EvolutionRig] pid=23433 name='' =====
+  '산맥을 깎는 절단기'
+===== [ForgeSwordColliderLayout] pid=23435 name='' =====
+  '97C35C0650BB9DC4536AE4FDC12F213BB9AF9E10E39B06E9E3424C1DD381C06D'
+===== [FuneraryRig] pid=23436 name='' =====
+  '무덤지기의 삽'
+===== [ForgeSwordColliderLayout] pid=23437 name='' =====
+  '912BEB8D022B71EA999258BDF6D3C86F7A774B390EBCAD3662B08B7CF3F669AE'
+===== [ForgeSwordColliderLayout] pid=23441 name='' =====
+  'ACB971C5C7D7F58536114C859B5B9712FCDDE2834DB2EAB1ABDF975FFE7BCCC8'
+===== [FuneraryRig] pid=23446 name='' =====
+  '망자를 깨우는 종'
+===== [ForgeSwordColliderLayout] pid=23447 name='' =====
+  'A992A29262AC845EF357D0F9BDCDA73EB100C6E33FE961422E920363AA21D040'
+===== [ForgeSwordColliderLayout] pid=23448 name='' =====
+  '63F2EBD0E806B4418F819CC74F5808A4424827B7AB0080DB7E1236144CCCCB41'
+===== [EvolutionRig] pid=23450 name='' =====
+  '이중 철판 대검'
+===== [EvolutionRig] pid=23451 name='' =====
+  '천검을 거느린 군주'
+===== [ForgeSwordColliderLayout] pid=23455 name='' =====
+  'D963AD71A2BE3E4B078B20D1DE4F5A535529762B217A6034EC6E840308460AF5'
+===== [RunebladeRig] pid=23456 name='' =====
+  '마력의 파편'
+===== [ForgeSwordColliderLayout] pid=23457 name='' =====
+  '9D1EFA02C6B5BA998B53BD0970F8149E759CCD8680CB102E91C0FFF3679FBBE5'
+===== [ForgeSwordColliderLayout] pid=23460 name='' =====
+  'F710D8A3828931C2E5E74C1C43D493C6C44E13E6A533CBCA52C0525E1B1CAC77'
+===== [ForgeSwordColliderLayout] pid=23462 name='' =====
+  '449C956860B0C8EC5F0CB45239DDD6C553E7BE1C25CB3766BEDE03D579F3D10F'
+===== [RunebladeRig] pid=23463 name='' =====
+  '깨어나는 마력의 룬검'
+===== [ForgeSwordColliderLayout] pid=23465 name='' =====
+  '3332041BDFDCCF4EF2F92A59223852453F582EEAC2F02267780551D50B4C7DEE'
+===== [EvolutionRig] pid=23466 name='' =====
+  '어린 용의 턱'
+===== [WorldTreeRig] pid=23467 name='' =====
+  '생명의 샘을 품은 거목'
+===== [FuneraryRig] pid=23468 name='' =====
+  '관뚜껑 대검'
+===== [ForgeSwordColliderLayout] pid=23471 name='' =====
+  '407AEAF1480E6F3F8775FF9C8398E348451F9F8A14486778C4C8E190D9FFDAD6'
+===== [ForgeSwordColliderLayout] pid=23472 name='' =====
+  '77B5B4C4BE854BA8A46BFAF77E1B5BE93C25663C2BFBFABF28DA9E78D4EBA92C'
+===== [FuneraryRig] pid=23473 name='' =====
+  '망령을 밝히는 횃불'
+===== [ForgeSwordColliderLayout] pid=23476 name='' =====
+  '57A9DDEA908E1A68A628AF2CA16C16EB9A229FBDF262209FF28909071381C63B'
+===== [ForgeSwordColliderLayout] pid=23479 name='' =====
+  '04D456384F7522B7D2E6EB48A903843C0F8463A7DDA7F8274D3CA5D95F788ED6'
+===== [EvolutionRig] pid=23480 name='' =====
+  '미역 묶은 칼조각'
+===== [ForgeSwordColliderLayout] pid=23482 name='' =====
+  'E449F5F245A3C095A5C7D9EC91AE44E8DAD4EE67A12182AD7A658B22C2645DCD'
+===== [ForgeSwordColliderLayout] pid=23484 name='' =====
+  '7F783AA117F26049654F124FDF8CCCA63D6EBE24A41E5C3EFA712EA7F516826D'
+===== [ForgeSwordColliderLayout] pid=23485 name='' =====
+  '9AAE265AC35924F81A759057AAE74661122842479B14F8AD1F90122FC4387D70'
+===== [ForgeSwordColliderLayout] pid=23491 name='' =====
+  '7859E36F5F82CB0AB31FB978C88026CF117EF1C810DCC1E28FC67D9C6FCD9BF9'
+===== [ForgeSwordColliderLayout] pid=23493 name='' =====
+  '328899896DC97FB04B2768520B1DF38D73008874991CD8C63F629914961C444A'
+===== [RunebladeRig] pid=23494 name='' =====
+  '현실에 금을 내는 검'
+===== [EvolutionRig] pid=23495 name='' =====
+  '손잡이 달린 요새'
+===== [EvolutionRig] pid=23496 name='' =====
+  '뭔가 이상한 철판 대검'
+===== [ForgeSwordColliderLayout] pid=23497 name='' =====
+  'FA9EC4A0F80A12883B76C2223AFC48818CFF3CFC6D1634C0A0C21606E63876CF'
+===== [EvolutionRig] pid=23498 name='' =====
+  '빛이 깃든 은빛 검'
+===== [ForgeSwordColliderLayout] pid=23499 name='' =====
+  '9A220C2C8EFF577C4565128D57AEFBF2CBEFEF9CB3A77FD21416A5ADB7848D82'
+===== [ForgeSwordColliderLayout] pid=23500 name='' =====
+  '5605E8657B0063B4371317305D215FA02ED531B9E44D498AAE191C9F011DE861'
+===== [ForgeSwordColliderLayout] pid=23501 name='' =====
+  'EE052673C608FC7B178D97E85E72A2CB4FD14D91DAE983B1D19A8992FF0B7769'
+===== [ForgeSwordColliderLayout] pid=23506 name='' =====
+  '0E4C8507FD917341E7BF049585EDC2EC47104AA306B3F1BB8A171739A128B68A'
+===== [EvolutionRig] pid=23508 name='' =====
+  '휴대용 철문'
+===== [ForgeSwordColliderLayout] pid=23511 name='' =====
+  '9AFD07CC975D4481C8A0609544B35B6E2CCEAC3B12510E3CE542CBC4F9BFBB1E'
+===== [ForgeReactiveRelicVisual] pid=23513 name='' =====
+  'bellows'
+===== [EvolutionRig] pid=23514 name='' =====
+  '쓸 만한 철검'
+===== [ForgeSwordColliderLayout] pid=23516 name='' =====
+  '438C4640A3787329EF4D611E05A38C84724C479EDDD0954D06E9AA5DB4C30C8E'
+===== [EvolutionRig] pid=23518 name='' =====
+  '성질난 쇳조각'
+===== [ForgeSwordColliderLayout] pid=23519 name='' =====
+  '6C12393DC9A678CDB925140BBB302405B48A2614F0BE8392BF4D3E2519A0343D'
+===== [ForgeSwordColliderLayout] pid=23521 name='' =====
+  '9B8E5C10CED7EFB9E23E468E1FB9316DD8359E1981175E2117F10DF9C9AD8EC5'
+===== [RunebladeRig] pid=23522 name='' =====
+  '마력 과충전검'
+===== [FuneraryRig] pid=23524 name='' =====
+  '명계의 열쇠'
+===== [ForgeReactiveRelicVisual] pid=23526 name='' =====
+  'rewind'
+===== [ForgeStagedRelicView] pid=23528 name='' =====
+  'underworldpass'
+===== [ForgeSwordColliderLayout] pid=23529 name='' =====
+  'EE3C9A0244AA7CA97D6656BF4BB387BD5B19AB1CF879B4B5633EBB7F97175307'
+===== [ForgeSwordColliderLayout] pid=23533 name='' =====
+  'EDFAFD9A99C849E99D9BEFEFC8528412A7276E776C83825087C4DDBACB7C6E02'
+===== [ForgeSwordColliderLayout] pid=23534 name='' =====
+  'D72D2C81A8D3C81BB63039759066E33DE553D5A64D1091AE5AD3FB6A5245B377'
+===== [EvolutionRig] pid=23537 name='' =====
+  '다듬은 검'
+===== [EvolutionRig] pid=23539 name='' =====
+  '산호 제단 검'
+===== [EvolutionRig] pid=23541 name='' =====
+  '두꺼운 철검'
+===== [ForgeSwordColliderLayout] pid=23543 name='' =====
+  '6E1431BAC81A8DE72BC1338B73FAB390AF324FA3EDF3A8A6501B4B1401BBB1B4'
+===== [ForgeSwordColliderLayout] pid=23544 name='' =====
+  '11B13A0C7166C4A5B1A2EE78558A7D47DF721310CAC0D62BAABC2746D708F447'
+===== [WorldTreeRig] pid=23547 name='' =====
+  '제법 단단한 나뭇가지'
+===== [WorldTreeRig] pid=23548 name='' =====
+  '세계수 : 위그드라실'
+===== [ForgeStagedRelicView] pid=23559 name='' =====
+  'restoredholy'
+===== [ForgeSwordColliderLayout] pid=23562 name='' =====
+  '90A9F0A584F2EA03C07E5084258627EAE99A093C07B53BC6A6B92B064768DF7A'
+===== [ForgeSwordColliderLayout] pid=23563 name='' =====
+  '882AEBBB6776624224F4E8CF05866D7936B7DF7747F84EE5771581BFFC87CD31'
+===== [ForgeSwordColliderLayout] pid=23568 name='' =====
+  'ED0900A018FB992FB9736748577D67C8BE9FA4FFEB6765FD643FC423A2F04CF3'
+===== [ForgeSwordColliderLayout] pid=23571 name='' =====
+  '16E95BB3EDF30DB8A5DF23E82C1C52EAB7B1AB65949D2ABEA3C12671A933D099'
+===== [EvolutionRig] pid=23575 name='' =====
+  '엑스칼리버'
+===== [EvolutionRig] pid=23576 name='' =====
+  '새벽을 여는 약속의 성검'
+===== [EvolutionRig] pid=23578 name='' =====
+  '축복이 새겨진 검'

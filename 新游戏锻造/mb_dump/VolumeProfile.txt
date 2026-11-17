@@ -1,0 +1,7 @@
+script: VolumeProfile  instances: 5
+
+--- inst 0 pid=2531 name='DefaultVolumeProfile' len=284 strings=['DefaultVolumeProfile']
+--- inst 1 pid=2534 name='SampleSceneProfile' len=104 strings=['SampleSceneProfile']
+--- inst 2 pid=523 name='Workshop grade' len=112 strings=['g', 'Workshop grade']
+--- inst 3 pid=133 name='Lair volume' len=96 strings=['g', 'Lair volume']
+--- inst 4 pid=23180 name='AtmosphereProfile' len=128 strings=['g', 'AtmosphereProfile']

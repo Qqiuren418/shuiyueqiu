@@ -1,0 +1,13 @@
+script: unk_script_4913442586625  instances: 11
+
+--- inst 0 pid=23267 name='' len=524 strings=['x', '숲을 품은 꽃봉오리']
+--- inst 1 pid=23324 name='' len=472 strings=['x', '분명 나뭇가지였던 몽둥이']
+--- inst 2 pid=23359 name='' len=696 strings=['x', '세계를 떠받치는 나무']
+--- inst 3 pid=23365 name='' len=184 strings=['x', '부러질 생각이 없는 몽둥이']
+--- inst 4 pid=23373 name='' len=172 strings=['x', '주워 온 나뭇가지']
+--- inst 5 pid=23376 name='' len=320 strings=['x', '천년을 머금은 고목']
+--- inst 6 pid=23409 name='' len=332 strings=['x', '뭔가 깨어나는 씨앗']
+--- inst 7 pid=23414 name='' len=228 strings=['x', '뒤늦게 싹이 난 몽둥이']
+--- inst 8 pid=23467 name='' len=348 strings=['x', '생명의 샘을 품은 거목']
+--- inst 9 pid=23547 name='' len=180 strings=['x', '제법 단단한 나뭇가지']
+--- inst 10 pid=23548 name='' len=1184 strings=['x', '세계수 : 위그드라실']

@@ -1,0 +1,8 @@
+script: unk_script_3483218477057  instances: 6
+
+--- inst 0 pid=23244 name='' len=368 strings=['+']
+--- inst 1 pid=23263 name='' len=116 strings=['+']
+--- inst 2 pid=23304 name='' len=224 strings=['+']
+--- inst 3 pid=23326 name='' len=560 strings=['+']
+--- inst 4 pid=23395 name='' len=116 strings=['+']
+--- inst 5 pid=23440 name='' len=116 strings=['+']
