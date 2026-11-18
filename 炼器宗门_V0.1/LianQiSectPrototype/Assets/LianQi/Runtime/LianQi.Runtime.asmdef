@@ -1,0 +1,6 @@
+{
+  "name": "LianQi.Runtime",
+  "rootNamespace": "LianQi.Runtime",
+  "references": ["LianQi.Core"],
+  "autoReferenced": true
+}

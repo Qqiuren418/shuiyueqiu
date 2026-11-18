@@ -1,0 +1,19 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uilds/
+# IDE generated files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb
+# Tests and local snapshots
+*.lqs
+Verification/core_tests_*/
+Verification/ConsoleTests.exe
+# Keep Assets .meta files and package lock after first Unity import.

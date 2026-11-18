@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "folder": "炼器宗门_V0.1",
+  "date": "2026-11-18",
+  "runtime_acceptance": "blocked_not_passed",
+  "file_count_excluding_manifest": 24,
+  "files": [
+    {
+      "path": "BuildTools/build_spec.js",
+      "bytes": 21901,
+      "sha256": "ec970deab842cd48aedb23f2f929eaced4c16c70bf2ce5f2f11e393c77e7f9d5"
+    },
+    {
+      "path": "BuildTools/prepare_repo_payload.py",
+      "bytes": 4558,
+      "sha256": "4dadcd34d5e1d4ffaf0192fc1a67d406335780ceaa03b72a7975991011e50c50"
+    },
+    {
+      "path": "BuildTools/run_core_tests.ps1",
+      "bytes": 9715,
+      "sha256": "2472ee6d0fea038c69e5ead24cbcde410c1f07dcaa548548382bcdf3ed1e1c4a"
+    },
+    {
+      "path": "BuildTools/verify_delivery.py",
+      "bytes": 6704,
+      "sha256": "f64d716317215ea6c04b9a20fb2748133a7f34d7028361fe2b8d17aa098b2282"
+    },
+    {
+      "path": "LianQiSectPrototype/.gitignore",
+      "bytes": 322,
+      "sha256": "c00de0a0f3c4db2491ba1b5d6c0239ef23d7cbab7c1c2e8f9a9582a80e977dd4"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Core/ForgeGame.cs",
+      "bytes": 17413,
+      "sha256": "f367363558b9bb7a6c980229a82ff5d228f1bc2ce3990f1c877b2e7c47b094af"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Core/LianQi.Core.asmdef",
+      "bytes": 138,
+      "sha256": "7c786e529e53e35f55b730b22397a2941e7f1c9a8416ebabd9756d99a03b8930"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Core/SaveStore.cs",
+      "bytes": 5825,
+      "sha256": "75875e6cc521d8c9cfa8a1b3f28ad8498d2474f5b5c48441fabb5859cd9ab8aa"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Editor/LianQi.Editor.asmdef",
+      "bytes": 220,
+      "sha256": "9bd96258bce89e8cb2acc097c90e8fffb3f09fdf3aa37cb563278e74a0d9f634"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Editor/PrototypeSetup.cs",
+      "bytes": 8415,
+      "sha256": "cab1e074405a02c0cc5192d25bba51c47569ec470c0efca1ab0d250aacb21e30"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Runtime/LianQi.Runtime.asmdef",
+      "bytes": 127,
+      "sha256": "34193395be9127250bbcff18340fd71d64a97bd676edcd6a4974313c2caad0fe"
+    },
+    {
+      "path": "LianQiSectPrototype/Assets/LianQi/Runtime/PrototypeController.cs",
+      "bytes": 14814,
+      "sha256": "d864f4da3025cd2a6959a86ae629ed15791a6e121aac697669e99204d6c6a2d1"
+    },
+    {
+      "path": "LianQiSectPrototype/Packages/manifest.json",
+      "bytes": 211,
+      "sha256": "b2639475136b8826e5c89943ca613237abe68659c7dcfc1bc617b85c4b5e6c1f"
+    },
+    {
+      "path": "LianQiSectPrototype/ProjectSettings/ProjectVersion.txt",
+      "bytes": 85,
+      "sha256": "91b35566b263574c8a513eff3bba6d5d313482d752d961077b47ab5b3ff14981"
+    },
+    {
+      "path": "Tests/ConsoleTests.cs",
+      "bytes": 61573,
+      "sha256": "fb50eb171e5ccdedd8448b93e6a52cf32568c0bdcc25243ee0cbfc0c34aced2c"
+    },
+    {
+      "path": "Unity环境配置与实机验收状态_2026-11-18.txt",
+      "bytes": 2959,
+      "sha256": "b1e93e86829142a14c90a9cea4fb0d2f236f8d87a65f8de8a81a666d05346e93"
+    },
+    {
+      "path": "Verification/core_test_results.json",
+      "bytes": 4549,
+      "sha256": "e84ef1422181b866eae5a3d595469ad96a96a7c45868a0c88c07c505416866db"
+    },
+    {
+      "path": "Verification/docx_audit.json",
+      "bytes": 152768,
+      "sha256": "d98875801d10fac72e283a204cf16e2784a4790755e14a852736f0071aff8186"
+    },
+    {
+      "path": "Verification/environment_setup_2026-11-18.json",
+      "bytes": 2185,
+      "sha256": "cdba173b531769cc899d14ce7d8df87d5358fac45b958719c618f2c597946d20"
+    },
+    {
+      "path": "Verification/final_code_review.json",
+      "bytes": 13394,
+      "sha256": "9296e5bcf31df3112c94baef70ece1ea09c0845cffb61981042c8bcfc74e49ed"
+    },
+    {
+      "path": "Verification/final_delivery_status.json",
+      "bytes": 3476,
+      "sha256": "9e5542cc44c7cb78fb8cbb593b45a88ef6b2c96d492404b3469bfe31cdf18a98"
+    },
+    {
+      "path": "开始这里.txt",
+      "bytes": 2435,
+      "sha256": "98098215b703598fd7dbd6646acd2c957ba19f1a1aaffc19da79819c367b89b2"
+    },
+    {
+      "path": "炼器宗门_V0.1首单闭环功能规格.docx",
+      "bytes": 27946,
+      "sha256": "3730ecdd751eaa115e5ba70ca7daafa681bf46a7f8f6d3fbc72a71b30beaabdc"
+    },
+    {
+      "path": "炼器宗门_V0.1首单闭环功能规格.md",
+      "bytes": 22591,
+      "sha256": "478215bd5a7eff6f46eac64913188473dfd947597f95dccd2abd37d397dfe3b7"
+    }
+  ],
+  "excluded": [
+    "installers",
+    "compiled executables",
+    "Unity caches",
+    "Hub account or license files",
+    "full logs",
+    "desktop screenshots",
+    "game saves",
+    "original game resources"
+  ],
+  "note": "Earlier verification JSON files are historical; current environment status is Verification/environment_setup_2026-11-18.json."
+}

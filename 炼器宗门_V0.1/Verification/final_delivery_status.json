@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-18T04:22:16.101653+00:00",
+  "scope": "First-order specification and Unity source starter, not a validated playable build",
+  "final_core_compilation": {
+    "success": true,
+    "exit_code": 0,
+    "compiler": "D:\\Program Files\\VisualStudioProject\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe",
+    "output": "Verification\\ConsoleTests_final.exe",
+    "output_sha256": "2ebc7d7814aa5dd622b35be81abd50634dd53f8dad9bf887b9ddf55ef8ed413a",
+    "executed": false,
+    "unity_sources_compiled": false
+  },
+  "automated_tests": {
+    "planned": 187,
+    "executed": 0,
+    "passed": 0,
+    "not_run": 187,
+    "reason": "Administrator execution policy blocked new EXE and PS1. No bypass attempted."
+  },
+  "unity_validation": {
+    "editor_detected": false,
+    "package_imported": false,
+    "play_mode": false,
+    "windows_build": false,
+    "runtime_verified": false
+  },
+  "documents": {
+    "docx_crc": true,
+    "docx_ooxml_audit": "Verification\\docx_audit.json",
+    "visual_render_verified": false,
+    "page_count": null,
+    "render_blocker": "ARTIFACT_HOST_DENIED; conversion was not retried via another route."
+  },
+  "static_review_fixes": [
+    "Persist wrong-node penalties through StateChanged",
+    "Skip inaccessible save files and guard timestamp reads",
+    "Consume long frames in 0.02-second heat substeps",
+    "Stop building when preparation is cancelled",
+    "Distinguish nonexistent save directory from access errors using File.GetAttributes"
+  ],
+  "regression_gap": "The 187 existing cases do not cover all Unity integration call chains; manual cases A05/A08/A11/A12/A13/A14 remain required.",
+  "historical_reports": {
+    "final_code_review.json": "Pre-directory-fix static review; S01 is corrected in final source. Compilation here is for final source.",
+    "core_test_results.json": "Original blocked execution report, not a passing test result."
+  },
+  "source_sha256": {
+    "LianQiSectPrototype/Assets/LianQi/Core/ForgeGame.cs": "f367363558b9bb7a6c980229a82ff5d228f1bc2ce3990f1c877b2e7c47b094af",
+    "LianQiSectPrototype/Assets/LianQi/Core/SaveStore.cs": "75875e6cc521d8c9cfa8a1b3f28ad8498d2474f5b5c48441fabb5859cd9ab8aa",
+    "LianQiSectPrototype/Assets/LianQi/Editor/PrototypeSetup.cs": "cab1e074405a02c0cc5192d25bba51c47569ec470c0efca1ab0d250aacb21e30",
+    "LianQiSectPrototype/Assets/LianQi/Runtime/PrototypeController.cs": "d864f4da3025cd2a6959a86ae629ed15791a6e121aac697669e99204d6c6a2d1",
+    "LianQiSectPrototype/Assets/LianQi/Core/LianQi.Core.asmdef": "7c786e529e53e35f55b730b22397a2941e7f1c9a8416ebabd9756d99a03b8930",
+    "LianQiSectPrototype/Assets/LianQi/Editor/LianQi.Editor.asmdef": "9bd96258bce89e8cb2acc097c90e8fffb3f09fdf3aa37cb563278e74a0d9f634",
+    "LianQiSectPrototype/Assets/LianQi/Runtime/LianQi.Runtime.asmdef": "34193395be9127250bbcff18340fd71d64a97bd676edcd6a4974313c2caad0fe",
+    "炼器宗门_V0.1首单闭环功能规格.md": "478215bd5a7eff6f46eac64913188473dfd947597f95dccd2abd37d397dfe3b7",
+    "炼器宗门_V0.1首单闭环功能规格.docx": "3730ecdd751eaa115e5ba70ca7daafa681bf46a7f8f6d3fbc72a71b30beaabdc",
+    "Tests/ConsoleTests.cs": "fb50eb171e5ccdedd8448b93e6a52cf32568c0bdcc25243ee0cbfc0c34aced2c"
+  },
+  "original_documents_preserved": true,
+  "git_commit_or_upload": false,
+  "archive_excludes": [
+    "compiled test EXEs",
+    "intermediate logs",
+    "review backups",
+    "any imported game resources"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "LianQi.Core",
+  "rootNamespace": "LianQi.Core",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

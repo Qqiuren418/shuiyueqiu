@@ -1,0 +1,61 @@
+{
+  "suite": "LianQi V0.1 direct C# core verification",
+  "reportOrigin": "Host verification summary; the compiled console test harness was blocked before startup",
+  "status": "blocked_by_host_execution_policy",
+  "plannedCases": 187,
+  "plannedGroups": {
+    "heating": 33,
+    "inventoryAndCommands": 15,
+    "engravingTrialAndRework": 43,
+    "pauseOrdersAndUpgrade": 11,
+    "snapshotValidation": 62,
+    "realDiskPersistence": 22,
+    "randomLegalFlow": 1
+  },
+  "total": 0,
+  "executedCases": 0,
+  "passed": 0,
+  "failed": 0,
+  "notRun": 187,
+  "assertions": 0,
+  "randomSeed": 20261118,
+  "plannedRandomSteps": 1000,
+  "randomSteps": 0,
+  "plannedCasesCountMethod": "Static registration/parameter expansion review, not runtime discovery",
+  "compiler": "D:\\Program Files\\VisualStudioProject\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe",
+  "compilerVersion": "5.11.0-1.26424.5 (fcacacf82e2055472a6ec4060a4be88ebc0e1acf)",
+  "reference": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Web.Extensions.dll",
+  "compileExit": 0,
+  "compilationPassed": true,
+  "compiledExecutable": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\ConsoleTests.exe",
+  "compiledExecutableSHA256": "3ca78d35ea00c25ece0ae93747be95ddda110ca9f0e21a43cd0baaa851546c25",
+  "coreUnchanged": true,
+  "coreSHA256": {
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\ForgeGame.cs": "e04d812ea347ed0d890421ffa32a7a5155f51f134bfbba25c95d9ceb1a67cb35",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\SaveStore.cs": "6a3e4380377613497384484460ba0bac3da5989ce10678a5a991da676592ca73"
+  },
+  "testSource": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Tests\\ConsoleTests.cs",
+  "testSourceSHA256": "fb50eb171e5ccdedd8448b93e6a52cf32568c0bdcc25243ee0cbfc0c34aced2c",
+  "script": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\BuildTools\\run_core_tests.ps1",
+  "scriptSHA256": "2472ee6d0fea038c69e5ead24cbcde410c1f07dcaa548548382bcdf3ed1e1c4a",
+  "artifactDirectory": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\core_tests_direct_20261118035521_1736527767",
+  "infrastructureErrors": [
+    "PowerShell -File rejected run_core_tests.ps1 because script execution is disabled on this system.",
+    "Git Bash could not start the freshly compiled ConsoleTests.exe: Permission denied (exit 126).",
+    "Native PowerShell Start-Process also rejected ConsoleTests.exe: access blocked by administrator policy. No execution-policy or application-control settings were changed."
+  ],
+  "powershellLanguageMode": "ConstrainedLanguage",
+  "scriptRuntimeVerified": false,
+  "scriptParserCheck": "Not completed: ConstrainedLanguage rejects the System.Management.Automation.Language.Parser invocation. The earlier shell PASS line after this error is not a successful syntax check.",
+  "coveragePlan": [
+    "Both routes: ideal fuel=1 below lower band, then fuel=0.16*(T-20)/28; dt=.02/.1/.25; score span <=2; zero/max fuel fail; nonfinite/illegal inputs leave all fields unchanged.",
+    "Initial inventory/prices/costs; missing-material atomicity; repeat commitment; cancellation; rune sequence/errors/bounds; integer energy thresholds; pass/fail; free rework resets and recalculates.",
+    "All commands paused in all six stages; frozen heat time; payout once per unique order; repeat IDs; 40-stone one-time furnace upgrade; window expansion4 each side.",
+    "Validate rejects unknown stages/routes, incompatible schema, out-of-bounds resources, inconsistent heat/rune/trial/payout states; snapshot copy isolation.",
+    "Real SaveStore disk append-only snapshots and JavaScriptSerializer roundtrip in six stages; corrupt latest fallback; negative resources/forged trial rejection; original files retained; size/codec/tie handling.",
+    "Seeded 1000-step legal flow with post-command Validate, economy invariants, multiple deliveries and disk roundtrip every50 steps. Not executed on this host."
+  ],
+  "productDefects": [],
+  "productDefectsAssessment": "No runtime conclusion: no confirmed product defects, but tests were not executed and this must not be interpreted as a clean pass.",
+  "preservation": "Only requested new test/script/output files were created. Earlier executable and empty native stdout/stderr files remain in the unique verification subdirectory. No deletion, permanent overwrite, git commit, network access, dependency installation, policy change, or core edit was performed."
+}

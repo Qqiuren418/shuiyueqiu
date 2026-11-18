@@ -1,0 +1,5142 @@
+{
+  "status": "PASS",
+  "source": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\炼器宗门_V0.1首单闭环功能规格.md",
+  "docx": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\炼器宗门_V0.1首单闭环功能规格.docx",
+  "audit": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\docx_audit.json",
+  "source_sha256_before": "478215bd5a7eff6f46eac64913188473dfd947597f95dccd2abd37d397dfe3b7",
+  "source_sha256_after": "478215bd5a7eff6f46eac64913188473dfd947597f95dccd2abd37d397dfe3b7",
+  "docx_sha256": "3730ecdd751eaa115e5ba70ca7daafa681bf46a7f8f6d3fbc72a71b30beaabdc",
+  "docx_bytes": 27946,
+  "method": "Independent Python stdlib ZIP CRC + XML; text from pure w:t only; top-level paragraphs, table rows/cells and numeric tokens aligned against unchanged Markdown.",
+  "counts": {
+    "source_blocks": 159,
+    "docx_blocks": 159,
+    "headings_including_title": 48,
+    "tables": 10,
+    "table_cells": 238,
+    "bullets": 19,
+    "numbered_items": 12,
+    "aligned_text_items": 387,
+    "checks": 376,
+    "failed_checks": 0
+  },
+  "checks": [
+    {
+      "check": "ZIP CRC and XML parsing",
+      "passed": true
+    },
+    {
+      "check": "source SHA-256 unchanged since before generation",
+      "passed": true
+    },
+    {
+      "check": "top-level source/body block count",
+      "passed": true,
+      "detail": {
+        "source": 159,
+        "docx": 159
+      }
+    },
+    {
+      "check": "paragraph text at source line 1",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 1",
+      "passed": true,
+      "detail": {
+        "expected": "Title",
+        "actual": "Title"
+      }
+    },
+    {
+      "check": "paragraph text at source line 3",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 3",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 5",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 5",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 7",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 7",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 9",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 9",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 11",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 11",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 13",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 13",
+      "passed": true
+    },
+    {
+      "check": "table body aligned at source line 15",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 15",
+      "passed": true,
+      "detail": [
+        2350,
+        3350,
+        3938
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 15",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 24",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 24",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 26",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 26",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 28",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 28",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 30",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 30",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 32",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 32",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 32",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 33",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 33",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 33",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 34",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 34",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 34",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 35",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 35",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 35",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 36",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 36",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 36",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 37",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 37",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 37",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 38",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 38",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 38",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 40",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 40",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 42",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 42",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 44",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 44",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 46",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 46",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 48",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 48",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 50",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 50",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 52",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 52",
+      "passed": true,
+      "detail": [
+        2400,
+        3550,
+        3688
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 52",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 61",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 61",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 63",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 63",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 65",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 65",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 65",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 66",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 66",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 66",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 67",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 67",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 67",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 68",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 68",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 68",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 69",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 69",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 69",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 70",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 70",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 70",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 72",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 72",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 74",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 74",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 76",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 76",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 78",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 78",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 80",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 80",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 82",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 82",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 84",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 84",
+      "passed": true,
+      "detail": [
+        2300,
+        2300,
+        5038
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 84",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 92",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 92",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 94",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 94",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 96",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 96",
+      "passed": true,
+      "detail": [
+        2300,
+        2300,
+        5038
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 96",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 102",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 102",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 104",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 104",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 106",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 106",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 108",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 108",
+      "passed": true,
+      "detail": [
+        1800,
+        3919,
+        3919
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 108",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 117",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 117",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 119",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 119",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 121",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 121",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 123",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 123",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 125",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 125",
+      "passed": true,
+      "detail": [
+        2650,
+        3300,
+        3688
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 125",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 134",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 134",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 136",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 136",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 138",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 138",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 140",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 140",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 142",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 142",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 144",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 144",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 146",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 146",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 148",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 148",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 150",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 150",
+      "passed": true,
+      "detail": [
+        3300,
+        6338
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 150",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 159",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 159",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 161",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 161",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 163",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 163",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 165",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 165",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 167",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 167",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 169",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 169",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 171",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 171",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 173",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 173",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 175",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 175",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 177",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 177",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 179",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 179",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 181",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 181",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 183",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 183",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 185",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 185",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 187",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 187",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 189",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 189",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 189",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 190",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 190",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 190",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 192",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 192",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 194",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 194",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 196",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 196",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 198",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 198",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 200",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 200",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 202",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 202",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 204",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 204",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 206",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 206",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 208",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 208",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 210",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 210",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 212",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 212",
+      "passed": true
+    },
+    {
+      "check": "table body aligned at source line 214",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 214",
+      "passed": true,
+      "detail": [
+        1500,
+        1200,
+        1200,
+        1200,
+        4538
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 214",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 224",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 224",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 226",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 226",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 228",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 228",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 230",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 230",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 232",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 232",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 234",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 234",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 236",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 236",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 238",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 238",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 240",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 240",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 242",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 242",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 244",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 244",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 246",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 246",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 248",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 248",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 250",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 250",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 252",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 252",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 254",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 254",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 256",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 256",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 258",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 258",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 260",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 260",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 262",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 262",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 264",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 264",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 266",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 266",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 268",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 268",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 270",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 270",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 272",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 272",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 274",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 274",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 276",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 276",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 276",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 277",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 277",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 277",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 278",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 278",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 278",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 279",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 279",
+      "passed": true,
+      "detail": {
+        "numId": "2",
+        "format": "bullet"
+      }
+    },
+    {
+      "check": "11pt body at source line 279",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 281",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 281",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 283",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 283",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 285",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 285",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 287",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 287",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 289",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 289",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 291",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 291",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 293",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 293",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 295",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 295",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 297",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 297",
+      "passed": true,
+      "detail": [
+        6100,
+        3538
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 297",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 310",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 310",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 312",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 312",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 314",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 314",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 316",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 316",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 318",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 318",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 320",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 320",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 320",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 321",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 321",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 321",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 322",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 322",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 322",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 323",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 323",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 323",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 324",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 324",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 324",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 325",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 325",
+      "passed": true,
+      "detail": {
+        "numId": "3",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 325",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 327",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 327",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 329",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 329",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 331",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 331",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 333",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 333",
+      "passed": true,
+      "detail": {
+        "expected": "Heading1",
+        "actual": "Heading1"
+      }
+    },
+    {
+      "check": "paragraph text at source line 335",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 335",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 337",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 337",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 339",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 339",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 341",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 341",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 343",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 343",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "table body aligned at source line 345",
+      "passed": true
+    },
+    {
+      "check": "table dual DXA widths / no page overflow at line 345",
+      "passed": true,
+      "detail": [
+        700,
+        5250,
+        3688
+      ]
+    },
+    {
+      "check": "table fixed layout / unsplit rows / repeated header at line 345",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 363",
+      "passed": true
+    },
+    {
+      "check": "real built-in heading at source line 363",
+      "passed": true,
+      "detail": {
+        "expected": "Heading2",
+        "actual": "Heading2"
+      }
+    },
+    {
+      "check": "paragraph text at source line 365",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 365",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 365",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 366",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 366",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 366",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 367",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 367",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 367",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 368",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 368",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 368",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 369",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 369",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 369",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 370",
+      "passed": true
+    },
+    {
+      "check": "real list numbering at source line 370",
+      "passed": true,
+      "detail": {
+        "numId": "4",
+        "format": "decimal"
+      }
+    },
+    {
+      "check": "11pt body at source line 370",
+      "passed": true
+    },
+    {
+      "check": "paragraph text at source line 372",
+      "passed": true
+    },
+    {
+      "check": "11pt body at source line 372",
+      "passed": true
+    },
+    {
+      "check": "all paragraph/cell text aligned, same order",
+      "passed": true
+    },
+    {
+      "check": "all numeric tokens identical, same order",
+      "passed": true,
+      "detail": {
+        "token_count": 267
+      }
+    },
+    {
+      "check": "all formulas and inequalities retained",
+      "passed": true,
+      "detail": [
+        {
+          "source": "每个积分步计算：新温度＝旧温度＋[28×风门−0.16×(旧温度−20)]×步长，然后限制在0—100。",
+          "matched": true
+        },
+        {
+          "source": "器胚分＝向下取整[100×合格时间÷12＋0.5]，范围0—100。该分值不包含随机成功率，不使用语言默认的银行家舍入。",
+          "matched": true
+        },
+        {
+          "source": "升温阶段可拉高风门；接近目标温区时减火。保持某温度的理论风门为0.16×(T−20)÷28。此式用于提示与测试策略，不自动代玩家控火。",
+          "matched": true
+        },
+        {
+          "source": "完整度＝max(0，100−20×错误次数)。错误次数最多20，完整度最低0。不存在的节点编号直接拒绝，不扣完整度。",
+          "matched": true
+        },
+        {
+          "source": "总耗灵＝路线基础耗灵＋向下取整[(100−器胚分)÷20]＋向下取整[(100−阵纹完整度)÷25]。",
+          "matched": true
+        },
+        {
+          "source": "必须同时满足：器胚分≥60，阵纹完整度≥70，总耗灵≤9。",
+          "matched": true
+        },
+        {
+          "source": "初始30＋首单24＝54，首单交货后可直接升级，升级后14。是否立即升级由玩家决定。",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "check": "engineering entry points and unrun test statements retained",
+      "passed": true,
+      "detail": [
+        {
+          "source": "187项计划用例、编译脚本与报告",
+          "matched": true
+        },
+        {
+          "source": "当前执行策略阻止测试程序运行",
+          "matched": true
+        },
+        {
+          "source": "Assets/LianQi/Core/ForgeGame.cs",
+          "matched": true
+        },
+        {
+          "source": "Assets/LianQi/Core/SaveStore.cs",
+          "matched": true
+        },
+        {
+          "source": "Assets/LianQi/Runtime/PrototypeController.cs",
+          "matched": true
+        },
+        {
+          "source": "Assets/LianQi/Editor/PrototypeSetup.cs",
+          "matched": true
+        },
+        {
+          "source": "Assets/LianQi下三个asmdef",
+          "matched": true
+        },
+        {
+          "source": "Packages/manifest.json",
+          "matched": true
+        },
+        {
+          "source": "ProjectSettings/ProjectVersion.txt",
+          "matched": true
+        },
+        {
+          "source": "上级BuildTools/run_core_tests.ps1",
+          "matched": true
+        },
+        {
+          "source": "在Unity Hub添加LianQiSectPrototype目录，使用6000.3.28f1打开；不要把整个设计资料目录当作Unity项目。",
+          "matched": true
+        },
+        {
+          "source": "首次导入脚本会生成Generated目录下的URP资产、灰盒材质与Workshop场景；如未自动生成，选择LianQi/1. Prepare first-order prototype。",
+          "matched": true
+        },
+        {
+          "source": "打开Generated/Workshop，点击Play，从首单接单开始，记录实际控火与验收结果。",
+          "matched": true
+        },
+        {
+          "source": "完成编辑器测试后，选择LianQi/2. Build Windows x64 prototype；每次输出新的Builds/Windows_时间戳_编号目录，不覆盖旧测试包。",
+          "matched": true
+        },
+        {
+          "source": "187项计划用例覆盖控火33项、库存/指令15项、刻纹/试器/返工43项、暂停/订单/升级11项、状态校验62项、真实磁盘快照22项、1000步随机流程1项。随机流程是一个组合测试，不把1000步伪装成1000个独立测试。",
+          "matched": true
+        },
+        {
+          "source": "本机测试EXE及PowerShell脚本受管理员执行策略阻止。实际执行0，实际通过0，187项未运行。没有修改或绕过该策略。独立静态审查及编译结果不能替代这些执行结果。",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "check": "critical source fact: 实际执行0，实际通过0，187项未运行",
+      "passed": true
+    },
+    {
+      "check": "critical source fact: 核心及测试代码的编译不等于测试执行",
+      "passed": true
+    },
+    {
+      "check": "critical source fact: 尚未完成Unity导入、Play Mode或Windows构建",
+      "passed": true
+    },
+    {
+      "check": "critical source fact: 6000.3.28f1",
+      "passed": true
+    },
+    {
+      "check": "critical source fact: 17.3.0",
+      "passed": true
+    },
+    {
+      "check": "critical source fact: 8f082d2fe476",
+      "passed": true
+    },
+    {
+      "check": "A4 page size and symmetric safe text width",
+      "passed": true
+    },
+    {
+      "check": "all explicit body fonts are Microsoft YaHei including eastAsia",
+      "passed": true
+    },
+    {
+      "check": "table cell text is 11pt",
+      "passed": true
+    },
+    {
+      "check": "metadata title matches source",
+      "passed": true
+    }
+  ],
+  "paragraph_alignment": [
+    {
+      "source_line": 1,
+      "kind": "heading",
+      "source": "炼器宗门 V0.1 首单闭环功能规格",
+      "docx": "炼器宗门 V0.1 首单闭环功能规格",
+      "matched": true,
+      "style": "Title",
+      "numId": null
+    },
+    {
+      "source_line": 3,
+      "kind": "paragraph",
+      "source": "版本：V0.1-M0-A；日期：2026-11-18；目标平台：Windows x64、鼠标操作；工程：LianQiSectPrototype。",
+      "docx": "版本：V0.1-M0-A；日期：2026-11-18；目标平台：Windows x64、鼠标操作；工程：LianQiSectPrototype。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 5,
+      "kind": "heading",
+      "source": "一、版本范围与完成条件",
+      "docx": "一、版本范围与完成条件",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 7,
+      "kind": "heading",
+      "source": "1.1 本轮功能范围",
+      "docx": "1.1 本轮功能范围",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 9,
+      "kind": "paragraph",
+      "source": "玩家以神秘炼器宗师弟子的身份接手没落宗门，在固定工作台中完成一份“省力灵田锄”委托：查看要求、接单、选择方案、投料、控火、连接阵纹、试器、返工、交货、修復聚火炉胆、接复单练习。",
+      "docx": "玩家以神秘炼器宗师弟子的身份接手没落宗门，在固定工作台中完成一份“省力灵田锄”委托：查看要求、接单、选择方案、投料、控火、连接阵纹、试器、返工、交货、修復聚火炉胆、接复单练习。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 11,
+      "kind": "paragraph",
+      "source": "本轮实现一个器图、两条炼制路线、三种材料、一项设施升级。复单是相同器图的新订单，不是新委托内容。",
+      "docx": "本轮实现一个器图、两条炼制路线、三种材料、一项设施升级。复单是相同器图的新订单，不是新委托内容。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 13,
+      "kind": "paragraph",
+      "source": "后续V0.1完整灰盒范围仍为三单：省力工具、护身器、旧器修复，材料总量不超过六种。本轮不提前实装后两单。",
+      "docx": "后续V0.1完整灰盒范围仍为三单：省力工具、护身器、旧器修复，材料总量不超过六种。本轮不提前实装后两单。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 24,
+      "kind": "paragraph",
+      "source": "当前不能将此版本标记为“可玩Demo已验收”：尚未完成Unity导入、Play Mode或Windows构建。核心及测试代码的编译不等于测试执行。",
+      "docx": "当前不能将此版本标记为“可玩Demo已验收”：尚未完成Unity导入、Play Mode或Windows构建。核心及测试代码的编译不等于测试执行。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 26,
+      "kind": "heading",
+      "source": "1.2 本轮排除项",
+      "docx": "1.2 本轮排除项",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 28,
+      "kind": "paragraph",
+      "source": "不实现自由移动、战斗、宗门地图、弟子AI、离线收益、完整宗门建筑链、器灵、器劫、实时AI生成委托、Steam SDK、成就、云存档、联网排行榜、正式美术和音频。不使用原游戏的资源、文本、模型或反编译代码。",
+      "docx": "不实现自由移动、战斗、宗门地图、弟子AI、离线收益、完整宗门建筑链、器灵、器劫、实时AI生成委托、Steam SDK、成就、云存档、联网排行榜、正式美术和音频。不使用原游戏的资源、文本、模型或反编译代码。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 30,
+      "kind": "heading",
+      "source": "1.3 首单验收门槛",
+      "docx": "1.3 首单验收门槛",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 32,
+      "kind": "bullet",
+      "source": "玩家能在不接受口头指导的情况下找到接单、选方案、投料、控火、刻纹、试器及交货入口。",
+      "docx": "玩家能在不接受口头指导的情况下找到接单、选方案、投料、控火、刻纹、试器及交货入口。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 33,
+      "kind": "bullet",
+      "source": "两条路线均存在可交付的操作策略；不能出现某一条路线数值上必败。",
+      "docx": "两条路线均存在可交付的操作策略；不能出现某一条路线数值上必败。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 34,
+      "kind": "bullet",
+      "source": "完全不加火、全程最大火、连续错连阵纹等行为产生可解释的差结果。",
+      "docx": "完全不加火、全程最大火、连续错连阵纹等行为产生可解释的差结果。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 35,
+      "kind": "bullet",
+      "source": "失败后可免费返工；返工不重复扣原料，不保留旧成绩。",
+      "docx": "失败后可免费返工；返工不重复扣原料，不保留旧成绩。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 36,
+      "kind": "bullet",
+      "source": "重复交货、采购失败、投料失败、暂停、失焦、存读档不破坏库存与结算。",
+      "docx": "重复交货、采购失败、投料失败、暂停、失焦、存读档不破坏库存与结算。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 37,
+      "kind": "bullet",
+      "source": "一次炉胆升级改变下一炉的可操作温区，而不是只修改账簿数字。",
+      "docx": "一次炉胆升级改变下一炉的可操作温区，而不是只修改账簿数字。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 38,
+      "kind": "bullet",
+      "source": "首单及复单在Windows独立构建中完成后，方可进入后两单实现。",
+      "docx": "首单及复单在Windows独立构建中完成后，方可进入后两单实现。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 40,
+      "kind": "heading",
+      "source": "二、玩家界面与输入",
+      "docx": "二、玩家界面与输入",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 42,
+      "kind": "heading",
+      "source": "2.1 布局",
+      "docx": "2.1 布局",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 44,
+      "kind": "paragraph",
+      "source": "逻辑画布1280×800，保持比例缩放并居中；窗口可缩放。左侧宗门账簿，右上标题与固定视角灰盒工坊，右下当前工序与提示。",
+      "docx": "逻辑画布1280×800，保持比例缩放并居中；窗口可缩放。左侧宗门账簿，右上标题与固定视角灰盒工坊，右下当前工序与提示。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 46,
+      "kind": "paragraph",
+      "source": "左侧常驻：灵石、青纹铁、回元墨、引灵银、炉胆等级、当前订单编号、上一已支付订单编号、验收要求、暂停、手动保存、另开新局入口。",
+      "docx": "左侧常驻：灵石、青纹铁、回元墨、引灵银、炉胆等级、当前订单编号、上一已支付订单编号、验收要求、暂停、手动保存、另开新局入口。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 48,
+      "kind": "paragraph",
+      "source": "右侧工序区随状态切换。交互代码使用Unity IMGUI，正式UI替换前不依赖复杂预制体。3D器胚、炉子与试器田均为占位方块，不代表正式资产规格。",
+      "docx": "右侧工序区随状态切换。交互代码使用Unity IMGUI，正式UI替换前不依赖复杂预制体。3D器胚、炉子与试器田均为占位方块，不代表正式资产规格。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 50,
+      "kind": "heading",
+      "source": "2.2 输入规则",
+      "docx": "2.2 输入规则",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 61,
+      "kind": "paragraph",
+      "source": "暂停期间不能接单、采购、换方案、投料、刻纹、试器、返工、交货、升级或接复单。允许手动保存与继续。",
+      "docx": "暂停期间不能接单、采购、换方案、投料、刻纹、试器、返工、交货、升级或接复单。允许手动保存与继续。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 63,
+      "kind": "heading",
+      "source": "2.3 反馈最低要求",
+      "docx": "2.3 反馈最低要求",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 65,
+      "kind": "bullet",
+      "source": "控火必须显示当前温度、目标温区、剩余时间、风门比例、已累计合格时间。",
+      "docx": "控火必须显示当前温度、目标温区、剩余时间、风门比例、已累计合格时间。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 66,
+      "kind": "bullet",
+      "source": "温度不足说明“材性未展开”；温度过高说明“灵性流散”。本轮均通过损失合格时间表现，不另设烧毁概率。",
+      "docx": "温度不足说明“材性未展开”；温度过高说明“灵性流散”。本轮均通过损失合格时间表现，不另设烧毁概率。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 67,
+      "kind": "bullet",
+      "source": "刻纹显示器胚分、阵纹完整度、完整路线、已连通部分与下一节点。",
+      "docx": "刻纹显示器胚分、阵纹完整度、完整路线、已连通部分与下一节点。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 68,
+      "kind": "bullet",
+      "source": "错点真实节点：路径不前进，完整度扣20，提示原因并立即保存。",
+      "docx": "错点真实节点：路径不前进，完整度扣20，提示原因并立即保存。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 69,
+      "kind": "bullet",
+      "source": "试器显示器胚分、完整度、总耗灵及合格状态，交货前必须进行试器。",
+      "docx": "试器显示器胚分、完整度、总耗灵及合格状态，交货前必须进行试器。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 70,
+      "kind": "bullet",
+      "source": "采购、投料或升级失败，明确说明没有扣除余额或材料。",
+      "docx": "采购、投料或升级失败，明确说明没有扣除余额或材料。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 72,
+      "kind": "heading",
+      "source": "三、委托、材料与初始资源",
+      "docx": "三、委托、材料与初始资源",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 74,
+      "kind": "heading",
+      "source": "3.1 委托定义",
+      "docx": "3.1 委托定义",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 76,
+      "kind": "paragraph",
+      "source": "委托名称：省力灵田锄；客户：灵农；器物类型：生产工具；报酬：24灵石。",
+      "docx": "委托名称：省力灵田锄；客户：灵农；器物类型：生产工具；报酬：24灵石。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 78,
+      "kind": "paragraph",
+      "source": "客户要求连续翻动三块灵田，总耗灵不超过9，器胚分至少60，阵纹完整度至少70。三项条件同时满足才能交货。当前“三块田”是一次验收按钮触发的总量计算，不包含三次独立挥锄操作。",
+      "docx": "客户要求连续翻动三块灵田，总耗灵不超过9，器胚分至少60，阵纹完整度至少70。三项条件同时满足才能交货。当前“三块田”是一次验收按钮触发的总量计算，不包含三次独立挥锄操作。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 80,
+      "kind": "paragraph",
+      "source": "初始订单编号1；上一支付订单编号0。复单编号递增，每个编号最多支付一次。",
+      "docx": "初始订单编号1；上一支付订单编号0。复单编号递增，每个编号最多支付一次。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 82,
+      "kind": "heading",
+      "source": "3.2 初始资源",
+      "docx": "3.2 初始资源",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 92,
+      "kind": "paragraph",
+      "source": "存量足以完成首单和一次复单。复单不强制采购；只有现存原料不足时才补货。",
+      "docx": "存量足以完成首单和一次复单。复单不强制采购；只有现存原料不足时才补货。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 94,
+      "kind": "heading",
+      "source": "3.3 材料与采购",
+      "docx": "3.3 材料与采购",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 102,
+      "kind": "paragraph",
+      "source": "每次点击购买1份，不能输入任意数量。仅在查看委托、方案规划或已交货阶段采购。余额不足、库存达上限或阶段不正确时，余额和库存全部不变。",
+      "docx": "每次点击购买1份，不能输入任意数量。仅在查看委托、方案规划或已交货阶段采购。余额不足、库存达上限或阶段不正确时，余额和库存全部不变。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 104,
+      "kind": "paragraph",
+      "source": "库存限定为0—1,000,000；余额限定为0—1,000,000,000。正常游玩不应触达上限；上限用于存档与越界防护。",
+      "docx": "库存限定为0—1,000,000；余额限定为0—1,000,000,000。正常游玩不应触达上限；上限用于存档与越界防护。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 106,
+      "kind": "heading",
+      "source": "3.4 两条炼制路线",
+      "docx": "3.4 两条炼制路线",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 117,
+      "kind": "paragraph",
+      "source": "投料前允许免费切换路线。投料后不能直接换路线，返工也沿用本次路线。",
+      "docx": "投料前允许免费切换路线。投料后不能直接换路线，返工也沿用本次路线。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 119,
+      "kind": "paragraph",
+      "source": "报酬相同，不因选择低耗灵路线额外加钱。按全量补货计算，正常合格一单的材料后收益分别为10、6灵石；首单使用赠送库存时实际现金增加24，不把赠送库存当作永续零成本。",
+      "docx": "报酬相同，不因选择低耗灵路线额外加钱。按全量补货计算，正常合格一单的材料后收益分别为10、6灵石；首单使用赠送库存时实际现金增加24，不把赠送库存当作永续零成本。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 121,
+      "kind": "heading",
+      "source": "四、流程状态与交易规则",
+      "docx": "四、流程状态与交易规则",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 123,
+      "kind": "heading",
+      "source": "4.1 状态表",
+      "docx": "4.1 状态表",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 134,
+      "kind": "heading",
+      "source": "4.2 投料原子性",
+      "docx": "4.2 投料原子性",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 136,
+      "kind": "paragraph",
+      "source": "投料时先一次性检查所有材料需求。任意一种不足则完全不扣料；全部满足后一次性扣除，记录MaterialsCommitted，再开始控火。连续点击投料按钮不能重复扣料，因为首次成功后已离开Planning。",
+      "docx": "投料时先一次性检查所有材料需求。任意一种不足则完全不扣料；全部满足后一次性扣除，记录MaterialsCommitted，再开始控火。连续点击投料按钮不能重复扣料，因为首次成功后已离开Planning。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 138,
+      "kind": "paragraph",
+      "source": "取消仅允许在Planning，回到Commission，材料不变。投料后不开放撤单退款；本轮以免费返工避免首单废料软锁。",
+      "docx": "取消仅允许在Planning，回到Commission，材料不变。投料后不开放撤单退款；本轮以免费返工避免首单废料软锁。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 140,
+      "kind": "heading",
+      "source": "4.3 唯一结算",
+      "docx": "4.3 唯一结算",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 142,
+      "kind": "paragraph",
+      "source": "交货必须在Trial，TrialTested和TrialPassed均为真，且当前编号大于上一已支付编号。交货原子性包括：增加24灵石、更新上一支付编号、进入Delivered。",
+      "docx": "交货必须在Trial，TrialTested和TrialPassed均为真，且当前编号大于上一已支付编号。交货原子性包括：增加24灵石、更新上一支付编号、进入Delivered。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 144,
+      "kind": "paragraph",
+      "source": "已支付编号必须与阶段一致：未交货时为当前编号减1，已交货时等于当前编号。保存和读档检查该不变量。重复交货不能再次发钱。",
+      "docx": "已支付编号必须与阶段一致：未交货时为当前编号减1，已交货时等于当前编号。保存和读档检查该不变量。重复交货不能再次发钱。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 146,
+      "kind": "heading",
+      "source": "五、控火系统",
+      "docx": "五、控火系统",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 148,
+      "kind": "heading",
+      "source": "5.1 变量与时间",
+      "docx": "5.1 变量与时间",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 159,
+      "kind": "paragraph",
+      "source": "本轮温度是抽象工艺标尺，不是真实摄氏温度。",
+      "docx": "本轮温度是抽象工艺标尺，不是真实摄氏温度。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 161,
+      "kind": "heading",
+      "source": "5.2 温度推进",
+      "docx": "5.2 温度推进",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 163,
+      "kind": "paragraph",
+      "source": "每个积分步计算：新温度＝旧温度＋[28×风门−0.16×(旧温度−20)]×步长，然后限制在0—100。",
+      "docx": "每个积分步计算：新温度＝旧温度＋[28×风门−0.16×(旧温度−20)]×步长，然后限制在0—100。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 165,
+      "kind": "paragraph",
+      "source": "运行层将一帧经过的非缩放时间切成不超过0.02秒的小步；核心单次允许的步长为大于0且不超过0.25秒。低帧率不直接丢弃超过0.25秒的帧时间。若一帧跨越工艺终点，只推进到12秒，不溢入刻纹阶段。",
+      "docx": "运行层将一帧经过的非缩放时间切成不超过0.02秒的小步；核心单次允许的步长为大于0且不超过0.25秒。低帧率不直接丢弃超过0.25秒的帧时间。若一帧跨越工艺终点，只推进到12秒，不溢入刻纹阶段。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 167,
+      "kind": "paragraph",
+      "source": "核心拒绝NaN、Infinity、负步长、零步长、超大步长及超界风门；拒绝时状态不变。",
+      "docx": "核心拒绝NaN、Infinity、负步长、零步长、超大步长及超界风门；拒绝时状态不变。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 169,
+      "kind": "heading",
+      "source": "5.3 合格时间与器胚分",
+      "docx": "5.3 合格时间与器胚分",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 171,
+      "kind": "paragraph",
+      "source": "一个积分步若跨越温区边界，按此步新旧温度的线性区间计算温区内重叠比例，不能仅以帧末温度决定整步得分。",
+      "docx": "一个积分步若跨越温区边界，按此步新旧温度的线性区间计算温区内重叠比例，不能仅以帧末温度决定整步得分。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 173,
+      "kind": "paragraph",
+      "source": "器胚分＝向下取整[100×合格时间÷12＋0.5]，范围0—100。该分值不包含随机成功率，不使用语言默认的银行家舍入。",
+      "docx": "器胚分＝向下取整[100×合格时间÷12＋0.5]，范围0—100。该分值不包含随机成功率，不使用语言默认的银行家舍入。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 175,
+      "kind": "paragraph",
+      "source": "12秒结束后固化器胚分，进入刻纹。即使器胚分很低也允许继续体验刻纹与试器，并在结果页返工。",
+      "docx": "12秒结束后固化器胚分，进入刻纹。即使器胚分很低也允许继续体验刻纹与试器，并在结果页返工。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 177,
+      "kind": "heading",
+      "source": "5.4 可操作策略与失败反馈",
+      "docx": "5.4 可操作策略与失败反馈",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 179,
+      "kind": "paragraph",
+      "source": "升温阶段可拉高风门；接近目标温区时减火。保持某温度的理论风门为0.16×(T−20)÷28。此式用于提示与测试策略，不自动代玩家控火。",
+      "docx": "升温阶段可拉高风门；接近目标温区时减火。保持某温度的理论风门为0.16×(T−20)÷28。此式用于提示与测试策略，不自动代玩家控火。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 181,
+      "kind": "paragraph",
+      "source": "完全不加火时温度远离合格区；全程最大火时过快穿过目标区并继续升温。二者应出现低器胚分，不可仅靠选配方自动成功。实际分值及操作难度须由Unity运行测试记录。",
+      "docx": "完全不加火时温度远离合格区；全程最大火时过快穿过目标区并继续升温。二者应出现低器胚分，不可仅靠选配方自动成功。实际分值及操作难度须由Unity运行测试记录。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 183,
+      "kind": "heading",
+      "source": "六、刻纹系统",
+      "docx": "六、刻纹系统",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 185,
+      "kind": "heading",
+      "source": "6.1 图样",
+      "docx": "6.1 图样",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 187,
+      "kind": "paragraph",
+      "source": "UI节点显示编号1—6。核心内部编号0—5。",
+      "docx": "UI节点显示编号1—6。核心内部编号0—5。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 189,
+      "kind": "bullet",
+      "source": "省料直路：显示节点1→2→4→6，核心序列0→1→3→5。",
+      "docx": "省料直路：显示节点1→2→4→6，核心序列0→1→3→5。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 190,
+      "kind": "bullet",
+      "source": "低耗灵回路：显示节点1→3→4→5→6，核心序列0→2→3→4→5。",
+      "docx": "低耗灵回路：显示节点1→3→4→5→6，核心序列0→2→3→4→5。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 192,
+      "kind": "paragraph",
+      "source": "器图在刻纹开始时显示，下一正确节点以选中态提示；已完成的线段改变颜色。本轮验证的是工序顺序与失误反馈，不验证玩家是否能猜中隐藏图案。",
+      "docx": "器图在刻纹开始时显示，下一正确节点以选中态提示；已完成的线段改变颜色。本轮验证的是工序顺序与失误反馈，不验证玩家是否能猜中隐藏图案。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 194,
+      "kind": "heading",
+      "source": "6.2 判定",
+      "docx": "6.2 判定",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 196,
+      "kind": "paragraph",
+      "source": "正确点击下一个节点：进度加1；完成末节点即进入Trial。点击存在但不正确的节点：进度不变，错误次数加1，完整度扣20；重复点击已完成节点也按错误处理。",
+      "docx": "正确点击下一个节点：进度加1；完成末节点即进入Trial。点击存在但不正确的节点：进度不变，错误次数加1，完整度扣20；重复点击已完成节点也按错误处理。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 198,
+      "kind": "paragraph",
+      "source": "完整度＝max(0，100−20×错误次数)。错误次数最多20，完整度最低0。不存在的节点编号直接拒绝，不扣完整度。",
+      "docx": "完整度＝max(0，100−20×错误次数)。错误次数最多20，完整度最低0。不存在的节点编号直接拒绝，不扣完整度。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 200,
+      "kind": "paragraph",
+      "source": "真实错误点选虽返回失败提示，但改变了状态，必须触发快照保存；不能用“命令是否成功”代替“状态是否变化”。",
+      "docx": "真实错误点选虽返回失败提示，但改变了状态，必须触发快照保存；不能用“命令是否成功”代替“状态是否变化”。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 202,
+      "kind": "heading",
+      "source": "七、试器、验收与返工",
+      "docx": "七、试器、验收与返工",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 204,
+      "kind": "heading",
+      "source": "7.1 耗灵公式",
+      "docx": "7.1 耗灵公式",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 206,
+      "kind": "paragraph",
+      "source": "总耗灵＝路线基础耗灵＋向下取整[(100−器胚分)÷20]＋向下取整[(100−阵纹完整度)÷25]。",
+      "docx": "总耗灵＝路线基础耗灵＋向下取整[(100−器胚分)÷20]＋向下取整[(100−阵纹完整度)÷25]。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 208,
+      "kind": "paragraph",
+      "source": "所有惩罚项为非负整数除法。总耗灵是连续翻三块田的总量，不是每块田再乘三。",
+      "docx": "所有惩罚项为非负整数除法。总耗灵是连续翻三块田的总量，不是每块田再乘三。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 210,
+      "kind": "heading",
+      "source": "7.2 验收条件",
+      "docx": "7.2 验收条件",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 212,
+      "kind": "paragraph",
+      "source": "必须同时满足：器胚分≥60，阵纹完整度≥70，总耗灵≤9。",
+      "docx": "必须同时满足：器胚分≥60，阵纹完整度≥70，总耗灵≤9。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 224,
+      "kind": "paragraph",
+      "source": "器胚最低门槛和耗灵预算是两个独立条件；达到60分不保证省料路线自动合格。",
+      "docx": "器胚最低门槛和耗灵预算是两个独立条件；达到60分不保证省料路线自动合格。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 226,
+      "kind": "heading",
+      "source": "7.3 结果页",
+      "docx": "7.3 结果页",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 228,
+      "kind": "paragraph",
+      "source": "试器按钮只计算结果，不发报酬、不扣试器消耗。可多次试器但不得叠加收益。",
+      "docx": "试器按钮只计算结果，不发报酬、不扣试器消耗。可多次试器但不得叠加收益。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 230,
+      "kind": "paragraph",
+      "source": "结果页必须显示三项实际数值。合格时开放交货；不合格时交货禁用，但返工仍可用。阶段错误或暂停时核心拒绝交货，即使UI被误调用也不可越过验收。",
+      "docx": "结果页必须显示三项实际数值。合格时开放交货；不合格时交货禁用，但返工仍可用。阶段错误或暂停时核心拒绝交货，即使UI被误调用也不可越过验收。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 232,
+      "kind": "heading",
+      "source": "7.4 返工",
+      "docx": "7.4 返工",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 234,
+      "kind": "paragraph",
+      "source": "Trial允许免费返工，不要求先点击试器。返工保留已投入材料和路线，不扣额外灵石、铁、墨或银。",
+      "docx": "Trial允许免费返工，不要求先点击试器。返工保留已投入材料和路线，不扣额外灵石、铁、墨或银。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 236,
+      "kind": "paragraph",
+      "source": "返工重置温度40、热时间0、合格时间0、器胚分0、节点进度0、错误次数0、完整度100、试器标志与耗灵结果，重新进入Heating。旧成绩不可与新成绩叠加。",
+      "docx": "返工重置温度40、热时间0、合格时间0、器胚分0、节点进度0、错误次数0、完整度100、试器标志与耗灵结果，重新进入Heating。旧成绩不可与新成绩叠加。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 238,
+      "kind": "paragraph",
+      "source": "免费返工限当前首单/复单练习的灰盒规则。后续正式玩法的返工耗材、器胚磨损与赔偿尚未定稿，不在本轮增加隐藏收费。",
+      "docx": "免费返工限当前首单/复单练习的灰盒规则。后续正式玩法的返工耗材、器胚磨损与赔偿尚未定稿，不在本轮增加隐藏收费。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 240,
+      "kind": "heading",
+      "source": "八、炉胆升级与复单",
+      "docx": "八、炉胆升级与复单",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 242,
+      "kind": "heading",
+      "source": "8.1 聚火炉胆修复",
+      "docx": "8.1 聚火炉胆修复",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 244,
+      "kind": "paragraph",
+      "source": "仅已交货时可升级，支付40灵石，从0级变为1级，只能一次。余额不足或已为1级时不扣费。",
+      "docx": "仅已交货时可升级，支付40灵石，从0级变为1级，只能一次。余额不足或已为1级时不扣费。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 246,
+      "kind": "paragraph",
+      "source": "升级不提高器胚分、不减耗灵基础值，而是使两条路线目标温区下边界降低4，上边界提高4：省料56—76，低耗灵60—74。",
+      "docx": "升级不提高器胚分、不减耗灵基础值，而是使两条路线目标温区下边界降低4，上边界提高4：省料56—76，低耗灵60—74。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 248,
+      "kind": "paragraph",
+      "source": "升级后下一次控火立即使用新温区。返工也应使用当前炉胆等级，但本轮升级只在Delivered开放，不在正在炼制的工艺中切换等级。",
+      "docx": "升级后下一次控火立即使用新温区。返工也应使用当前炉胆等级，但本轮升级只在Delivered开放，不在正在炼制的工艺中切换等级。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 250,
+      "kind": "paragraph",
+      "source": "初始30＋首单24＝54，首单交货后可直接升级，升级后14。是否立即升级由玩家决定。",
+      "docx": "初始30＋首单24＝54，首单交货后可直接升级，升级后14。是否立即升级由玩家决定。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 252,
+      "kind": "heading",
+      "source": "8.2 复单",
+      "docx": "8.2 复单",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 254,
+      "kind": "paragraph",
+      "source": "接复单时当前编号加1，沿用现有灵石、库存、炉胆等级；清空工艺结果，恢复投料前状态，进入Planning。",
+      "docx": "接复单时当前编号加1，沿用现有灵石、库存、炉胆等级；清空工艺结果，恢复投料前状态，进入Planning。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 256,
+      "kind": "paragraph",
+      "source": "复单使用同一灵田锄委托、同一验收与报酬。玩家可选择另一条路线、验证升级影响或练习控火。只有库存不足时需要补货，不强制耗尽初始资源。",
+      "docx": "复单使用同一灵田锄委托、同一验收与报酬。玩家可选择另一条路线、验证升级影响或练习控火。只有库存不足时需要补货，不强制耗尽初始资源。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 258,
+      "kind": "heading",
+      "source": "九、存档、暂停与异常恢复",
+      "docx": "九、存档、暂停与异常恢复",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 260,
+      "kind": "heading",
+      "source": "9.1 数据范围",
+      "docx": "9.1 数据范围",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 262,
+      "kind": "paragraph",
+      "source": "RunState使用版本1，保存阶段、路线、灵石、三类库存、炉胆等级、订单与结算编号、投料标记、控火温度/经过时间/合格时长/器胚分、刻纹进度/错误数/完整度、试器标志/通过标志/耗灵结果、暂停状态。",
+      "docx": "RunState使用版本1，保存阶段、路线、灵石、三类库存、炉胆等级、订单与结算编号、投料标记、控火温度/经过时间/合格时长/器胚分、刻纹进度/错误数/完整度、试器标志/通过标志/耗灵结果、暂停状态。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 264,
+      "kind": "paragraph",
+      "source": "风门滑条的当前输入不是存档结果。读档后重新显示默认风门，玩家检查温度后自行继续；加载暂停快照时不自动恢复计时。",
+      "docx": "风门滑条的当前输入不是存档结果。读档后重新显示默认风门，玩家检查温度后自行继续；加载暂停快照时不自动恢复计时。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 266,
+      "kind": "heading",
+      "source": "9.2 追加式快照",
+      "docx": "9.2 追加式快照",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 268,
+      "kind": "paragraph",
+      "source": "保存目录位于Unity Application.persistentDataPath下的PrototypeSnapshots。每次生成独立时间戳与GUID文件，不覆盖、不截断、不删除任何旧快照。",
+      "docx": "保存目录位于Unity Application.persistentDataPath下的PrototypeSnapshots。每次生成独立时间戳与GUID文件，不覆盖、不截断、不删除任何旧快照。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 270,
+      "kind": "paragraph",
+      "source": "文件包含版本头、正文SHA-256、JSON正文；最大1MiB。SHA-256用于发现损坏，不宣称为防作弊签名。",
+      "docx": "文件包含版本头、正文SHA-256、JSON正文；最大1MiB。SHA-256用于发现损坏，不宣称为防作弊签名。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 272,
+      "kind": "paragraph",
+      "source": "本轮不自动清理历史快照，长期测试会累积文件。正式版再设计用户可控的保留数量、槽位与可恢复整理策略。",
+      "docx": "本轮不自动清理历史快照，长期测试会累积文件。正式版再设计用户可控的保留数量、槽位与可恢复整理策略。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 274,
+      "kind": "heading",
+      "source": "9.3 保存触发",
+      "docx": "9.3 保存触发",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 276,
+      "kind": "bullet",
+      "source": "所有改变状态的交互后保存，包括错误刻纹扣分。",
+      "docx": "所有改变状态的交互后保存，包括错误刻纹扣分。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 277,
+      "kind": "bullet",
+      "source": "控火中每累计约1秒保存一次，工序切换立即保存。",
+      "docx": "控火中每累计约1秒保存一次，工序切换立即保存。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 278,
+      "kind": "bullet",
+      "source": "手动保存、暂停、失焦、正常退出时保存。",
+      "docx": "手动保存、暂停、失焦、正常退出时保存。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 279,
+      "kind": "bullet",
+      "source": "采购不足等完全无状态变化的失败无需保存。",
+      "docx": "采购不足等完全无状态变化的失败无需保存。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "2"
+    },
+    {
+      "source_line": 281,
+      "kind": "paragraph",
+      "source": "异常终止可能丢失最后不足约1秒的控火进度。不能将定期快照描述为每帧零丢失。",
+      "docx": "异常终止可能丢失最后不足约1秒的控火进度。不能将定期快照描述为每帧零丢失。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 283,
+      "kind": "heading",
+      "source": "9.4 读取与校验",
+      "docx": "9.4 读取与校验",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 285,
+      "kind": "paragraph",
+      "source": "按文件修改时间由新到旧读取；修改时间相同时以文件名确定顺序。逐份校验文件头、长度、摘要、JSON及状态不变量；损坏、不兼容或单份无权限时跳过并继续尝试旧有效档。",
+      "docx": "按文件修改时间由新到旧读取；修改时间相同时以文件名确定顺序。逐份校验文件头、长度、摘要、JSON及状态不变量；损坏、不兼容或单份无权限时跳过并继续尝试旧有效档。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 287,
+      "kind": "paragraph",
+      "source": "校验包括非负余额/库存、合法枚举、订单编号与结算一致性、有限温度与时间、合格时长不大于经过时间、投料标记与阶段一致、器胚分与热记录一致、节点进度合法、完整度与错误数一致、试器结果与公式一致。",
+      "docx": "校验包括非负余额/库存、合法枚举、订单编号与结算一致性、有限温度与时间、合格时长不大于经过时间、投料标记与阶段一致、器胚分与热记录一致、节点进度合法、完整度与错误数一致、试器结果与公式一致。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 289,
+      "kind": "paragraph",
+      "source": "没有任何有效快照时，不自动覆盖：显示错误并让玩家选择保留旧档另开新局。整个目录不可访问时同样显示明确错误，不静默把读取失败当作从未存档。",
+      "docx": "没有任何有效快照时，不自动覆盖：显示错误并让玩家选择保留旧档另开新局。整个目录不可访问时同样显示明确错误，不静默把读取失败当作从未存档。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 291,
+      "kind": "paragraph",
+      "source": "保存失败时暂停工艺，保留内存当前局，阻止继续推进；修复磁盘空间或权限后点击“重试保存”。成功保存后仍保持暂停，由玩家手动继续。",
+      "docx": "保存失败时暂停工艺，保留内存当前局，阻止继续推进；修复磁盘空间或权限后点击“重试保存”。成功保存后仍保持暂停，由玩家手动继续。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 293,
+      "kind": "heading",
+      "source": "十、工程结构与启动入口",
+      "docx": "十、工程结构与启动入口",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 295,
+      "kind": "heading",
+      "source": "10.1 目录与职责",
+      "docx": "10.1 目录与职责",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 310,
+      "kind": "paragraph",
+      "source": "本轮固定默认数值集中在Balance，不并行维护另一份JSON或Python数值模型。进入第二份委托时再提取器图定义与委托定义；运行状态不能直接写回ScriptableObject定义资产。",
+      "docx": "本轮固定默认数值集中在Balance，不并行维护另一份JSON或Python数值模型。进入第二份委托时再提取器图定义与委托定义；运行状态不能直接写回ScriptableObject定义资产。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 312,
+      "kind": "heading",
+      "source": "10.2 引擎配置",
+      "docx": "10.2 引擎配置",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 314,
+      "kind": "paragraph",
+      "source": "工程锁定Unity 6000.3.28f1。官方发行接口返回该版本为LTS、发布于2026-11-03、revision为8f082d2fe476。URP锁定17.3.0，公开17.3 API文档确认管线资产Create(rendererData)接口。",
+      "docx": "工程锁定Unity 6000.3.28f1。官方发行接口返回该版本为LTS、发布于2026-11-03、revision为8f082d2fe476。URP锁定17.3.0，公开17.3 API文档确认管线资产Create(rendererData)接口。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 316,
+      "kind": "paragraph",
+      "source": "必要内置模块声明为IMGUI、JSONSerialize、Physics；真实UPM包解析和传递依赖仍待编辑器导入核实。本轮不安装引擎、不切换系统权限或执行策略。",
+      "docx": "必要内置模块声明为IMGUI、JSONSerialize、Physics；真实UPM包解析和传递依赖仍待编辑器导入核实。本轮不安装引擎、不切换系统权限或执行策略。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 318,
+      "kind": "heading",
+      "source": "10.3 编辑器首次打开",
+      "docx": "10.3 编辑器首次打开",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 320,
+      "kind": "ordered",
+      "source": "在Unity Hub添加LianQiSectPrototype目录，使用6000.3.28f1打开；不要把整个设计资料目录当作Unity项目。",
+      "docx": "在Unity Hub添加LianQiSectPrototype目录，使用6000.3.28f1打开；不要把整个设计资料目录当作Unity项目。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 321,
+      "kind": "ordered",
+      "source": "等待UPM解析和脚本编译，先查看Console是否有红色错误。",
+      "docx": "等待UPM解析和脚本编译，先查看Console是否有红色错误。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 322,
+      "kind": "ordered",
+      "source": "首次导入脚本会生成Generated目录下的URP资产、灰盒材质与Workshop场景；如未自动生成，选择LianQi/1. Prepare first-order prototype。",
+      "docx": "首次导入脚本会生成Generated目录下的URP资产、灰盒材质与Workshop场景；如未自动生成，选择LianQi/1. Prepare first-order prototype。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 323,
+      "kind": "ordered",
+      "source": "打开Generated/Workshop，点击Play，从首单接单开始，记录实际控火与验收结果。",
+      "docx": "打开Generated/Workshop，点击Play，从首单接单开始，记录实际控火与验收结果。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 324,
+      "kind": "ordered",
+      "source": "如果有未保存场景，准备流程会先请求保存；用户取消后不继续准备或构建。",
+      "docx": "如果有未保存场景，准备流程会先请求保存；用户取消后不继续准备或构建。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 325,
+      "kind": "ordered",
+      "source": "完成编辑器测试后，选择LianQi/2. Build Windows x64 prototype；每次输出新的Builds/Windows_时间戳_编号目录，不覆盖旧测试包。",
+      "docx": "完成编辑器测试后，选择LianQi/2. Build Windows x64 prototype；每次输出新的Builds/Windows_时间戳_编号目录，不覆盖旧测试包。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "3"
+    },
+    {
+      "source_line": 327,
+      "kind": "paragraph",
+      "source": "源工程尚未真正导入编辑器，因此Generated场景及Unity自动生成的.meta、ProjectSettings补充项、packages-lock.json并不存在于本轮初始交付；它们由首次打开产生。导入后应纳入工程版本控制的资产及.meta，不能把Library/Temp/Logs也提交。",
+      "docx": "源工程尚未真正导入编辑器，因此Generated场景及Unity自动生成的.meta、ProjectSettings补充项、packages-lock.json并不存在于本轮初始交付；它们由首次打开产生。导入后应纳入工程版本控制的资产及.meta，不能把Library/Temp/Logs也提交。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 329,
+      "kind": "heading",
+      "source": "10.4 构建条件",
+      "docx": "10.4 构建条件",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 331,
+      "kind": "paragraph",
+      "source": "安装匹配编辑器的Windows Build Support。当前构建脚本使用Mono后端与Development选项，面向内部验证，不是Steam发行配置。IL2CPP、发布符号、正式构建与Steam集成在后续节点处理。",
+      "docx": "安装匹配编辑器的Windows Build Support。当前构建脚本使用Mono后端与Development选项，面向内部验证，不是Steam发行配置。IL2CPP、发布符号、正式构建与Steam集成在后续节点处理。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 333,
+      "kind": "heading",
+      "source": "十一、验证清单与后续制作顺序",
+      "docx": "十一、验证清单与后续制作顺序",
+      "matched": true,
+      "style": "Heading1",
+      "numId": null
+    },
+    {
+      "source_line": 335,
+      "kind": "heading",
+      "source": "11.1 自动验证",
+      "docx": "11.1 自动验证",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 337,
+      "kind": "paragraph",
+      "source": "自动测试直接编译Core源文件及测试文件，使用本机C#编译器，JSON宿主为.NET JavaScriptSerializer，不建立另一个游戏逻辑模型。",
+      "docx": "自动测试直接编译Core源文件及测试文件，使用本机C#编译器，JSON宿主为.NET JavaScriptSerializer，不建立另一个游戏逻辑模型。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 339,
+      "kind": "paragraph",
+      "source": "187项计划用例覆盖控火33项、库存/指令15项、刻纹/试器/返工43项、暂停/订单/升级11项、状态校验62项、真实磁盘快照22项、1000步随机流程1项。随机流程是一个组合测试，不把1000步伪装成1000个独立测试。",
+      "docx": "187项计划用例覆盖控火33项、库存/指令15项、刻纹/试器/返工43项、暂停/订单/升级11项、状态校验62项、真实磁盘快照22项、1000步随机流程1项。随机流程是一个组合测试，不把1000步伪装成1000个独立测试。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 341,
+      "kind": "paragraph",
+      "source": "本机测试EXE及PowerShell脚本受管理员执行策略阻止。实际执行0，实际通过0，187项未运行。没有修改或绕过该策略。独立静态审查及编译结果不能替代这些执行结果。",
+      "docx": "本机测试EXE及PowerShell脚本受管理员执行策略阻止。实际执行0，实际通过0，187项未运行。没有修改或绕过该策略。独立静态审查及编译结果不能替代这些执行结果。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    },
+    {
+      "source_line": 343,
+      "kind": "heading",
+      "source": "11.2 安装环境后的重点验收",
+      "docx": "11.2 安装环境后的重点验收",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 363,
+      "kind": "heading",
+      "source": "11.3 下一轮制作节点",
+      "docx": "11.3 下一轮制作节点",
+      "matched": true,
+      "style": "Heading2",
+      "numId": null
+    },
+    {
+      "source_line": 365,
+      "kind": "ordered",
+      "source": "环境与运行节点：安装/定位Unity，解决已确认的执行策略阻碍，在允许的环境真实执行自动测试、Play Mode与Windows构建。只修改获授权的环境，不默认调整管理员安全策略。",
+      "docx": "环境与运行节点：安装/定位Unity，解决已确认的执行策略阻碍，在允许的环境真实执行自动测试、Play Mode与Windows构建。只修改获授权的环境，不默认调整管理员安全策略。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 366,
+      "kind": "ordered",
+      "source": "首单体验节点：记录两条路线实际分数、失败原因、是否理解材料与耗灵取舍。调整控火窗口与UI提示后重新验收。",
+      "docx": "首单体验节点：记录两条路线实际分数、失败原因、是否理解材料与耗灵取舍。调整控火窗口与UI提示后重新验收。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 367,
+      "kind": "ordered",
+      "source": "第二单节点：护身器委托，新增“护身效果与持续耗灵”验收，不立即增加第三个复杂小游戏。",
+      "docx": "第二单节点：护身器委托，新增“护身效果与持续耗灵”验收，不立即增加第三个复杂小游戏。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 368,
+      "kind": "ordered",
+      "source": "第三单节点：旧器修复，增加故障定位、保留原阵纹与局部返工，不照搬首单制造流程。",
+      "docx": "第三单节点：旧器修复，增加故障定位、保留原阵纹与局部返工，不照搬首单制造流程。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 369,
+      "kind": "ordered",
+      "source": "宗门成长节点：三单基础稳定后加入一名弟子，只代办已经教会的固定备料，不独立接单或结算。",
+      "docx": "宗门成长节点：三单基础稳定后加入一名弟子，只代办已经教会的固定备料，不独立接单或结算。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 370,
+      "kind": "ordered",
+      "source": "样板关节点：替换正式工坊模型、器物状态表现、音效、UI及教学，再开展外部试玩与Steam页面准备。",
+      "docx": "样板关节点：替换正式工坊模型、器物状态表现、音效、UI及教学，再开展外部试玩与Steam页面准备。",
+      "matched": true,
+      "style": "ListParagraph",
+      "numId": "4"
+    },
+    {
+      "source_line": 372,
+      "kind": "paragraph",
+      "source": "本輪完成条件是“规格、首单源码、自动准备/构建入口与验证证据可交接”。“能玩”和“好玩”分别在真实运行验收与外部试玩中确认。",
+      "docx": "本輪完成条件是“规格、首单源码、自动准备/构建入口与验证证据可交接”。“能玩”和“好玩”分别在真实运行验收与外部试玩中确认。",
+      "matched": true,
+      "style": null,
+      "numId": null
+    }
+  ],
+  "table_alignment": [
+    {
+      "source_line": 15,
+      "matched": true,
+      "rows": 7,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "模块",
+          "docx": "模块",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "本轮工程交付",
+          "docx": "本轮工程交付",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "安装Unity后需验证",
+          "docx": "安装Unity后需验证",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "首单状态机、库存、结算、升级",
+          "docx": "首单状态机、库存、结算、升级",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "纯C#源代码",
+          "docx": "纯C#源代码",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "实际运行与边界测试",
+          "docx": "实际运行与边界测试",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "控火、刻纹、试器、返工",
+          "docx": "控火、刻纹、试器、返工",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "纯C#逻辑及IMGUI操作代码",
+          "docx": "纯C#逻辑及IMGUI操作代码",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "鼠标体验、提示、帧率影响",
+          "docx": "鼠标体验、提示、帧率影响",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "存档",
+          "docx": "存档",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "追加式快照、JSON接口、校验及回退代码",
+          "docx": "追加式快照、JSON接口、校验及回退代码",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "Unity JsonUtility往返、异常断电恢复",
+          "docx": "Unity JsonUtility往返、异常断电恢复",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "工坊",
+          "docx": "工坊",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "灰盒场景自动生成脚本",
+          "docx": "灰盒场景自动生成脚本",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "真实导入、URP显示、相机及中文显示",
+          "docx": "真实导入、URP显示、相机及中文显示",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "Windows构建",
+          "docx": "Windows构建",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "编辑器构建菜单",
+          "docx": "编辑器构建菜单",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "生成测试包并在编辑器外运行",
+          "docx": "生成测试包并在编辑器外运行",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "自动测试",
+          "docx": "自动测试",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "187项计划用例、编译脚本与报告",
+          "docx": "187项计划用例、编译脚本与报告",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "当前执行策略阻止测试程序运行",
+          "docx": "当前执行策略阻止测试程序运行",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        2350,
+        3350,
+        3938
+      ]
+    },
+    {
+      "source_line": 52,
+      "matched": true,
+      "rows": 7,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "输入",
+          "docx": "输入",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "行为",
+          "docx": "行为",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "限制",
+          "docx": "限制",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "鼠标点击按钮",
+          "docx": "鼠标点击按钮",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "接单、选方案、投料、试器、交货、升级、采购",
+          "docx": "接单、选方案、投料、试器、交货、升级、采购",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "由状态机检查，不只由按钮禁用保证",
+          "docx": "由状态机检查，不只由按钮禁用保证",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "鼠标拖动风门滑条",
+          "docx": "鼠标拖动风门滑条",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "改变0—100%燃料输入",
+          "docx": "改变0—100%燃料输入",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "仅控火阶段参与计算",
+          "docx": "仅控火阶段参与计算",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "鼠标点击阵纹节点",
+          "docx": "鼠标点击阵纹节点",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "按图样依次连通节点",
+          "docx": "按图样依次连通节点",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "本轮不是自由手绘或描线精度游戏",
+          "docx": "本轮不是自由手绘或描线精度游戏",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "暂停按钮",
+          "docx": "暂停按钮",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "冻结工艺推进及交易指令",
+          "docx": "冻结工艺推进及交易指令",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "不清空工艺状态",
+          "docx": "不清空工艺状态",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "失去窗口焦点",
+          "docx": "失去窗口焦点",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "自动暂停并尝试保存",
+          "docx": "自动暂停并尝试保存",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "返回后需手动继续",
+          "docx": "返回后需手动继续",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "另开新局",
+          "docx": "另开新局",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "接单前或已交货阶段，二次确认后新建局",
+          "docx": "接单前或已交货阶段，二次确认后新建局",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "保留旧快照；不在投料中途直接重置",
+          "docx": "保留旧快照；不在投料中途直接重置",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        2400,
+        3550,
+        3688
+      ]
+    },
+    {
+      "source_line": 84,
+      "matched": true,
+      "rows": 6,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "项目",
+          "docx": "项目",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "初始值",
+          "docx": "初始值",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "用途",
+          "docx": "用途",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "灵石",
+          "docx": "灵石",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "30",
+          "docx": "30",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "采购材料、修复炉胆",
+          "docx": "采购材料、修复炉胆",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "青纹铁",
+          "docx": "青纹铁",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "4份",
+          "docx": "4份",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "形成两份灵田锄器胚",
+          "docx": "形成两份灵田锄器胚",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "回元墨",
+          "docx": "回元墨",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "6份",
+          "docx": "6份",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "刻纹耗材",
+          "docx": "刻纹耗材",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "引灵银",
+          "docx": "引灵银",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "3份",
+          "docx": "3份",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "低耗灵回路附加材料",
+          "docx": "低耗灵回路附加材料",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "炉胆等级",
+          "docx": "炉胆等级",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "0",
+          "docx": "0",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "初始狭窄温区",
+          "docx": "初始狭窄温区",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        2300,
+        2300,
+        5038
+      ]
+    },
+    {
+      "source_line": 96,
+      "matched": true,
+      "rows": 4,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "材料",
+          "docx": "材料",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "每份采购价",
+          "docx": "每份采购价",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "当前功能",
+          "docx": "当前功能",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "青纹铁",
+          "docx": "青纹铁",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "6灵石",
+          "docx": "6灵石",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "两条路线每次使用2份",
+          "docx": "两条路线每次使用2份",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "回元墨",
+          "docx": "回元墨",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "2灵石",
+          "docx": "2灵石",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "两条路线每次使用1份",
+          "docx": "两条路线每次使用1份",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "引灵银",
+          "docx": "引灵银",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "4灵石",
+          "docx": "4灵石",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "仅低耗灵路线使用1份",
+          "docx": "仅低耗灵路线使用1份",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        2300,
+        2300,
+        5038
+      ]
+    },
+    {
+      "source_line": 108,
+      "matched": true,
+      "rows": 7,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "项目",
+          "docx": "项目",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "省料直路",
+          "docx": "省料直路",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "低耗灵回路",
+          "docx": "低耗灵回路",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "投料",
+          "docx": "投料",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "2青纹铁＋1回元墨",
+          "docx": "2青纹铁＋1回元墨",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "2青纹铁＋1回元墨＋1引灵银",
+          "docx": "2青纹铁＋1回元墨＋1引灵银",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "全量补货成本",
+          "docx": "全量补货成本",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "14灵石",
+          "docx": "14灵石",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "18灵石",
+          "docx": "18灵石",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "基础总耗灵",
+          "docx": "基础总耗灵",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "8",
+          "docx": "8",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "5",
+          "docx": "5",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "初始目标温区",
+          "docx": "初始目标温区",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "60—72",
+          "docx": "60—72",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "64—70",
+          "docx": "64—70",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "阵纹节点数量",
+          "docx": "阵纹节点数量",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "4",
+          "docx": "4",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "5",
+          "docx": "5",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "实际区别",
+          "docx": "实际区别",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "耗材少、操作路线短、耗灵容错少",
+          "docx": "耗材少、操作路线短、耗灵容错少",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "耗材多、温区窄、路线长、耗灵余量大",
+          "docx": "耗材多、温区窄、路线长、耗灵余量大",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        1800,
+        3919,
+        3919
+      ]
+    },
+    {
+      "source_line": 125,
+      "matched": true,
+      "rows": 7,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "状态",
+          "docx": "状态",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "可执行主要操作",
+          "docx": "可执行主要操作",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "转移条件",
+          "docx": "转移条件",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "Commission 查看委托",
+          "docx": "Commission 查看委托",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "接单、采购",
+          "docx": "接单、采购",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "接单进入Planning",
+          "docx": "接单进入Planning",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "Planning 方案规划",
+          "docx": "Planning 方案规划",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "换方案、采购、取消、投料",
+          "docx": "换方案、采购、取消、投料",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "材料齐全并投料进入Heating",
+          "docx": "材料齐全并投料进入Heating",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "Heating 控火",
+          "docx": "Heating 控火",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "调风门、暂停、保存",
+          "docx": "调风门、暂停、保存",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "累计12秒后进入Engraving",
+          "docx": "累计12秒后进入Engraving",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "Engraving 刻纹",
+          "docx": "Engraving 刻纹",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "点节点、暂停、保存",
+          "docx": "点节点、暂停、保存",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "正确完成最后一个节点进入Trial",
+          "docx": "正确完成最后一个节点进入Trial",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "Trial 试器",
+          "docx": "Trial 试器",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "试器、返工、合格后交货",
+          "docx": "试器、返工、合格后交货",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "返工回Heating；合格交货进入Delivered",
+          "docx": "返工回Heating；合格交货进入Delivered",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "Delivered 已交货",
+          "docx": "Delivered 已交货",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "升级、采购、接复单、另开新局",
+          "docx": "升级、采购、接复单、另开新局",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "接复单生成新编号并进入Planning",
+          "docx": "接复单生成新编号并进入Planning",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        2650,
+        3300,
+        3688
+      ]
+    },
+    {
+      "source_line": 150,
+      "matched": true,
+      "rows": 7,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "变量",
+          "docx": "变量",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "取值或初始值",
+          "docx": "取值或初始值",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "温度T",
+          "docx": "温度T",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "0—100，开炉初始40",
+          "docx": "0—100，开炉初始40",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "风门f",
+          "docx": "风门f",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "0—1，UI初始0.5",
+          "docx": "0—1，UI初始0.5",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "本炉工艺时间",
+          "docx": "本炉工艺时间",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "12秒，暂停及失焦不计",
+          "docx": "12秒，暂停及失焦不计",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "初始省料温区",
+          "docx": "初始省料温区",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "60—72，边界含等号",
+          "docx": "60—72，边界含等号",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "初始低耗灵温区",
+          "docx": "初始低耗灵温区",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "64—70，边界含等号",
+          "docx": "64—70，边界含等号",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "合格时间",
+          "docx": "合格时间",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "温度处于目标区的累计时长",
+          "docx": "温度处于目标区的累计时长",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        3300,
+        6338
+      ]
+    },
+    {
+      "source_line": 214,
+      "matched": true,
+      "rows": 8,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "路线",
+          "docx": "路线",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "器胚分",
+          "docx": "器胚分",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "完整度",
+          "docx": "完整度",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "source": "总耗灵",
+          "docx": "总耗灵",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "source": "结果",
+          "docx": "结果",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "省料",
+          "docx": "省料",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "90",
+          "docx": "90",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "100",
+          "docx": "100",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "source": "8",
+          "docx": "8",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "source": "合格",
+          "docx": "合格",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "省料",
+          "docx": "省料",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "80",
+          "docx": "80",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "100",
+          "docx": "100",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "source": "9",
+          "docx": "9",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "source": "合格",
+          "docx": "合格",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "省料",
+          "docx": "省料",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "60",
+          "docx": "60",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "100",
+          "docx": "100",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "source": "10",
+          "docx": "10",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "source": "不合格：耗灵超限",
+          "docx": "不合格：耗灵超限",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "省料",
+          "docx": "省料",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "79",
+          "docx": "79",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "80",
+          "docx": "80",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "source": "9",
+          "docx": "9",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "source": "合格",
+          "docx": "合格",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "低耗灵",
+          "docx": "低耗灵",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "60",
+          "docx": "60",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "80",
+          "docx": "80",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "source": "7",
+          "docx": "7",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "source": "合格",
+          "docx": "合格",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "低耗灵",
+          "docx": "低耗灵",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "59",
+          "docx": "59",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "100",
+          "docx": "100",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "source": "7",
+          "docx": "7",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "source": "不合格：器胚未达标",
+          "docx": "不合格：器胚未达标",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "source": "低耗灵",
+          "docx": "低耗灵",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "source": "90",
+          "docx": "90",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "source": "60",
+          "docx": "60",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "source": "6",
+          "docx": "6",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "source": "不合格：阵纹未达标",
+          "docx": "不合格：阵纹未达标",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        1500,
+        1200,
+        1200,
+        1200,
+        4538
+      ]
+    },
+    {
+      "source_line": 297,
+      "matched": true,
+      "rows": 11,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "相对路径",
+          "docx": "相对路径",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "职责",
+          "docx": "职责",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "Assets/LianQi/Core/ForgeGame.cs",
+          "docx": "Assets/LianQi/Core/ForgeGame.cs",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "数值、状态、指令与存档不变量；无Unity依赖",
+          "docx": "数值、状态、指令与存档不变量；无Unity依赖",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "Assets/LianQi/Core/SaveStore.cs",
+          "docx": "Assets/LianQi/Core/SaveStore.cs",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "追加式快照、摘要及回退；JSON编解码由宿主提供",
+          "docx": "追加式快照、摘要及回退；JSON编解码由宿主提供",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "Assets/LianQi/Runtime/PrototypeController.cs",
+          "docx": "Assets/LianQi/Runtime/PrototypeController.cs",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "IMGUI、控火时间推进、JsonUtility、暂停与保存",
+          "docx": "IMGUI、控火时间推进、JsonUtility、暂停与保存",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "Assets/LianQi/Editor/PrototypeSetup.cs",
+          "docx": "Assets/LianQi/Editor/PrototypeSetup.cs",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "URP资产、灰盒场景、Windows构建入口",
+          "docx": "URP资产、灰盒场景、Windows构建入口",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "Assets/LianQi下三个asmdef",
+          "docx": "Assets/LianQi下三个asmdef",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "Core、Runtime、Editor独立编译边界",
+          "docx": "Core、Runtime、Editor独立编译边界",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "Packages/manifest.json",
+          "docx": "Packages/manifest.json",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "URP17.3.0和必要内置模块",
+          "docx": "URP17.3.0和必要内置模块",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "source": "ProjectSettings/ProjectVersion.txt",
+          "docx": "ProjectSettings/ProjectVersion.txt",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "source": "锁定6000.3.28f1及官方revision",
+          "docx": "锁定6000.3.28f1及官方revision",
+          "matched": true
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "source": "上级Tests/ConsoleTests.cs",
+          "docx": "上级Tests/ConsoleTests.cs",
+          "matched": true
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "source": "同一产品代码的控制台自动测试",
+          "docx": "同一产品代码的控制台自动测试",
+          "matched": true
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "source": "上级BuildTools/run_core_tests.ps1",
+          "docx": "上级BuildTools/run_core_tests.ps1",
+          "matched": true
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "source": "编译与运行测试，原产物留备份",
+          "docx": "编译与运行测试，原产物留备份",
+          "matched": true
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "source": "上级Verification",
+          "docx": "上级Verification",
+          "matched": true
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "source": "编译、执行阻碍、静态审阅与文档核对证据",
+          "docx": "编译、执行阻碍、静态审阅与文档核对证据",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        6100,
+        3538
+      ]
+    },
+    {
+      "source_line": 345,
+      "matched": true,
+      "rows": 16,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "source": "编号",
+          "docx": "编号",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "source": "步骤",
+          "docx": "步骤",
+          "matched": true
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "source": "预期",
+          "docx": "预期",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "source": "A01",
+          "docx": "A01",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "source": "省料路线，升温后保持温区，正确连纹、试器、交货",
+          "docx": "省料路线，升温后保持温区，正确连纹、试器、交货",
+          "matched": true
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "source": "合格且获得24，只付一次",
+          "docx": "合格且获得24，只付一次",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "source": "A02",
+          "docx": "A02",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "source": "低耗灵路线，同样完成工艺",
+          "docx": "低耗灵路线，同样完成工艺",
+          "matched": true
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "source": "合格；额外扣1银，显示不同温区与耗灵",
+          "docx": "合格；额外扣1银，显示不同温区与耗灵",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "source": "A03",
+          "docx": "A03",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "source": "某种原料不足时点投料",
+          "docx": "某种原料不足时点投料",
+          "matched": true
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "source": "所有原料均不扣，阶段不变",
+          "docx": "所有原料均不扣，阶段不变",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "source": "A04",
+          "docx": "A04",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "source": "控火完全不加火、全程最大火",
+          "docx": "控火完全不加火、全程最大火",
+          "matched": true
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "source": "均不应合格，并说明器胚问题",
+          "docx": "均不应合格，并说明器胚问题",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "source": "A05",
+          "docx": "A05",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "source": "正确节点与错误节点混点",
+          "docx": "正确节点与错误节点混点",
+          "matched": true
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "source": "错点扣20且不推进，错误结果立即存档",
+          "docx": "错点扣20且不推进，错误结果立即存档",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "source": "A06",
+          "docx": "A06",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "source": "失败后免费返工",
+          "docx": "失败后免费返工",
+          "matched": true
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "source": "不扣材料，旧成绩及试器标志清空",
+          "docx": "不扣材料，旧成绩及试器标志清空",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "source": "A07",
+          "docx": "A07",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "source": "暂停、切出窗口、返回",
+          "docx": "暂停、切出窗口、返回",
+          "matched": true
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "source": "热时间冻结，回到窗口不会自动继续",
+          "docx": "热时间冻结，回到窗口不会自动继续",
+          "matched": true
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "source": "A08",
+          "docx": "A08",
+          "matched": true
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "source": "六个状态分别保存、退出、读取",
+          "docx": "六个状态分别保存、退出、读取",
+          "matched": true
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "source": "库存、进度、结算与工艺数值一致",
+          "docx": "库存、进度、结算与工艺数值一致",
+          "matched": true
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "source": "A09",
+          "docx": "A09",
+          "matched": true
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "source": "交货后再次调用交货",
+          "docx": "交货后再次调用交货",
+          "matched": true
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "source": "不重复加钱",
+          "docx": "不重复加钱",
+          "matched": true
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "source": "A10",
+          "docx": "A10",
+          "matched": true
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "source": "升级、重复升级、接复单",
+          "docx": "升级、重复升级、接复单",
+          "matched": true
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "source": "只扣40一次，新温区在下一炉生效",
+          "docx": "只扣40一次，新温区在下一炉生效",
+          "matched": true
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "source": "A11",
+          "docx": "A11",
+          "matched": true
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "source": "最新快照损坏或不兼容",
+          "docx": "最新快照损坏或不兼容",
+          "matched": true
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "source": "回退旧有效档并提示，保留坏档",
+          "docx": "回退旧有效档并提示，保留坏档",
+          "matched": true
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "source": "A12",
+          "docx": "A12",
+          "matched": true
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "source": "存档目录不可写",
+          "docx": "存档目录不可写",
+          "matched": true
+        },
+        {
+          "row": 13,
+          "column": 3,
+          "source": "自动暂停并提示，重试后不丢内存局",
+          "docx": "自动暂停并提示，重试后不丢内存局",
+          "matched": true
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "source": "A13",
+          "docx": "A13",
+          "matched": true
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "source": "持续低帧率",
+          "docx": "持续低帧率",
+          "matched": true
+        },
+        {
+          "row": 14,
+          "column": 3,
+          "source": "12秒计时不因截断帧时间被延长为24秒",
+          "docx": "12秒计时不因截断帧时间被延长为24秒",
+          "matched": true
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "source": "A14",
+          "docx": "A14",
+          "matched": true
+        },
+        {
+          "row": 15,
+          "column": 2,
+          "source": "构建菜单提示保存时选取消",
+          "docx": "构建菜单提示保存时选取消",
+          "matched": true
+        },
+        {
+          "row": 15,
+          "column": 3,
+          "source": "构建取消，不使用旧场景继续打包",
+          "docx": "构建取消，不使用旧场景继续打包",
+          "matched": true
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "source": "A15",
+          "docx": "A15",
+          "matched": true
+        },
+        {
+          "row": 16,
+          "column": 2,
+          "source": "在没有Unity编辑器的Windows环境启动构建",
+          "docx": "在没有Unity编辑器的Windows环境启动构建",
+          "matched": true
+        },
+        {
+          "row": 16,
+          "column": 3,
+          "source": "能完成整单、退出恢复，无缺失依赖",
+          "docx": "能完成整单、退出恢复，无缺失依赖",
+          "matched": true
+        }
+      ],
+      "column_widths_dxa": [
+        700,
+        5250,
+        3688
+      ]
+    }
+  ],
+  "test_execution": {
+    "planned": 187,
+    "executed": 0,
+    "passed": 0,
+    "unity_installed": false,
+    "basis": "Task-provided environment and source document. This generation/audit script does not launch C# tests or Unity."
+  },
+  "layout": {
+    "xml_structure_checked": true,
+    "pdf_export_or_visual_review_in_this_audit": false,
+    "note": "Actual PDF export and selected-page visual review are performed separately after this immutable audit is written."
+  },
+  "diff_if_any": []
+}

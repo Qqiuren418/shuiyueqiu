@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "compile_and_static_review_only",
+  "status": "completed_with_static_findings_and_unexecuted_validation",
+  "sourceIntegrityCheckedAtUtc": "2026-11-18T04:18:08.057Z",
+  "summary": "指定csc编译成功，四项前次修正均已静态确认。发现目录访问失败可能被视作无存档，与规格不完全一致；187项既有用例未直接覆盖四项修正的完整调用链。187项全部未运行，Unity未导入，不能认定可玩或验收通过。产品文件、旧文档、旧报告及旧EXE均未修改。",
+  "sourceSHA256": {
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\ForgeGame.cs": "f367363558b9bb7a6c980229a82ff5d228f1bc2ce3990f1c877b2e7c47b094af",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\SaveStore.cs": "bf7e16feaf7228c324822241dd09cff54f6766dbc0d2dbe192a9c69510f912b6",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Runtime\\PrototypeController.cs": "d864f4da3025cd2a6959a86ae629ed15791a6e121aac697669e99204d6c6a2d1",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Editor\\PrototypeSetup.cs": "cab1e074405a02c0cc5192d25bba51c47569ec470c0efca1ab0d250aacb21e30",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\LianQi.Core.asmdef": "7c786e529e53e35f55b730b22397a2941e7f1c9a8416ebabd9756d99a03b8930",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Runtime\\LianQi.Runtime.asmdef": "34193395be9127250bbcff18340fd71d64a97bd676edcd6a4974313c2caad0fe",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Editor\\LianQi.Editor.asmdef": "9bd96258bce89e8cb2acc097c90e8fffb3f09fdf3aa37cb563278e74a0d9f634",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Packages\\manifest.json": "b2639475136b8826e5c89943ca613237abe68659c7dcfc1bc617b85c4b5e6c1f",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Tests\\ConsoleTests.cs": "fb50eb171e5ccdedd8448b93e6a52cf32568c0bdcc25243ee0cbfc0c34aced2c",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\炼器宗门_V0.1首单闭环功能规格.md": "478215bd5a7eff6f46eac64913188473dfd947597f95dccd2abd37d397dfe3b7",
+    "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\ProjectSettings\\ProjectVersion.txt": "91b35566b263574c8a513eff3bba6d5d313482d752d961077b47ab5b3ff14981"
+  },
+  "specification": {
+    "actualFile": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\炼器宗门_V0.1首单闭环功能规格.md",
+    "version": "V0.1-M0-A",
+    "note": "未找到字面名为首单规格.md的文件；使用工程现有首单闭环功能规格全文复核，未改名或修改。"
+  },
+  "compilation": {
+    "success": true,
+    "exitCode": 0,
+    "compiler": "D:\\Program Files\\VisualStudioProject\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe",
+    "compilerVersion": "5.11.0-1.26424.5 (fcacacf82e2055472a6ec4060a4be88ebc0e1acf)",
+    "compilerSHA256": "a13d1edf3ef5dd0d0e09886251f03fa18877d46ba2dacee075b4c8a5add21457",
+    "requiredReference": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Web.Extensions.dll",
+    "requiredReferenceSHA256": "5e6378edc06f5a61920aaadb2aba839dd3cf302d6192e08aacd4454ba4cff0b3",
+    "frameworkReferences": [
+      "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+      "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.dll",
+      "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Core.dll",
+      "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Web.Extensions.dll"
+    ],
+    "options": ["/noconfig", "/nostdlib+", "/target:exe", "/platform:x64", "/optimize+", "/debug-", "/warn:4", "/main:LianQi.Verification.ConsoleTests"],
+    "sources": [
+      "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\ForgeGame.cs",
+      "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\SaveStore.cs",
+      "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Tests\\ConsoleTests.cs"
+    ],
+    "output": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\ConsoleTests_reviewed.exe",
+    "outputWasNew": true,
+    "outputBytes": 80384,
+    "outputSHA256": "7b48beb6c016c12e654bac1aa99fe8ca3bace11abe72b1cc8d30824650a3e97d",
+    "observedWarnings": 0,
+    "observedErrors": 0,
+    "diagnostics": [],
+    "executed": false,
+    "executionAttempted": false,
+    "unityRuntimeOrEditorCompiled": false,
+    "interpretation": "仅确认真实Core、SaveStore及控制台测试源码的编译与类型检查；不证明测试通过、Unity接口兼容或游戏运行正确。"
+  },
+  "priorFixes": [
+    {
+      "id": "F01",
+      "status": "statically_confirmed_not_runtime_verified",
+      "evidence": ["ForgeGame.cs:87-95", "ForgeGame.cs:186-198", "PrototypeController.cs:65-70"],
+      "finding": "错误真实节点更新错误次数及完整度并返回ChangedFailure(Ok=false,StateChanged=true)；运行层Do依据StateChanged而非Ok立即尝试保存。越界节点返回无变化失败。"
+    },
+    {
+      "id": "F02",
+      "status": "statically_confirmed_not_runtime_verified",
+      "evidence": ["SaveStore.cs:50-66", "SaveStore.cs:67-95"],
+      "finding": "SafeTimestamp对UnauthorizedAccessException、SecurityException、IOException回退DateTime.MaxValue；逐文件读取捕获Unauthorized/Security及损坏解码异常，累计跳过并继续查找旧有效档。目录级剩余问题见S01。"
+    },
+    {
+      "id": "F03",
+      "status": "statically_confirmed_not_runtime_verified",
+      "evidence": ["PrototypeController.cs:37-54", "ForgeGame.cs:156-185"],
+      "finding": "Update仅按工艺剩余时长限制整帧，不再截断为0.25秒；循环以不超过0.02秒子步消费帧时间，12秒终点停止，不溢入刻纹。核心仍拒绝超0.25秒单次调用。"
+    },
+    {
+      "id": "F04",
+      "status": "statically_confirmed_not_runtime_verified",
+      "evidence": ["PrototypeSetup.cs:28-35", "PrototypeSetup.cs:118-132"],
+      "finding": "TryPrepare返回bool；保存场景提示取消返回false；BuildWindows在创建构建目录和调用BuildPipeline之前检查结果并return。"
+    }
+  ],
+  "consistencyChecks": {
+    "method": "全部四份cs全文人工静态审阅，三个asmdef与manifest只读JSON解析及依赖断言，测试注册参数人工展开计数，规格全文交叉核对。没有运行任何产品或测试逻辑。",
+    "jsonParsing": "passed_for_all_3_asmdef_and_manifest",
+    "assemblyBoundary": "Core无Unity引用；Runtime引用Core；Editor仅Editor平台，引用Core、Runtime及Unity.RenderPipelines.Universal.Runtime；命名空间一致，局部依赖无循环。",
+    "packageDeclarations": "URP17.3.0；IMGUI、JSONSerialize、Physics均1.0.0，与规格声明一致；未解析UPM或验证传递依赖。",
+    "projectVersionDeclaration": "6000.3.28f1 (8f082d2fe476)，与规格声明一致；未联网确认发行信息。",
+    "balanceAndRules": "初始30灵石/4铁/6墨/3银，采购6/2/4，两路线投料2铁1墨及额外1银、基础耗灵8/5、温区60-72/64-70、节点0-1-3-5/0-2-3-4-5，12秒与得分舍入、非负整数耗灵公式、60/70/9门槛、24报酬、40升级及温区两边各扩4均与规格一致。",
+    "workflowAndValidation": "六阶段、暂停守卫、投料原子性、免费返工清成绩、复单递增编号、单号唯一结算、库存边界、保存和读取共用Validate均与规格一致；未发现这些路径的明显静态矛盾。",
+    "snapshotsAndUI": "追加式CreateNew、SHA256封套、1MiB上限、不删除旧档、错误刻纹立即保存、控火约1秒及阶段切换保存、失焦暂停、保存失败停推进均有实现；目录不可访问的前置判断见S01。",
+    "runtimeClaims": "IMGUI交互、中文字体、灰盒URP场景、真实JsonUtility往返、断电恢复、低帧率及构建取消仅审阅源码，均未实际验证。"
+  },
+  "staticFindings": [
+    {
+      "id": "S01",
+      "severity": "medium",
+      "classification": "specification_mismatch_conditional_io_path",
+      "file": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Core\\SaveStore.cs",
+      "lines": [60, 61],
+      "relatedFile": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\LianQiSectPrototype\\Assets\\LianQi\\Runtime\\PrototypeController.cs",
+      "relatedLines": [30, 35],
+      "specificationLines": [285, 289],
+      "finding": "Directory.Exists在权限或其他无法判断存在性的错误下可返回false；LoadLatest随即返回未发现存档且SkippedFiles=0，Awake不会进入loadDecision。目录枚举实际抛异常时有外层提示，但Exists吞错路径仍可能把目录不可访问误判为从未存档。",
+      "impact": "与规格要求目录不可访问时明确报错、不静默当作无存档不完全一致；不等同于已发生旧档覆盖，因为保存仍使用CreateNew。",
+      "recommendationNotApplied": "后续获授权时区分目录不存在与访问/IO失败，仅将明确不存在视为新局，其余进入读取错误决策；补目录不可访问回归。",
+      "runtimeReproduced": false
+    },
+    {
+      "id": "S02",
+      "severity": "medium",
+      "classification": "regression_coverage_gap_not_confirmed_runtime_defect",
+      "file": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Tests\\ConsoleTests.cs",
+      "lines": [195, 268, 348, 359, 576, 661],
+      "finding": "既有187项检查错误刻纹的Ok、扣分和进度，但不断言StateChanged或运行层即时保存；不覆盖SafeTimestamp权限异常及逐文件Unauthorized/Security回退；纯核心时间步测试不覆盖Update长帧；不覆盖Editor取消准备后禁止Build。",
+      "recommendationNotApplied": "保留现有测试，后续获授权且环境允许时补四项定向回归及目录权限异常用例；Unity相关验证使用真实编辑器，不用假stub。",
+      "runtimeReproduced": false
+    }
+  ],
+  "tests": {
+    "plannedCases": 187,
+    "countMethod": "静态注册与参数展开，非执行发现",
+    "plannedGroups": {
+      "heating": 33,
+      "inventoryAndCommands": 15,
+      "engravingTrialAndRework": 43,
+      "pauseOrdersAndUpgrade": 11,
+      "snapshotValidation": 62,
+      "realDiskPersistence": 22,
+      "randomLegalFlow": 1
+    },
+    "executedCases": 0,
+    "passed": 0,
+    "failed": 0,
+    "notRun": 187,
+    "assertionsExecuted": 0,
+    "plannedRandomSteps": 1000,
+    "randomStepsExecuted": 0,
+    "status": "not_run_user_prohibition_and_previously_denied_administrator_policy",
+    "noExecutionRetry": true,
+    "interpretation": "failed=0仅因未运行，不是通过或无缺陷结论；只读JSON/摘要脚本不是187项核心测试执行。"
+  },
+  "unity": {
+    "imported": false,
+    "packageResolutionPerformed": false,
+    "realUnityAssemblyCompilationPerformed": false,
+    "fakeStubCompilationUsed": false,
+    "playModeRun": false,
+    "windowsBuildPerformed": false,
+    "windowsPlayerRun": false,
+    "status": "NOT_IMPORTED_NOT_RUNTIME_VERIFIED",
+    "acceptedPlayableDemo": false
+  },
+  "oldEvidence": {
+    "report": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\core_test_results.json",
+    "reportSHA256": "e84ef1422181b866eae5a3d595469ad96a96a7c45868a0c88c07c505416866db",
+    "reportPreservedUnchanged": true,
+    "reportRole": "旧源码编译及管理员执行阻碍的历史记录；不得改写成新版执行或通过记录。",
+    "executable": "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\ConsoleTests.exe",
+    "executableSHA256": "3ca78d35ea00c25ece0ae93747be95ddda110ca9f0e21a43cd0baaa851546c25",
+    "executablePreservedUnchanged": true,
+    "recordedOldCoreSHA256": {
+      "ForgeGame.cs": "e04d812ea347ed0d890421ffa32a7a5155f51f134bfbba25c95d9ceb1a67cb35",
+      "SaveStore.cs": "6a3e4380377613497384484460ba0bac3da5989ce10678a5a991da676592ca73"
+    },
+    "oldCoreDiffersFromReviewedCore": true,
+    "oldExeIsFinalCore": false,
+    "note": "旧EXE已非本次最终核心；其历史编译与阻碍记录保留，不能替代ConsoleTests_reviewed.exe及本报告的新版源码摘要。"
+  },
+  "preservationAndRestrictions": {
+    "originalFilesHashedBeforeAndVerifiedAfterCompilation": 35,
+    "all35OriginalHashesMatched": true,
+    "reviewInputsRecheckedAfterCompilation": true,
+    "productFilesModified": false,
+    "oldDocumentsModified": false,
+    "oldReportsModified": false,
+    "oldExecutablesModified": false,
+    "existingPS1Executed": false,
+    "newPS1CreatedOrExecuted": false,
+    "newExeExecutedOrLoadedViaOtherRuntime": false,
+    "networkAccessPerformed": false,
+    "installationPerformed": false,
+    "permissionsOrPolicyChanged": false,
+    "filesDeleted": false,
+    "createdByThisReview": [
+      "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\ConsoleTests_reviewed.exe",
+      "D:\\Program Files\\新游戏锻造\\炼器宗门_V0.1\\Verification\\final_code_review.json"
+    ]
+  }
+}

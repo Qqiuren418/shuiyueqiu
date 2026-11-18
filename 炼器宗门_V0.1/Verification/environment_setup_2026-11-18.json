@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "scope": "Unity environment setup and first-order runtime acceptance",
+  "hub": {
+    "installed": true,
+    "observed_version": "3.3.7",
+    "distribution": "China official channel",
+    "installer_signature_status": "Valid",
+    "installer_sha256": "4f4efeb050ae6c1c8b7b7d301d17561cfb48b8d2cf8da6687f1d64fa41a276a3",
+    "signed_in": false,
+    "active_license_observed": false,
+    "offered_editor": "2022.3.62f3c1"
+  },
+  "editor": {
+    "requested_version": "6000.3.28f1",
+    "requested_revision": "8f082d2fe476",
+    "official_api_stream": "LTS",
+    "installed": false,
+    "windows_build_support_installed": false,
+    "installation_status": "blocked_by_current_hub_release_policy"
+  },
+  "observed_blocker": {
+    "ui_title": "Unable to install",
+    "ui_message": "Not allowed to install",
+    "log_timestamp_utc": "2026-11-18T09:08:15.014Z",
+    "log_module": "UnityHubProtocolHandler",
+    "log_message": "Detected forbidden release version: 6000.3.28f1"
+  },
+  "user_decision": "Keep Unity 6 route; no downgrade. Upload sources and blocker report; wait for official entitlement/channel confirmation.",
+  "safety": {
+    "firewall_inbound_exception_added": false,
+    "security_policy_changed": false,
+    "hub_release_policy_bypassed": false,
+    "credentials_or_license_exported": false,
+    "forbidden_editor_standalone_install_attempted": false
+  },
+  "acceptance": {
+    "prior_final_core_compile_passed": true,
+    "core_tests_planned": 187,
+    "core_tests_executed": 0,
+    "core_tests_passed": 0,
+    "unity_import_performed": false,
+    "unity_assembly_compile_performed": false,
+    "first_order_played": false,
+    "rework_and_upgrade_played": false,
+    "unity_save_load_verified": false,
+    "windows_build_performed": false,
+    "standalone_player_verified": false,
+    "status": "not_accepted_environment_blocked"
+  },
+  "repository_payload": {
+    "project_folder": "炼器宗门_V0.1",
+    "exclude": ["Installers", "compiled EXE", "Unity caches", "account files", "license files", "full Hub logs", "desktop screenshots", "game saves", "original game assets"]
+  }
+}

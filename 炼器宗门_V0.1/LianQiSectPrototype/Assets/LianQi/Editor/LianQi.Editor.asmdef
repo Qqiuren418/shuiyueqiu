@@ -1,0 +1,7 @@
+{
+  "name": "LianQi.Editor",
+  "rootNamespace": "LianQi.Editor",
+  "references": ["LianQi.Core", "LianQi.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
