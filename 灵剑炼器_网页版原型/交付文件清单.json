@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "project_folder": "灵剑炼器_网页版原型",
+  "canonical_entry": "index.html",
+  "standalone_copy": "照夜炼器_可玩原型.html",
+  "browser_tests": {
+    "registered": 31,
+    "executed": 31,
+    "passed": 31,
+    "browserUiPassed": 30,
+    "browserUiFailed": 0,
+    "supplementaryPassed": 1,
+    "supplementaryFailed": 0,
+    "productBugs": 0,
+    "harnessErrors": 0,
+    "notRun": 0,
+    "pageerrors": 0,
+    "consoleErrors": 0,
+    "failedRequests": 0,
+    "screenshots": 10
+  },
+  "files_excluding_manifest": 22,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 168,
+      "sha256": "df187c66087e34c3cb7de646f304a0cfd0a2a8eed873fefa17b3b05cf9e89b23"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 204,
+      "sha256": "304bfbcafed20155db5f7a58e8ef2b93a1d2e9c2919cad5996add8c20283d0bd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 66998,
+      "sha256": "b8d8996cf91d0da2041bb825d0a1cb2f3cf2dabdda1c0cc1d1b0220c5817c741"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 781,
+      "sha256": "44218a65d2bf4c4ed791e783220fd849c1a733476a6eacbe35befacc898c6ec7"
+    },
+    {
+      "path": "package.json",
+      "bytes": 386,
+      "sha256": "34c281a70dac4027c89b73f3d302ac3527bd3f80661133f7f5547c69281ac068"
+    },
+    {
+      "path": "tests/browser.cjs",
+      "bytes": 45145,
+      "sha256": "b70e51498c541013d10f41b87abf732e2c5bc078ed4a23b99b69014d9f9759c0"
+    },
+    {
+      "path": "tests/check-handoff.cjs",
+      "bytes": 3682,
+      "sha256": "8cca846ea44b535b42d563505eaa1c5522ce51b95810a24f7d244e07e82b62c6"
+    },
+    {
+      "path": "Verification/final_browser_report.json",
+      "bytes": 278817,
+      "sha256": "5c15502781f93695c13bfeafc949377c2b9c6ebd10fb5bd7b34bf371ab2efd62"
+    },
+    {
+      "path": "Verification/samples/青纹灵剑_实际导出样例.json",
+      "bytes": 568,
+      "sha256": "d8df9f0cd68037c613e6b5f04c97e3ab2c7aa6b4d2b5deb237f791072a3e8580"
+    },
+    {
+      "path": "Verification/screenshots/desktop_all_mistakes_finished_1280x900.png",
+      "bytes": 485474,
+      "sha256": "9243fc880a1c3456005f6bed8f53808462ca7d888218dd265e9c45b53c6df0ca"
+    },
+    {
+      "path": "Verification/screenshots/desktop_finished_1280x900.png",
+      "bytes": 473938,
+      "sha256": "740ce668fbc52600360a4d27bf855462c14514cf486ea935b7f1a88a32175f59"
+    },
+    {
+      "path": "Verification/screenshots/desktop_good_grade_finished_1280x900.png",
+      "bytes": 484080,
+      "sha256": "e7527d0d9b50b62e15693e1ba9586129d2594b883b867d62cfd820814af2972d"
+    },
+    {
+      "path": "Verification/screenshots/desktop_initial_1280x900.png",
+      "bytes": 397278,
+      "sha256": "92ec706d5c76233b0077227a5b41a9cf3d8b0dbc3a9c6877ef32fe3dbadadbd0"
+    },
+    {
+      "path": "Verification/screenshots/desktop_natural_cooling_above_water_1280x900.png",
+      "bytes": 447833,
+      "sha256": "d5473893f0452c8a49413242b9401d27eabe07e2132a3033ca7eb6a26826c5a6"
+    },
+    {
+      "path": "Verification/screenshots/desktop_quenched_in_water_1280x900.png",
+      "bytes": 450460,
+      "sha256": "bcc68b04ef54b1b26377711c2cb8e2aa003482698c9d4e8319097f21bbbebe71"
+    },
+    {
+      "path": "Verification/screenshots/mobile_finished_390x844_full.png",
+      "bytes": 302670,
+      "sha256": "867cba4e08d7e5c1da74a2afe40e9660a443e754dafcb99dbac60189ef032109"
+    },
+    {
+      "path": "Verification/screenshots/mobile_initial_390x844_full.png",
+      "bytes": 247929,
+      "sha256": "3f440c406530f0717256c5f6b735f4474243662805c8c764af59e07029e44d8a"
+    },
+    {
+      "path": "Verification/screenshots/mobile_rune_390x844_full.png",
+      "bytes": 283011,
+      "sha256": "7c7ecce3cb16763403390bafe01d63016f049b10f8822a71908ba6f43e694c38"
+    },
+    {
+      "path": "Verification/screenshots/mobile_Xuan_silver_quenched_390x844_full.png",
+      "bytes": 284855,
+      "sha256": "5e84b5e2099f265d68939fc8460526c2b6166d6e3de0994477b1bb0ce8b2298f"
+    },
+    {
+      "path": "Verification/test_summary.json",
+      "bytes": 4876,
+      "sha256": "caa9e36a9e035633498719f4c7f3a68440097325a0b037e8420ecdc6e7e9b8d6"
+    },
+    {
+      "path": "开始这里_跨设备接续.txt",
+      "bytes": 9007,
+      "sha256": "374f2ac682151d88bde202019d882d87e78e96d625b93a44ec8a67b79ade68a5"
+    },
+    {
+      "path": "照夜炼器_可玩原型.html",
+      "bytes": 66998,
+      "sha256": "b8d8996cf91d0da2041bb825d0a1cb2f3cf2dabdda1c0cc1d1b0220c5817c741"
+    }
+  ],
+  "repository_history_preserved": [
+    "2026-11-17_炼器手册与锻剑纳贡",
+    "炼器宗门_V0.1",
+    "新游戏锻造",
+    "锻造纳贡拆解文档",
+    "《铸剑纳贡拆解》"
+  ],
+  "excluded_from_current_handoff": [
+    "failed-run screenshots/reports",
+    "editing backups",
+    "node_modules",
+    "test-results",
+    "installers",
+    "credentials",
+    "Unity caches"
+  ],
+  "exclusion_reason": "Temporary or superseded artifacts are not current sources; final passing report, all final screenshots and actual export sample are included. Prior game documents remain in their existing repository folders."
+}

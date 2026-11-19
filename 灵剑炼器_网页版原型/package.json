@@ -1,0 +1,16 @@
+{
+  "name": "zhaoye-lingforge-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone artifact-forging browser prototype; runtime requires only index.html.",
+  "scripts": {
+    "test": "node tests/browser.cjs",
+    "check": "node tests/check-handoff.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright-core": "1.62.1"
+  }
+}
