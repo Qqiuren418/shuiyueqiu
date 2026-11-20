@@ -1,0 +1,29 @@
+{
+  "version": "web-0.3",
+  "name": "青纹灵剑",
+  "grade": "灵品",
+  "quality": 100,
+  "scores": {
+    "shape": 99,
+    "quench": 100,
+    "temper": 100,
+    "grind": 100,
+    "rune": 100
+  },
+  "damage": 0,
+  "attributes": {
+    "sharp": 86,
+    "stable": 95,
+    "spirit": 75
+  },
+  "flaws": [],
+  "logs": [
+    "青纹铁预制器胚备妥。",
+    "双面锻形99分，共50锤；回炉1次。",
+    "浸淬100分，分段冷却100%。",
+    "缓热回火100分。",
+    "双刃打磨100分。",
+    "连续描纹100分。"
+  ],
+  "rendering": "WebGL 3D procedural PBR workshop"
+}
