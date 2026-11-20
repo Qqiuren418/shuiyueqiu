@@ -1,0 +1,17 @@
+{
+  "name": "zhaoye-forge-3d-prototype",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "build": "node BuildTools/build.cjs",
+    "test": "node tests/run-final.cjs",
+    "test:ui": "node tests/immersive-ui.cjs",
+    "check": "node BuildTools/check-files.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright-core": "1.62.1"
+  }
+}

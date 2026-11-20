@@ -1,0 +1,4065 @@
+{
+  "source": "PROJECT_ROOT/index.html",
+  "outputDirectory": "CURRENT_REGRESSION_RUN",
+  "startedAt": "2026-11-20T06:01:40.118Z",
+  "finishedAt": "2026-11-20T06:03:59.577Z",
+  "htmlSHA256": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8",
+  "sourceUnchanged": true,
+  "previousArtifactsUnchanged": true,
+  "readOnlyFileHashes": {
+    "before": {
+      "PROJECT_ROOT/index.html": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8",
+      "PROJECT_ROOT/Source/app3d.js": "57759dfa0abe9f4727fc1dd6dae8f460eb1c3474fc9c0924abbf78eae863961d",
+      "PROJECT_ROOT/Source/core.js": "6f95eeab0a188d2761ded1d252d49edf8591070d04d00c269fb8a826b6e8ff8e",
+      "PROJECT_ROOT/Source/separator.txt": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "PROJECT_ROOT/Source/shell.html": "ce30690a82ea48ab6053343b71b825e07eb0fd48fa1a3992931eadb2c4520a65",
+      "PROJECT_ROOT/Source/tail.html": "6cbda72ef7e1746040797459b227eeaff2249a19d7754b3c09921feeab7333f2",
+      "PROJECT_ROOT/Source/three-r128.js": "00dba0092c4f3ee8775f3beb68a84c47a83fd1788fd2f23d7c7661b17d8309d6"
+    },
+    "after": {
+      "PROJECT_ROOT/index.html": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8",
+      "PROJECT_ROOT/Source/app3d.js": "57759dfa0abe9f4727fc1dd6dae8f460eb1c3474fc9c0924abbf78eae863961d",
+      "PROJECT_ROOT/Source/core.js": "6f95eeab0a188d2761ded1d252d49edf8591070d04d00c269fb8a826b6e8ff8e",
+      "PROJECT_ROOT/Source/separator.txt": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "PROJECT_ROOT/Source/shell.html": "ce30690a82ea48ab6053343b71b825e07eb0fd48fa1a3992931eadb2c4520a65",
+      "PROJECT_ROOT/Source/tail.html": "6cbda72ef7e1746040797459b227eeaff2249a19d7754b3c09921feeab7333f2",
+      "PROJECT_ROOT/Source/three-r128.js": "00dba0092c4f3ee8775f3beb68a84c47a83fd1788fd2f23d7c7661b17d8309d6"
+    }
+  },
+  "coreIntegrity": {
+    "bytes": 12003,
+    "sourceSHA256": "6f95eeab0a188d2761ded1d252d49edf8591070d04d00c269fb8a826b6e8ff8e",
+    "baselineReference": "Git commit 9a2f424, Source/core.js",
+    "v03EmbeddedSHA256": "6f95eeab0a188d2761ded1d252d49edf8591070d04d00c269fb8a826b6e8ff8e",
+    "newEmbeddedSHA256": "6f95eeab0a188d2761ded1d252d49edf8591070d04d00c269fb8a826b6e8ff8e",
+    "identical": true
+  },
+  "original145": {
+    "expectedTotal": 145,
+    "counts": {
+      "pass": 145,
+      "fail": 0,
+      "notrun": 0
+    },
+    "allNamesAndOrderPreserved": true
+  },
+  "supplemental": {
+    "expectedTotal": 72,
+    "expectedPerMode": 36,
+    "counts": {
+      "pass": 72,
+      "fail": 0,
+      "notrun": 0
+    },
+    "all72Verified": true,
+    "scope": "Before-start lift, native trusted blur and pause/opacity at all five active stages, armed gesture rollback, real resize/ray targets, stationary/subpixel fine-grind no-fake, finished feedback, sandbox/user/context health"
+  },
+  "finalCounts": {
+    "pass": 217,
+    "fail": 0,
+    "notrun": 0
+  },
+  "screenshotsCountedAsTests": false,
+  "performanceCountedAsTests": false,
+  "artifacts": {
+    "scripts": [
+      {
+        "path": "PROJECT_ROOT/tests/run-final.cjs",
+        "copy": "CURRENT_REGRESSION_RUN/run-final.cjs",
+        "sha256": "9d3ab7520d689ace141649e89c772c2c23131fca77b5cc7f60eb4ed92400ea4c"
+      },
+      {
+        "path": "PROJECT_ROOT/tests/browser-tests.cjs",
+        "copy": "CURRENT_REGRESSION_RUN/browser-tests.cjs",
+        "sha256": "6a1847f826661bae90b9fc6eb5ae8a123a5f2d8eb8315ad571ca84c0283080ff"
+      },
+      {
+        "path": "PROJECT_ROOT/tests/startup.cjs",
+        "copy": "CURRENT_REGRESSION_RUN/startup.cjs",
+        "sha256": "05c3cee2c2033122320974d4ff1a99beed7f0f7ec9c450197a21b2b78bf84355"
+      },
+      {
+        "path": "PROJECT_ROOT/tests/baseline-cases.json",
+        "copy": "CURRENT_REGRESSION_RUN/baseline-cases.json",
+        "sha256": "a7426350bf4d12df0ea3f3e91d72234cf9251836b95314a9f6a3c2c391442697"
+      }
+    ],
+    "report": "Verification/final-report.json",
+    "screenshots": [
+      {
+        "path": "Verification/screenshots/desktop-camera-orbit.png",
+        "bytes": 1104856,
+        "width": 1440,
+        "height": 1200,
+        "colors": 3226,
+        "min": 2,
+        "max": 255,
+        "sha256": "73b6ddfaf9973b0f652b5374b7689b908481d31674ae878c95e4fd67150bf5b5",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-finish.png",
+        "bytes": 1082239,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2104,
+        "min": 4,
+        "max": 248,
+        "sha256": "c6e6de37c9ea0be1a8a83d4cc05ea6f62ed517a5e41e5d24609a55a7ce50c273",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-framePBR-close.png",
+        "bytes": 1155060,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2601,
+        "min": 2,
+        "max": 247,
+        "sha256": "a2573a926a210737104575ae04e021684606406151b5e19d07f09adf45e2a463",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-grind.png",
+        "bytes": 1155700,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2596,
+        "min": 3,
+        "max": 249,
+        "sha256": "1a8e255d5161997ebb321a5752f184dcea61b1667db22a7c7ecc3082ffa00365",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-hammer.png",
+        "bytes": 1191339,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2625,
+        "min": 1,
+        "max": 246,
+        "sha256": "c289bfdf3f446d45e3af5bde0b848ba513fa259038b294908ad23d7c7b795ca4",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-last.png",
+        "bytes": 1077464,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2121,
+        "min": 4,
+        "max": 242,
+        "sha256": "51d224b7760c7d89fb51653c39613f64c5919af49a3aa5cbb403177911781bf7",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-low-partial.png",
+        "bytes": 1077463,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2121,
+        "min": 4,
+        "max": 242,
+        "sha256": "cb86453b4086d0de327d47c6e25453a5f7ece5cd7dabd7f04e412221774990c0",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-pool-half.png",
+        "bytes": 1157657,
+        "width": 1425,
+        "height": 1205,
+        "colors": 2329,
+        "min": 3,
+        "max": 255,
+        "sha256": "d0b169e3ab65b6bece85221948ab3d6fd9303ebc2f166baa459d68916086ca5c",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-result.png",
+        "bytes": 1082142,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2103,
+        "min": 4,
+        "max": 248,
+        "sha256": "7a0fa4104beb8cd9faa8cea781badc228ee5478c3d1f5ee76be3a25b8e1b4441",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-rune-first-resumed.png",
+        "bytes": 1147624,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2607,
+        "min": 3,
+        "max": 249,
+        "sha256": "6b199cd205065c0d7385fcd0260250e991e71265574e4156ceeb1bf61b3b0fcc",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-rune.png",
+        "bytes": 1145430,
+        "width": 1440,
+        "height": 1200,
+        "colors": 2596,
+        "min": 3,
+        "max": 249,
+        "sha256": "b1d1ea4b0a2bf0048b857282c5ff1a8bc30e60663dbf42f17ad4870f80fbed84",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/desktop-suite-initial.png",
+        "bytes": 1173377,
+        "width": 1425,
+        "height": 1319,
+        "colors": 2299,
+        "min": 3,
+        "max": 255,
+        "sha256": "ad1b34942c323715db00c07d72c3e70992e8f1c48804d2c818c0ae1e0a28a32e",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-camera-orbit.png",
+        "bytes": 180185,
+        "width": 390,
+        "height": 844,
+        "colors": 809,
+        "min": 5,
+        "max": 228,
+        "sha256": "d3818cc2b7059722c586594ea8b54fae28d9fb8321088c0f6d1b4ea52cf32bc7",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-finish.png",
+        "bytes": 181665,
+        "width": 390,
+        "height": 844,
+        "colors": 737,
+        "min": 5,
+        "max": 229,
+        "sha256": "9ba73fa537d8fadf376b2cbc1a13e7d9640b9901da8fb7cc79c50d13450183a3",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-framePBR-close.png",
+        "bytes": 189172,
+        "width": 390,
+        "height": 844,
+        "colors": 785,
+        "min": 4,
+        "max": 229,
+        "sha256": "2ad00115dd8b49551e262fb09e6c2c913fe0f777d4eeb0c4ad3b9639bb13f1e1",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-grind.png",
+        "bytes": 189372,
+        "width": 390,
+        "height": 844,
+        "colors": 842,
+        "min": 4,
+        "max": 247,
+        "sha256": "fc86c92741b298da47043e377a03dcacdd522542d2d26be4ac17fa0b4eff38a9",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-hammer.png",
+        "bytes": 195168,
+        "width": 390,
+        "height": 844,
+        "colors": 827,
+        "min": 5,
+        "max": 229,
+        "sha256": "595e1cdd2f0c2f29bfdc910d81f51deedc3f6dfc385ab409bd775420462d5ef4",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-last.png",
+        "bytes": 218110,
+        "width": 390,
+        "height": 1316,
+        "colors": 813,
+        "min": 4,
+        "max": 229,
+        "sha256": "89d44936f7eee224c4baa0de046f8d449e21496aa9b8fa43f41fbad2db2a4b16",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-low-partial.png",
+        "bytes": 218109,
+        "width": 390,
+        "height": 1316,
+        "colors": 813,
+        "min": 4,
+        "max": 229,
+        "sha256": "62445ea32598d9e4f752dc835b70efae43c435f62241d49d3eb6f3c19a3ea006",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-pool-half.png",
+        "bytes": 192315,
+        "width": 390,
+        "height": 844,
+        "colors": 780,
+        "min": 5,
+        "max": 229,
+        "sha256": "7d9607ab086535a786b5d2900a505e5fb133418906cb7a38523fe8ad89881b63",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-result.png",
+        "bytes": 212457,
+        "width": 390,
+        "height": 1247,
+        "colors": 786,
+        "min": 4,
+        "max": 229,
+        "sha256": "5f141f3f50b8d15826b683604d90fb5bb6ffa35d3fa35815078b902ea4e426ed",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-rune-first-resumed.png",
+        "bytes": 188449,
+        "width": 390,
+        "height": 844,
+        "colors": 847,
+        "min": 4,
+        "max": 247,
+        "sha256": "d1346242d1d653d67614fbf082ac0b3801cc257e50864866272f0f8c29ea560b",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-rune.png",
+        "bytes": 188172,
+        "width": 390,
+        "height": 844,
+        "colors": 850,
+        "min": 4,
+        "max": 247,
+        "sha256": "3c5f896fe5d05c44fb384d6de53aa0ab6c4028c298ebfb0206340322303d6dcc",
+        "valid": true
+      },
+      {
+        "path": "Verification/screenshots/mobile-suite-initial.png",
+        "bytes": 197148,
+        "width": 390,
+        "height": 844,
+        "colors": 771,
+        "min": 7,
+        "max": 229,
+        "sha256": "f72660edcd001147d757e77fb76a215f39a4d8e7cb130b4145c0aab45e9939cf",
+        "valid": true
+      }
+    ],
+    "requiredScreenshotsPresent": true,
+    "missingScreenshots": []
+  },
+  "results": [
+    {
+      "mode": "desktop",
+      "report": "Verification/desktop.json",
+      "exitCode": 0,
+      "error": null,
+      "counts": {
+        "pass": 109
+      },
+      "suiteCounts": {
+        "inherited": {
+          "pass": 73
+        },
+        "supplemental": {
+          "pass": 36
+        }
+      },
+      "inheritedAllOriginalNamesAndOrder": true,
+      "expectedInherited": 73,
+      "expectedSupplemental": 36,
+      "supplemental72Verified": true,
+      "supplementalCaseNames": [
+        "standard medium-integrity user and sandboxed native GPU without safety bypass flags",
+        "before-start lift has explicit reason and no thickness bias hits damage changes",
+        "stage1 trusted native blur cancels pending lift without work",
+        "stage1 blur freezes all heat work coverage and clock",
+        "stage1 refocus remains paused until one resume action",
+        "stage1 first native resume restores operation only once",
+        "stage1 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage1 resize rebuilds real perspective projection and preserves processing state",
+        "stage1 resized true target first tap gives one hit",
+        "stage2 trusted native blur cancels pending null without work",
+        "stage2 blur freezes all heat work coverage and clock",
+        "stage2 refocus remains paused until one resume action",
+        "stage2 first native resume restores operation only once",
+        "stage2 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage3 trusted native blur cancels pending carry without work",
+        "stage3 blur freezes all heat work coverage and clock",
+        "stage3 refocus remains paused until one resume action",
+        "stage3 first native resume restores operation only once",
+        "stage3 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage4 stationary contact hold is not fake fine grinding progress",
+        "stage4 subpixel same point jitter cannot fill fine grind cells",
+        "stage4 trusted native blur cancels pending grind without work",
+        "stage4 blur freezes all heat work coverage and clock",
+        "stage4 refocus remains paused until one resume action",
+        "stage4 first native resume restores operation only once",
+        "stage4 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage4 resize rebuilds real perspective projection and preserves processing state",
+        "stage5 trusted native blur cancels pending trace without work",
+        "stage5 blur freezes all heat work coverage and clock",
+        "stage5 refocus remains paused until one resume action",
+        "stage5 first native resume restores operation only once",
+        "stage5 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage5 resize rebuilds real perspective projection and preserves processing state",
+        "stage6 normal completion feedback is 本炉完成, not 开始本步",
+        "finished stage6 resize rebuilds real perspective projection and preserves processing state",
+        "native WebGL context has no loss or error UI throughout the full pipeline"
+      ],
+      "allCaseStatusesCounted": true,
+      "result": {
+        "version": "web-0.3",
+        "name": "青纹灵剑",
+        "grade": "灵品",
+        "quality": 100,
+        "scores": {
+          "shape": 99,
+          "quench": 100,
+          "temper": 100,
+          "grind": 100,
+          "rune": 100
+        },
+        "damage": 0,
+        "attributes": {
+          "sharp": 86,
+          "stable": 95,
+          "spirit": 75
+        },
+        "flaws": [],
+        "logs": [
+          "青纹铁预制器胚备妥。",
+          "双面锻形99分，共50锤；回炉1次。",
+          "浸淬100分，分段冷却100%。",
+          "缓热回火100分。",
+          "双刃打磨100分。",
+          "连续描纹100分。"
+        ]
+      },
+      "lowPartial": {
+        "unfinishedRune": {
+          "segment": 0,
+          "fraction": 0.3500000678786471
+        },
+        "result": {
+          "version": "web-0.3",
+          "name": "青纹灵剑",
+          "grade": "瑕品",
+          "quality": 28,
+          "scores": {
+            "shape": 55,
+            "quench": 13,
+            "temper": 46,
+            "grind": 6,
+            "rune": 6
+          },
+          "damage": 0,
+          "attributes": {
+            "sharp": 40,
+            "stable": 52,
+            "spirit": 23
+          },
+          "flaws": [
+            "刃形未匀：厚薄与双面偏差未修整。",
+            "局部欠淬：热透或浸入覆盖不足。",
+            "应力未缓：回火热量不够均衡。",
+            "磨刃欠工：部分刃带仍粗糙。",
+            "灵脉残缺：未描完整或走线受损。"
+          ],
+          "logs": [
+            "青纹铁预制器胚备妥。",
+            "双面锻形55分，共1锤；回炉1次。",
+            "浸淬13分，分段冷却13%。",
+            "缓热回火46分。",
+            "双刃打磨6分。",
+            "连续描纹6分。"
+          ]
+        }
+      },
+      "firstControlActions": 161,
+      "inputs": {
+        "trusted": 4550,
+        "untrusted": 0,
+        "types": {
+          "pointermove:mouse": 2561,
+          "pointerdown:mouse": 257,
+          "gotpointercapture:mouse": 91,
+          "pointerup:mouse": 257,
+          "lostpointercapture:mouse": 91,
+          "click:mouse": 256,
+          "input:native": 520,
+          "keydown:native": 512,
+          "pointerdown:touch": 1,
+          "gotpointercapture:touch": 1,
+          "pointermove:touch": 1,
+          "pointercancel:touch": 1,
+          "lostpointercapture:touch": 1
+        },
+        "last": [
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 452.7099914550781,
+            "y": 1041.0899658203125
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 452.7099914550781,
+            "y": 1041.0899658203125
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 452,
+            "y": 1041
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101,
+            "y": 1001
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "draft",
+            "x": 729.3499755859375,
+            "y": 943.0900268554688
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "draft",
+            "x": 729.3499755859375,
+            "y": 943.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "draft",
+            "x": 729.3499755859375,
+            "y": 943.0900268554688
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "draft",
+            "x": 729.3499755859375,
+            "y": 943.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "draft",
+            "x": 729,
+            "y": 943
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "Home"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 81,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 81,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 81,
+            "y": 837
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 559.5506591796875,
+            "y": 456.3446044921875
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 559.184326171875,
+            "y": 450.7865905761719
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 552.2239379882812,
+            "y": 345.18475341796875
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 552.2239379882812,
+            "y": 345.18475341796875
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 552,
+            "y": 345
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 471.25,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 471.25,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 471,
+            "y": 1001
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101,
+            "y": 1001
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 471.4201965332031,
+            "y": 397.69757080078125
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 473.2178039550781,
+            "y": 397.9864807128906
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 531.0969848632812,
+            "y": 407.2770080566406
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 531.0969848632812,
+            "y": 407.2770080566406
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 531,
+            "y": 407
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278.7099914550781,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278.7099914550781,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278,
+            "y": 1001
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101.20999908447266,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "next",
+            "x": 101,
+            "y": 1001
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "view-close",
+            "x": 157,
+            "y": 837
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 471.06988525390625,
+            "y": 430.2706298828125
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 471.3525695800781,
+            "y": 430.2860412597656
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 496.4989318847656,
+            "y": 431.6568603515625
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 496.4989318847656,
+            "y": 431.6568603515625
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "world",
+            "x": 496,
+            "y": 431
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278.7099914550781,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278.7099914550781,
+            "y": 1001.0900268554688
+          },
+          {
+            "type": "click",
+            "pointerType": "mouse",
+            "trusted": true,
+            "target": "finish",
+            "x": 278,
+            "y": 1001
+          }
+        ]
+      },
+      "errors": [],
+      "httpRequests": [],
+      "blocked": [],
+      "fatal": null,
+      "environment": {
+        "browser": {
+          "protocolVersion": "1.3",
+          "product": "Edg/157.0.4341.60",
+          "revision": "@fbcb2989a6c61b72a4919fe1028e58e70131cd46",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+          "jsVersion": "15.7.11.7"
+        },
+        "gpu": {
+          "devices": [
+            {
+              "vendorId": 4318,
+              "deviceId": 11525,
+              "subSysId": 1103172696,
+              "revision": 161,
+              "vendorString": "",
+              "deviceString": "NVIDIA GeForce RTX 5060",
+              "driverVendor": "NVIDIA",
+              "driverVersion": "32.0.16.2101"
+            },
+            {
+              "vendorId": 4318,
+              "deviceId": 11525,
+              "subSysId": 1103172696,
+              "revision": 161,
+              "vendorString": "",
+              "deviceString": "NVIDIA GeForce RTX 5060",
+              "driverVendor": "",
+              "driverVersion": "32.0.16.2101"
+            },
+            {
+              "vendorId": 5140,
+              "deviceId": 140,
+              "subSysId": 0,
+              "revision": 0,
+              "vendorString": "",
+              "deviceString": "Microsoft Basic Render Driver",
+              "driverVendor": "",
+              "driverVersion": "10.0.26100.9818"
+            }
+          ],
+          "auxAttributes": {
+            "amdSwitchable": false,
+            "bgra8OverlaySupport": "SCALING",
+            "canSupportThreadedTextureMailbox": false,
+            "directComposition": true,
+            "directMLFeatureLevel": "Not supported",
+            "directRenderingVersion": "",
+            "displayType": "ANGLE_D3D11",
+            "dx12FeatureLevel": "Not supported",
+            "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_multiview_multisample GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_provoking_vertex GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_APPLE_clip_distance GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_external_wrap_modes GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_NV_EGL_stream_consumer_external GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_depth24 GL_OES_depth32 GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OVR_multiview GL_OVR_multiview2 ",
+            "glImplementationParts": "(gl=egl-angle,angle=d3d11)",
+            "glRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.2101)",
+            "glResetNotificationStrategy": 33362,
+            "glVendor": "Google Inc. (NVIDIA)",
+            "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.48751 git hash: b1ed108e7fa7)",
+            "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+            "glWsVendor": "Google Inc. (NVIDIA)",
+            "glWsVersion": "1.5 (ANGLE 2.1.48751 git hash: b1ed108e7fa7)",
+            "inProcessGpu": false,
+            "initializationTime": 0.240823,
+            "isAsan": false,
+            "isClangCoverage": false,
+            "jpegDecodeAcceleratorSupported": false,
+            "maxMsaaSamples": "8",
+            "nv12OverlaySupport": "SCALING",
+            "optimus": false,
+            "p010OverlaySupport": "SCALING",
+            "passthroughCmdDecoder": true,
+            "pixelShaderVersion": "5.0",
+            "playreadyHardwareDrmSupport": false,
+            "processCrashCount": 0,
+            "rgb10a2OverlaySupport": "SCALING",
+            "sandboxed": true,
+            "skiaBackendType": "GaneshGL",
+            "subpixelFontRendering": true,
+            "supportsD3dSharedImages": true,
+            "supportsDirectML": false,
+            "supportsDx12": false,
+            "supportsOverlays": true,
+            "supportsVulkan": false,
+            "targetCpuBits": 64,
+            "vertexShaderVersion": "5.0",
+            "visibilityCallbackCallCount": 0,
+            "vulkanVersion": "Not supported",
+            "yuy2OverlaySupport": "SCALING"
+          },
+          "featureStatus": {
+            "2d_canvas": "enabled",
+            "direct_rendering_display_compositor": "disabled_off_ok",
+            "gpu_compositing": "enabled",
+            "multiple_raster_threads": "enabled_on",
+            "opengl": "enabled_on",
+            "rasterization": "enabled",
+            "skia_graphite": "disabled_off",
+            "trees_in_viz": "disabled_off",
+            "video_decode": "enabled",
+            "video_encode": "enabled",
+            "webgl": "enabled",
+            "webgpu": "enabled",
+            "webnn": "disabled_off"
+          },
+          "driverBugWorkarounds": [
+            "disable_d3d11_vp9_ksvc_decoding",
+            "enable_webgl_timer_query_extensions",
+            "exit_on_context_lost",
+            "unpack_overlapping_rows_separately_unpack_buffer",
+            "use_g22_topleft_color_space_for_yuv_vp",
+            "disabled_extension_GL_KHR_blend_equation_advanced",
+            "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+          ],
+          "videoDecoding": [],
+          "videoEncoding": []
+        },
+        "standardToken": "\r\n����Ϣ\r\n-----------------\r\n\r\n����                                   ����   SID          ����                          \r\n====================================== ====== ============ ==============================\r\nEveryone                               ��֪�� S-1-1-0      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/�����ʻ��͹���Ա���Ա    ��֪�� S-1-5-114    ֻ���ھܾ�����                \r\nBUILTIN/Administrators                 ����   S-1-5-32-544 ֻ���ھܾ�����                \r\nBUILTIN/Users                          ����   S-1-5-32-545 �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/INTERACTIVE               ��֪�� S-1-5-4      �������, ������Ĭ��, ���õ���\r\nCONSOLE LOGON                          ��֪�� S-1-2-1      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/Authenticated Users       ��֪�� S-1-5-11     �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/This Organization         ��֪�� S-1-5-15     �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/�����ʻ�                  ��֪�� S-1-5-113    �������, ������Ĭ��, ���õ���\r\nLOCAL                                  ��֪�� S-1-2-0      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/NTLM Authentication       ��֪�� S-1-5-64-10  �������, ������Ĭ��, ���õ���\r\nMandatory Label/Medium Mandatory Level ��ǩ   S-1-16-8192                                \r\n"
+      },
+      "startup": {
+        "scene": {
+          "renderer": "THREE.WebGLRenderer",
+          "revision": "128",
+          "meshCount": 314,
+          "vertexCount": 150,
+          "raycast": true,
+          "shadows": true,
+          "perspectiveCamera": true,
+          "drawCalls": 299,
+          "view": "wide",
+          "orbitMode": false,
+          "hammerVisible": false,
+          "hammerAnimating": false,
+          "material": "MeshStandardMaterial",
+          "gesture": null,
+          "webgl": true,
+          "feedback": ""
+        },
+        "framebuffer": {
+          "width": 1384,
+          "height": 744,
+          "min": 3,
+          "max": 255,
+          "colors": 1763,
+          "nonblack": 10608,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        },
+        "shaders": {
+          "calls": 299,
+          "triangles": 12484,
+          "outputEncoding": 3001,
+          "toneMappingExposure": 1.05,
+          "capabilities": {
+            "isWebGL2": true,
+            "maxTextures": 16,
+            "maxTextureSize": 16384
+          },
+          "shadow": true,
+          "programs": [
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshDepthMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "SpriteMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "PointsMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshPhysicalMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            }
+          ],
+          "glError": 0
+        }
+      },
+      "highResultScene": {
+        "debug": {
+          "renderer": "THREE.WebGLRenderer",
+          "revision": "128",
+          "meshCount": 320,
+          "vertexCount": 150,
+          "raycast": true,
+          "shadows": true,
+          "perspectiveCamera": true,
+          "drawCalls": 314,
+          "view": "wide",
+          "orbitMode": false,
+          "hammerVisible": false,
+          "hammerAnimating": false,
+          "material": "MeshStandardMaterial",
+          "gesture": null,
+          "webgl": true,
+          "feedback": "本炉完成。可旋转查看成品，或导出本炉记录。"
+        },
+        "actual": {
+          "calls": 314,
+          "triangles": 17798,
+          "outputEncoding": 3001,
+          "toneMappingExposure": 1.05,
+          "capabilities": {
+            "isWebGL2": true,
+            "maxTextures": 16,
+            "maxTextureSize": 16384
+          },
+          "shadow": true,
+          "programs": [
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshDepthMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "SpriteMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "PointsMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshPhysicalMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            }
+          ],
+          "glError": 0
+        },
+        "heap": {
+          "actualMeshCount": 320,
+          "camera": {
+            "type": "PerspectiveCamera",
+            "fov": 43,
+            "aspect": 1.8602150537634408,
+            "projection": [
+              1.3647066722357257,
+              0,
+              0,
+              0,
+              0,
+              2.5386478956643073,
+              0,
+              0,
+              0,
+              0,
+              -1.002002002002002,
+              -1,
+              0,
+              0,
+              -0.20020020020020018,
+              0
+            ],
+            "position": [
+              2.233570433461908,
+              14.933728351189808,
+              7.6704779514430275
+            ],
+            "matrix": [
+              0.9637708963658905,
+              -2.7755575615628914e-17,
+              -0.2667314366888312,
+              0,
+              -0.22728399690863169,
+              0.5233659512516494,
+              -0.8212369121147035,
+              0,
+              0.13959815209136922,
+              0.852108021949363,
+              0.5044048719651891,
+              0,
+              2.233570433461908,
+              14.933728351189808,
+              7.6704779514430275,
+              1
+            ]
+          },
+          "head": {
+            "visible": false,
+            "type": "BoxGeometry",
+            "vertices": 24,
+            "world": [
+              2.0000001000618357,
+              2.849999765454716,
+              -0.00036970599886255843
+            ],
+            "screen": {
+              "left": 813.9828521670303,
+              "right": 868.6478537322079,
+              "top": 476.28352193969187,
+              "bottom": 520.1090113789957
+            },
+            "vertexSum": -2.5850000232458115
+          },
+          "blade": {
+            "visible": true,
+            "type": "BufferGeometry",
+            "vertices": 150,
+            "world": [
+              0,
+              1.61,
+              0
+            ],
+            "screen": {
+              "left": 568.9412074707013,
+              "right": 861.5983718494203,
+              "top": 459.2620570420357,
+              "bottom": 562.6403028298546
+            },
+            "vertexSum": -125.61508077860344
+          },
+          "upperFaceNormals": {
+            "positive": 24,
+            "negative": 1
+          },
+          "runeRays": []
+        },
+        "framebuffer": {
+          "width": 1384,
+          "height": 744,
+          "min": 3,
+          "max": 255,
+          "colors": 1748,
+          "nonblack": 10606,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "performance": {
+        "sampleKind": "native unclocked requestAnimationFrame in separate untouched initial-scene UI; short sample only, not sustained or hard FPS",
+        "sampleFrames": 20,
+        "maxFrameMs": 10.100000000000023,
+        "minFrameMs": 9.899999999999977,
+        "meanFrameMs": 10,
+        "frameIntervalsMs": [
+          10,
+          10,
+          10,
+          10.100000000000023,
+          9.899999999999977,
+          10,
+          10,
+          10.100000000000023,
+          10,
+          9.899999999999977,
+          10,
+          10.100000000000023,
+          9.899999999999977,
+          10,
+          10,
+          10,
+          10.100000000000023,
+          9.899999999999977,
+          10,
+          10
+        ],
+        "actualDrawCalls": 298,
+        "actualTriangles": 12472,
+        "debugDrawCalls": 298,
+        "framebuffer": {
+          "width": 1369,
+          "height": 744,
+          "min": 3,
+          "max": 255,
+          "colors": 1815,
+          "nonblack": 10491,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        },
+        "valid": true
+      },
+      "sha256Before": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8",
+      "sha256After": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8"
+    },
+    {
+      "mode": "mobile",
+      "report": "Verification/mobile.json",
+      "exitCode": 0,
+      "error": null,
+      "counts": {
+        "pass": 108
+      },
+      "suiteCounts": {
+        "inherited": {
+          "pass": 72
+        },
+        "supplemental": {
+          "pass": 36
+        }
+      },
+      "inheritedAllOriginalNamesAndOrder": true,
+      "expectedInherited": 72,
+      "expectedSupplemental": 36,
+      "supplemental72Verified": true,
+      "supplementalCaseNames": [
+        "standard medium-integrity user and sandboxed native GPU without safety bypass flags",
+        "before-start lift has explicit reason and no thickness bias hits damage changes",
+        "stage1 trusted native blur cancels pending lift without work",
+        "stage1 blur freezes all heat work coverage and clock",
+        "stage1 refocus remains paused until one resume action",
+        "stage1 first native resume restores operation only once",
+        "stage1 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage1 resize rebuilds real perspective projection and preserves processing state",
+        "stage1 resized true target first tap gives one hit",
+        "stage2 trusted native blur cancels pending carry without work",
+        "stage2 blur freezes all heat work coverage and clock",
+        "stage2 refocus remains paused until one resume action",
+        "stage2 first native resume restores operation only once",
+        "stage2 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage3 trusted native blur cancels pending carry without work",
+        "stage3 blur freezes all heat work coverage and clock",
+        "stage3 refocus remains paused until one resume action",
+        "stage3 first native resume restores operation only once",
+        "stage3 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage4 stationary contact hold is not fake fine grinding progress",
+        "stage4 subpixel same point jitter cannot fill fine grind cells",
+        "stage4 trusted native blur cancels pending grind without work",
+        "stage4 blur freezes all heat work coverage and clock",
+        "stage4 refocus remains paused until one resume action",
+        "stage4 first native resume restores operation only once",
+        "stage4 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage4 resize rebuilds real perspective projection and preserves processing state",
+        "stage5 trusted native blur cancels pending trace without work",
+        "stage5 blur freezes all heat work coverage and clock",
+        "stage5 refocus remains paused until one resume action",
+        "stage5 first native resume restores operation only once",
+        "stage5 pause overlay preserves visible nonblank native GL with translucent opacity",
+        "stage5 resize rebuilds real perspective projection and preserves processing state",
+        "stage6 normal completion feedback is 本炉完成, not 开始本步",
+        "finished stage6 resize rebuilds real perspective projection and preserves processing state",
+        "native WebGL context has no loss or error UI throughout the full pipeline"
+      ],
+      "allCaseStatusesCounted": true,
+      "result": {
+        "version": "web-0.3",
+        "name": "青纹灵剑",
+        "grade": "灵品",
+        "quality": 100,
+        "scores": {
+          "shape": 99,
+          "quench": 100,
+          "temper": 100,
+          "grind": 100,
+          "rune": 100
+        },
+        "damage": 0,
+        "attributes": {
+          "sharp": 86,
+          "stable": 95,
+          "spirit": 75
+        },
+        "flaws": [],
+        "logs": [
+          "青纹铁预制器胚备妥。",
+          "双面锻形99分，共50锤；回炉1次。",
+          "浸淬100分，分段冷却100%。",
+          "缓热回火100分。",
+          "双刃打磨100分。",
+          "连续描纹100分。"
+        ]
+      },
+      "lowPartial": {
+        "unfinishedRune": {
+          "segment": 0,
+          "fraction": 0.3500001185327971
+        },
+        "result": {
+          "version": "web-0.3",
+          "name": "青纹灵剑",
+          "grade": "瑕品",
+          "quality": 28,
+          "scores": {
+            "shape": 55,
+            "quench": 13,
+            "temper": 47,
+            "grind": 6,
+            "rune": 6
+          },
+          "damage": 0,
+          "attributes": {
+            "sharp": 40,
+            "stable": 52,
+            "spirit": 23
+          },
+          "flaws": [
+            "刃形未匀：厚薄与双面偏差未修整。",
+            "局部欠淬：热透或浸入覆盖不足。",
+            "应力未缓：回火热量不够均衡。",
+            "磨刃欠工：部分刃带仍粗糙。",
+            "灵脉残缺：未描完整或走线受损。"
+          ],
+          "logs": [
+            "青纹铁预制器胚备妥。",
+            "双面锻形55分，共1锤；回炉1次。",
+            "浸淬13分，分段冷却13%。",
+            "缓热回火47分。",
+            "双刃打磨6分。",
+            "连续描纹6分。"
+          ]
+        }
+      },
+      "firstControlActions": 161,
+      "inputs": {
+        "trusted": 2945,
+        "untrusted": 0,
+        "types": {
+          "pointerdown:touch": 257,
+          "gotpointercapture:touch": 257,
+          "pointerup:touch": 256,
+          "lostpointercapture:touch": 257,
+          "click:touch": 154,
+          "pointermove:touch": 730,
+          "input:native": 520,
+          "keydown:native": 512,
+          "pointercancel:touch": 1,
+          "pointermove:mouse": 1
+        },
+        "last": [
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "depth",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "depth"
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 783.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 783.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 783.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 783.4375
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "",
+            "x": 76,
+            "y": 783
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "draft",
+            "x": 192.609375,
+            "y": 559.671875
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "draft",
+            "x": 192.609375,
+            "y": 559.671875
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "draft",
+            "x": 192.609375,
+            "y": 559.671875
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "draft",
+            "x": 192.609375,
+            "y": 559.671875
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "Home"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "keydown",
+            "trusted": true,
+            "target": "draft",
+            "key": "ArrowRight"
+          },
+          {
+            "type": "input",
+            "trusted": true,
+            "target": "draft"
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 51,
+            "y": 407.671875
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 51,
+            "y": 407.671875
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 51,
+            "y": 407.671875
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 51,
+            "y": 407.671875
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-wide",
+            "x": 51,
+            "y": 408
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 125.98953247070312,
+            "y": 258.85504150390625
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 122.8382568359375,
+            "y": 211.0443572998047
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 122.8382568359375,
+            "y": 211.0443572998047
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 122.8382568359375,
+            "y": 211.0443572998047
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 720.5625
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 720.5625
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 720.5625
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 76,
+            "y": 720.5625
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 461
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 88.08395385742188,
+            "y": 286.6305236816406
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 90.40345001220703,
+            "y": 287.0032653808594
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 113.75138092041016,
+            "y": 290.7507019042969
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 113.75138092041016,
+            "y": 290.7507019042969
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "",
+            "x": 240,
+            "y": 688
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "next",
+            "x": 76.3203125,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 460.671875
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "view-close",
+            "x": 115,
+            "y": 461
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 87.93328857421875,
+            "y": 300.6404113769531
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 88.29803466796875,
+            "y": 300.6603088378906
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 98.8705062866211,
+            "y": 301.2366638183594
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 98.8705062866211,
+            "y": 301.2366638183594
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "world",
+            "x": 88,
+            "y": 301
+          },
+          {
+            "type": "pointerdown",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "gotpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "pointerup",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "lostpointercapture",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "finish",
+            "x": 240.09375,
+            "y": 688.4375
+          },
+          {
+            "type": "click",
+            "pointerType": "touch",
+            "trusted": true,
+            "target": "",
+            "x": 240,
+            "y": 688
+          }
+        ]
+      },
+      "errors": [],
+      "httpRequests": [],
+      "blocked": [],
+      "fatal": null,
+      "environment": {
+        "browser": {
+          "protocolVersion": "1.3",
+          "product": "Edg/157.0.4341.60",
+          "revision": "@fbcb2989a6c61b72a4919fe1028e58e70131cd46",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+          "jsVersion": "15.7.11.7"
+        },
+        "gpu": {
+          "devices": [
+            {
+              "vendorId": 4318,
+              "deviceId": 11525,
+              "subSysId": 1103172696,
+              "revision": 161,
+              "vendorString": "",
+              "deviceString": "NVIDIA GeForce RTX 5060",
+              "driverVendor": "NVIDIA",
+              "driverVersion": "32.0.16.2101"
+            },
+            {
+              "vendorId": 4318,
+              "deviceId": 11525,
+              "subSysId": 1103172696,
+              "revision": 161,
+              "vendorString": "",
+              "deviceString": "NVIDIA GeForce RTX 5060",
+              "driverVendor": "",
+              "driverVersion": "32.0.16.2101"
+            },
+            {
+              "vendorId": 5140,
+              "deviceId": 140,
+              "subSysId": 0,
+              "revision": 0,
+              "vendorString": "",
+              "deviceString": "Microsoft Basic Render Driver",
+              "driverVendor": "",
+              "driverVersion": "10.0.26100.9818"
+            }
+          ],
+          "auxAttributes": {
+            "amdSwitchable": false,
+            "bgra8OverlaySupport": "SCALING",
+            "canSupportThreadedTextureMailbox": false,
+            "directComposition": true,
+            "directMLFeatureLevel": "Not supported",
+            "directRenderingVersion": "",
+            "displayType": "ANGLE_D3D11",
+            "dx12FeatureLevel": "Not supported",
+            "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_multiview_multisample GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_provoking_vertex GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_APPLE_clip_distance GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_external_wrap_modes GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_NV_EGL_stream_consumer_external GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_depth24 GL_OES_depth32 GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OVR_multiview GL_OVR_multiview2 ",
+            "glImplementationParts": "(gl=egl-angle,angle=d3d11)",
+            "glRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.2101)",
+            "glResetNotificationStrategy": 33362,
+            "glVendor": "Google Inc. (NVIDIA)",
+            "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.48751 git hash: b1ed108e7fa7)",
+            "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+            "glWsVendor": "Google Inc. (NVIDIA)",
+            "glWsVersion": "1.5 (ANGLE 2.1.48751 git hash: b1ed108e7fa7)",
+            "inProcessGpu": false,
+            "initializationTime": 0.219628,
+            "isAsan": false,
+            "isClangCoverage": false,
+            "jpegDecodeAcceleratorSupported": false,
+            "maxMsaaSamples": "8",
+            "nv12OverlaySupport": "SCALING",
+            "optimus": false,
+            "p010OverlaySupport": "SCALING",
+            "passthroughCmdDecoder": true,
+            "pixelShaderVersion": "5.0",
+            "playreadyHardwareDrmSupport": false,
+            "processCrashCount": 0,
+            "rgb10a2OverlaySupport": "SCALING",
+            "sandboxed": true,
+            "skiaBackendType": "GaneshGL",
+            "subpixelFontRendering": true,
+            "supportsD3dSharedImages": true,
+            "supportsDirectML": false,
+            "supportsDx12": false,
+            "supportsOverlays": true,
+            "supportsVulkan": false,
+            "targetCpuBits": 64,
+            "vertexShaderVersion": "5.0",
+            "visibilityCallbackCallCount": 0,
+            "vulkanVersion": "Not supported",
+            "yuy2OverlaySupport": "SCALING"
+          },
+          "featureStatus": {
+            "2d_canvas": "enabled",
+            "direct_rendering_display_compositor": "disabled_off_ok",
+            "gpu_compositing": "enabled",
+            "multiple_raster_threads": "enabled_on",
+            "opengl": "enabled_on",
+            "rasterization": "enabled",
+            "skia_graphite": "disabled_off",
+            "trees_in_viz": "disabled_off",
+            "video_decode": "enabled",
+            "video_encode": "enabled",
+            "webgl": "enabled",
+            "webgpu": "enabled",
+            "webnn": "disabled_off"
+          },
+          "driverBugWorkarounds": [
+            "disable_d3d11_vp9_ksvc_decoding",
+            "enable_webgl_timer_query_extensions",
+            "exit_on_context_lost",
+            "unpack_overlapping_rows_separately_unpack_buffer",
+            "use_g22_topleft_color_space_for_yuv_vp",
+            "disabled_extension_GL_KHR_blend_equation_advanced",
+            "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+          ],
+          "videoDecoding": [],
+          "videoEncoding": []
+        },
+        "standardToken": "\r\n����Ϣ\r\n-----------------\r\n\r\n����                                   ����   SID          ����                          \r\n====================================== ====== ============ ==============================\r\nEveryone                               ��֪�� S-1-1-0      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/�����ʻ��͹���Ա���Ա    ��֪�� S-1-5-114    ֻ���ھܾ�����                \r\nBUILTIN/Administrators                 ����   S-1-5-32-544 ֻ���ھܾ�����                \r\nBUILTIN/Users                          ����   S-1-5-32-545 �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/INTERACTIVE               ��֪�� S-1-5-4      �������, ������Ĭ��, ���õ���\r\nCONSOLE LOGON                          ��֪�� S-1-2-1      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/Authenticated Users       ��֪�� S-1-5-11     �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/This Organization         ��֪�� S-1-5-15     �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/�����ʻ�                  ��֪�� S-1-5-113    �������, ������Ĭ��, ���õ���\r\nLOCAL                                  ��֪�� S-1-2-0      �������, ������Ĭ��, ���õ���\r\nNT AUTHORITY/NTLM Authentication       ��֪�� S-1-5-64-10  �������, ������Ĭ��, ���õ���\r\nMandatory Label/Medium Mandatory Level ��ǩ   S-1-16-8192                                \r\n"
+      },
+      "startup": {
+        "scene": {
+          "renderer": "THREE.WebGLRenderer",
+          "revision": "128",
+          "meshCount": 314,
+          "vertexCount": 150,
+          "raycast": true,
+          "shadows": true,
+          "perspectiveCamera": true,
+          "drawCalls": 270,
+          "view": "wide",
+          "orbitMode": false,
+          "hammerVisible": false,
+          "hammerAnimating": false,
+          "material": "MeshStandardMaterial",
+          "gesture": null,
+          "webgl": true,
+          "feedback": ""
+        },
+        "framebuffer": {
+          "width": 658,
+          "height": 576,
+          "min": 4,
+          "max": 255,
+          "colors": 1198,
+          "nonblack": 3908,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        },
+        "shaders": {
+          "calls": 270,
+          "triangles": 12136,
+          "outputEncoding": 3001,
+          "toneMappingExposure": 1.05,
+          "capabilities": {
+            "isWebGL2": true,
+            "maxTextures": 16,
+            "maxTextureSize": 16384
+          },
+          "shadow": true,
+          "programs": [
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshDepthMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "SpriteMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "PointsMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshPhysicalMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            }
+          ],
+          "glError": 0
+        }
+      },
+      "highResultScene": {
+        "debug": {
+          "renderer": "THREE.WebGLRenderer",
+          "revision": "128",
+          "meshCount": 320,
+          "vertexCount": 150,
+          "raycast": true,
+          "shadows": true,
+          "perspectiveCamera": true,
+          "drawCalls": 293,
+          "view": "wide",
+          "orbitMode": false,
+          "hammerVisible": false,
+          "hammerAnimating": false,
+          "material": "MeshStandardMaterial",
+          "gesture": null,
+          "webgl": true,
+          "feedback": "本炉完成。可旋转查看成品，或导出本炉记录。"
+        },
+        "actual": {
+          "calls": 293,
+          "triangles": 17546,
+          "outputEncoding": 3001,
+          "toneMappingExposure": 1.05,
+          "capabilities": {
+            "isWebGL2": true,
+            "maxTextures": 16,
+            "maxTextureSize": 16384
+          },
+          "shadow": true,
+          "programs": [
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshDepthMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshStandardMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "SpriteMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "PointsMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshPhysicalMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            },
+            {
+              "name": "MeshBasicMaterial",
+              "linked": true,
+              "shaders": [
+                {
+                  "compiled": true
+                },
+                {
+                  "compiled": true
+                }
+              ]
+            }
+          ],
+          "glError": 0
+        },
+        "heap": {
+          "actualMeshCount": 320,
+          "camera": {
+            "type": "PerspectiveCamera",
+            "fov": 43,
+            "aspect": 1.14375,
+            "projection": [
+              2.219582859597208,
+              0,
+              0,
+              0,
+              0,
+              2.5386478956643073,
+              0,
+              0,
+              0,
+              0,
+              -1.002002002002002,
+              -1,
+              0,
+              0,
+              -0.20020020020020018,
+              0
+            ],
+            "position": [
+              2.233570433461908,
+              14.933728351189808,
+              7.6704779514430275
+            ],
+            "matrix": [
+              0.9637708963658905,
+              -2.7755575615628914e-17,
+              -0.2667314366888312,
+              0,
+              -0.22728399690863169,
+              0.5233659512516494,
+              -0.8212369121147035,
+              0,
+              0.13959815209136922,
+              0.852108021949363,
+              0.5044048719651891,
+              0,
+              2.233570433461908,
+              14.933728351189808,
+              7.6704779514430275,
+              1
+            ]
+          },
+          "head": {
+            "visible": false,
+            "type": "BoxGeometry",
+            "vertices": 24,
+            "world": [
+              2.000000071292659,
+              2.8699999861649896,
+              -0.00036942962105791625
+            ],
+            "screen": {
+              "left": 235.4709550540629,
+              "right": 259.0119560932669,
+              "top": 381.11874146465,
+              "bottom": 399.9911952773305
+            },
+            "vertexSum": -2.5850000232458115
+          },
+          "blade": {
+            "visible": true,
+            "type": "BufferGeometry",
+            "vertices": 150,
+            "world": [
+              0,
+              1.61,
+              0
+            ],
+            "screen": {
+              "left": 130.02847606210432,
+              "right": 255.90252552663236,
+              "top": 374.1098565234562,
+              "bottom": 418.5736188360587
+            },
+            "vertexSum": -125.6150800898904
+          },
+          "upperFaceNormals": {
+            "positive": 24,
+            "negative": 1
+          },
+          "runeRays": []
+        },
+        "framebuffer": {
+          "width": 658,
+          "height": 576,
+          "min": 3,
+          "max": 255,
+          "colors": 1156,
+          "nonblack": 3908,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "performance": {
+        "sampleKind": "native unclocked requestAnimationFrame in separate untouched initial-scene UI; short sample only, not sustained or hard FPS",
+        "sampleFrames": 20,
+        "maxFrameMs": 10.100000000000023,
+        "minFrameMs": 9.899999999999977,
+        "meanFrameMs": 10,
+        "frameIntervalsMs": [
+          10,
+          10,
+          9.899999999999977,
+          10,
+          10,
+          10,
+          10.100000000000023,
+          9.899999999999977,
+          10,
+          10.100000000000023,
+          9.899999999999977,
+          10.100000000000023,
+          9.899999999999977,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10.100000000000023
+        ],
+        "actualDrawCalls": 270,
+        "actualTriangles": 12136,
+        "debugDrawCalls": 270,
+        "framebuffer": {
+          "width": 658,
+          "height": 576,
+          "min": 4,
+          "max": 255,
+          "colors": 1197,
+          "nonblack": 3908,
+          "glError": 0,
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        },
+        "valid": true
+      },
+      "sha256Before": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8",
+      "sha256After": "db1a4427bba5c1fa4eb55cc38192c4105a853710449c5cb44d840bf84b6c4ae8"
+    }
+  ],
+  "limitations": [
+    "Performance is only twenty unclocked native frames per viewport on the untouched initial scene. No sustained or hard-FPS assertion.",
+    "WebGL capability, linked programs, actual draw calls, framebuffer pixels and screenshots prove runtime rendering, not a claim of production-grade art."
+  ],
+  "accepted": true,
+  "publicationSanitization": "Host paths reduced to project/fixture references; browser profiles and raw input audit logs excluded."
+}

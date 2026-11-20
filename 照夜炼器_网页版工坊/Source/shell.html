@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#12110f">
+<title>照夜炼器 · 沉浸工坊 0.4</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #12110f;
+  --panel: #191713;
+  --panel2: #25211a;
+  --ink: #e5ddc9;
+  --muted: #b2a994;
+  --faint: #948875;
+  --line: #494032;
+  --line-soft: #302c25;
+  --gold: #c3a66d;
+  --gold-light: #dfc797;
+  --gold-dark: #74603d;
+  --jade: #c3a66d;
+  --ember: #c3a66d;
+  --danger: #df8d79;
+  --cinnabar: #a64b3c;
+  --seal-ink: #d9836b;
+  --paper-ink: #282116;
+  --silver: #bfc5c3;
+  --ore-shadow: #24211c;
+  --void: #0b0b0a;
+  --clear: transparent;
+  --edge-ink: rgba(9, 9, 8, .7);
+  --hud-ink: rgba(18, 17, 14, .86);
+  --veil: rgba(9, 9, 8, .92);
+  --gold-wash: rgba(195, 166, 109, .09);
+  --canvas-height: clamp(440px, 62vh, 760px);
+  --serif: "STKaiti", "KaiTi", "楷体", "FangSong", "SimSun", serif;
+  --body: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  --mono: "Consolas", "Courier New", monospace;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { min-width: 280px; background: var(--bg); }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: linear-gradient(90deg, var(--void), var(--clear) 12%, var(--clear) 88%, var(--void)), var(--bg);
+  font: 14px/1.7 var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+button, input, output { font: inherit; }
+button {
+  min-width: 44px;
+  min-height: 44px;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: var(--gold-wash);
+  touch-action: manipulation;
+}
+button:disabled { opacity: .4; cursor: not-allowed; }
+button:focus-visible, input:focus-visible, canvas:focus-visible, dialog:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 4px;
+}
+button:focus-visible { text-decoration: underline; text-underline-offset: 5px; }
+button svg { flex-shrink: 0; pointer-events: none; }
+p, h1, h2, h3 { overflow-wrap: anywhere; }
+small, .small { font-size: 13px; color: var(--muted); }
+.shell { width: 100%; max-width: 1640px; margin: 0 auto; padding: 0 28px 20px; }
+.top {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 13px; flex-shrink: 0; }
+.seal { width: 37px; height: 43px; color: var(--seal-ink); transform: rotate(-4deg); }
+.seal svg { width: 100%; height: 100%; display: block; }
+h1 { margin: 0; font: 28px/1.15 var(--serif); letter-spacing: .2em; }
+.brand small { display: block; margin-top: 3px; font-size: 12px; color: var(--faint); letter-spacing: .14em; }
+.top-tools { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.plain {
+  border: 1px solid var(--clear);
+  background: var(--clear);
+  color: var(--muted);
+  padding: 8px 10px;
+  font-size: 13px;
+  white-space: nowrap;
+  transition: color .16s, border-color .16s, background-color .16s;
+}
+.plain:hover:not(:disabled), .plain[aria-pressed="true"] {
+  color: var(--gold-light);
+  border-color: var(--line);
+  background: var(--gold-wash);
+}
+#reset { color: var(--seal-ink); }
+.journey {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0 0 14px;
+  list-style: none;
+}
+.journey li {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 0 9px;
+  border-bottom: 1px solid var(--line-soft);
+  font-size: 13px;
+  color: var(--faint);
+  white-space: nowrap;
+}
+.journey b { font: 12px var(--mono); font-weight: 400; margin-right: 9px; color: var(--faint); }
+.journey .active { color: var(--gold-light); border-bottom-color: var(--gold); }
+.journey .active b { color: var(--seal-ink); }
+.journey .done { color: var(--muted); border-bottom-color: var(--gold-dark); }
+.layout, .workbench { display: block; min-width: 0; }
+.materials { display: none; }
+body[data-stage="0"] .materials {
+  display: grid;
+  grid-template-columns: minmax(140px, .7fr) repeat(3, minmax(0, 1fr));
+  gap: 0 22px;
+  align-items: center;
+  padding: 5px 0 15px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+body:not([data-stage="0"]) .materials { display: none !important; }
+.material-intro { align-self: center; }
+.eyebrow { color: var(--gold); font: 12px/1.5 var(--mono); letter-spacing: .15em; }
+.section-title { font: 25px/1.3 var(--serif); letter-spacing: .15em; margin: 4px 0 0; }
+.material {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 12px;
+  min-width: 0;
+  min-height: 90px;
+  margin: 0;
+  padding: 8px 10px;
+  position: relative;
+  border: 0;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--clear);
+  text-align: left;
+  touch-action: none;
+  transition: border-color .18s, background-color .18s;
+}
+.material:hover:not(:disabled) { border-bottom-color: var(--gold-dark); background: var(--gold-wash); }
+.material.chosen, .material[aria-pressed="true"] { border-bottom-color: var(--gold); background: var(--gold-wash); }
+.material.chosen::after, .material[aria-pressed="true"]::after {
+  content: "入炉";
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  color: var(--seal-ink);
+  border: 1px solid var(--cinnabar);
+  padding: 0 3px;
+  font: 12px/1.6 var(--serif);
+  transform: rotate(-6deg);
+}
+.material strong { display: block; padding-right: 26px; font: 23px/1.3 var(--serif); letter-spacing: .08em; font-weight: 400; }
+.material small { display: block; margin-top: 3px; font-size: 13px; }
+.material .small { display: block; color: var(--faint); font-size: 12px; }
+.ore { grid-row: 1; color: var(--gold); }
+.ore svg { display: block; width: 48px; height: 44px; }
+.material.silver .ore { color: var(--silver); }
+.material.dragging { opacity: .45; }
+.material-hint { grid-column: 2 / -1; font-size: 12px; color: var(--faint); margin: 7px 10px 0; }
+.viewport {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: var(--canvas-height);
+  isolation: isolate;
+  background: var(--void);
+  border-top: 1px solid var(--gold-dark);
+  border-bottom: 1px solid var(--line);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.viewport::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--canvas-height);
+  z-index: 1;
+  background: linear-gradient(180deg, var(--edge-ink), var(--clear) 24%, var(--clear) 83%, var(--edge-ink));
+  pointer-events: none;
+}
+canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.viewport canvas { height: var(--canvas-height); cursor: crosshair; }
+.stage-heading {
+  position: absolute;
+  top: 22px;
+  left: 25px;
+  z-index: 2;
+  max-width: min(52%, 380px);
+  pointer-events: none;
+}
+.stage-heading h2 { margin: 4px 0 0; font: 35px/1.28 var(--serif); letter-spacing: .12em; }
+.stage-heading small { display: block; margin-top: 6px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.scene-badge {
+  position: absolute;
+  left: 25px;
+  bottom: 72px;
+  z-index: 2;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: .15em;
+  pointer-events: none;
+}
+.state-badge {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  z-index: 2;
+  padding: 4px 9px;
+  border-left: 2px solid var(--cinnabar);
+  background: var(--hud-ink);
+  color: var(--gold-light);
+  font-size: 13px;
+  pointer-events: none;
+}
+#context-hint {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  max-width: 38%;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+  text-align: center;
+  pointer-events: none;
+}
+#context-hint:empty { display: none; }
+.heat-hud {
+  position: absolute;
+  top: 154px;
+  left: 25px;
+  z-index: 2;
+  max-width: 250px;
+  padding: 4px 9px;
+  border-left: 2px solid var(--gold-dark);
+  background: var(--hud-ink);
+  color: var(--muted);
+  font-size: 13px;
+  pointer-events: none;
+}
+.heat-hud.warm { border-color: var(--gold); color: var(--gold-light); }
+.heat-hud.cold-warning { border-color: var(--cinnabar); color: var(--danger); }
+.view-tools { position: absolute; left: 17px; bottom: 13px; z-index: 3; display: flex; gap: 4px; }
+.view-tools button {
+  border: 1px solid var(--clear);
+  background: var(--hud-ink);
+  color: var(--muted);
+  font-size: 12px;
+  padding: 8px 11px;
+}
+.view-tools button.selected, .view-tools button:hover:not(:disabled) { border-color: var(--gold-dark); color: var(--gold-light); }
+.hud-meter { position: absolute; right: 24px; bottom: 18px; z-index: 3; width: 204px; max-width: 38%; pointer-events: none; }
+.meter-caption { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 7px; font-size: 13px; color: var(--muted); }
+.meter-caption small { font: 12px var(--mono); color: var(--faint); }
+.gesture-track, .temperature-track { position: relative; height: 6px; background: var(--panel2); border: 1px solid var(--line); }
+#gesture-fill { display: block; width: 0%; height: 100%; background: var(--gold); transform-origin: left center; }
+#temperature-meter { bottom: 74px; }
+#temperature-band { position: absolute; top: -2px; bottom: -2px; left: 0%; width: 0%; background: var(--gold-wash); border: 1px solid var(--gold); }
+#temperature-needle { position: absolute; top: -5px; left: 0%; width: 2px; height: 14px; background: var(--gold-light); transform: translateX(-50%); }
+#result-card {
+  position: absolute;
+  top: 76px;
+  right: 22px;
+  z-index: 4;
+  width: 240px;
+  max-width: calc(100% - 44px);
+  max-height: calc(100% - 155px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 16px 15px;
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--line);
+  background: var(--hud-ink);
+  user-select: text;
+  touch-action: pan-y;
+  scrollbar-width: thin;
+}
+#result-card:empty { padding: 0; border: 0; }
+#result-card .result-title { font-size: 25px; }
+#result-card .quality { font-size: 32px; }
+#cinema-peek { position: absolute; top: 18px; right: 18px; z-index: 40; align-items: center; justify-content: center; padding: 8px 13px; background: var(--hud-ink); border: 1px solid var(--gold-dark); color: var(--gold-light); font-size: 13px; }
+body:not(.cinema) #cinema-peek { display: none !important; }
+.pause-screen, #engine-error { position: absolute; inset: 0; z-index: 30; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 24px; background: var(--veil); text-align: center; }
+.pause-screen strong, #engine-error strong { font: 34px/1.4 var(--serif); letter-spacing: .15em; }
+.pause-screen p, #engine-error p { margin: 0; font-size: 14px; color: var(--muted); max-width: 500px; }
+.panel { position: relative; padding: 13px 0 0; border: 0; background: var(--clear); }
+.instructions { margin: 0 0 9px; font-size: 14px; color: var(--muted); min-height: 24px; }
+.instructions:empty { min-height: 0; margin: 0; }
+.controls-line { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .8fr) minmax(0, 1fr); gap: 22px; align-items: center; }
+.tools { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 6px 11px;
+  border: 1px solid var(--clear);
+  border-bottom-color: var(--line);
+  background: var(--clear);
+  color: var(--muted);
+  font-size: 13px;
+  transition: color .16s, border-color .16s, background-color .16s;
+}
+.tool svg { display: block; width: 32px; height: 32px; }
+.tool .tool-label { line-height: 1.4; }
+.tool kbd, .tool em { font: 12px var(--mono); font-style: normal; color: var(--faint); }
+.tool.selected, .tool[aria-pressed="true"] { border-color: var(--gold-dark); background: var(--gold-wash); color: var(--gold-light); }
+.tool.selected kbd, .tool.selected em { color: var(--gold); }
+.tool:hover:not(:disabled) { border-bottom-color: var(--gold); color: var(--gold-light); }
+.sliders { min-width: 0; }
+.sliders:has(> [hidden]):not(:has(> :not([hidden]))) { display: none; }
+.controls-line:has(.sliders > [hidden]):not(:has(.sliders > :not([hidden]))) { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); }
+.control-row { display: flex; align-items: center; gap: 10px; min-height: 44px; color: var(--muted); font-size: 13px; }
+.control-row label { flex-shrink: 0; }
+.control-row input { min-width: 0; width: 100%; height: 44px; flex: 1; margin: 0; accent-color: var(--gold); cursor: pointer; }
+.control-row output { min-width: 4ch; color: var(--gold-light); font: 14px var(--mono); text-align: right; }
+.info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; min-width: 0; }
+.info { min-width: 0; border-left: 1px solid var(--line); padding-left: 12px; color: var(--muted); font-size: 12px; }
+.info b { display: block; color: var(--ink); font: 18px/1.5 var(--serif); overflow-wrap: anywhere; }
+.action-row { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; margin-top: 11px; }
+.primary {
+  position: relative;
+  min-height: 46px;
+  padding: 10px 23px;
+  border: 1px solid var(--gold-light);
+  background: var(--gold);
+  color: var(--paper-ink);
+  clip-path: polygon(2% 7%, 18% 4%, 38% 6%, 70% 2%, 98% 6%, 100% 35%, 98% 65%, 99% 93%, 72% 98%, 43% 95%, 19% 98%, 1% 93%, 2% 65%, 0 32%);
+  font: 17px/1.4 var(--serif);
+  font-weight: 600;
+  letter-spacing: .09em;
+  transition: background-color .16s;
+}
+.primary:hover:not(:disabled) { background: var(--gold-light); }
+.primary:focus-visible { clip-path: none; outline-offset: 3px; }
+.secondary { padding: 8px 13px; border: 1px solid var(--line); background: var(--clear); color: var(--muted); font-size: 13px; }
+.secondary:hover:not(:disabled) { border-color: var(--gold-dark); color: var(--gold-light); background: var(--gold-wash); }
+#finish { border-color: var(--clear); border-bottom-color: var(--line); }
+.feedback { margin-top: 8px; min-height: 23px; font-size: 13px; color: var(--gold-light); overflow-wrap: anywhere; }
+.feedback.bad { color: var(--danger); }
+.fineprint { font-size: 12px; color: var(--faint); margin: 4px 0 0; }
+.footer { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; border-top: 1px solid var(--line-soft); margin-top: 14px; padding-top: 10px; font-size: 12px; color: var(--faint); }
+.footer span:last-child { text-align: right; flex-shrink: 0; }
+dialog { width: min(680px, calc(100% - 32px)); max-height: calc(100dvh - 48px); overflow: auto; overscroll-behavior: contain; margin: auto; padding: 28px 30px; border: 1px solid var(--line); border-top-color: var(--gold-dark); background: var(--panel); color: var(--ink); scrollbar-width: thin; }
+dialog::backdrop { background: var(--veil); }
+dialog h2 { font: 30px/1.4 var(--serif); letter-spacing: .15em; margin: 0 0 14px; }
+dialog h3 { font: 21px/1.4 var(--serif); letter-spacing: .12em; margin: 16px 0 10px; }
+dialog ol { padding-left: 23px; }
+dialog li { font-size: 14px; color: var(--muted); margin: 10px 0; }
+dialog li strong { color: var(--ink); font-weight: 500; }
+.dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 13px; border-bottom: 1px solid var(--line); padding-bottom: 13px; }
+.dialog-heading h2 { margin: 0; }
+.notes { display: block; }
+.side { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+.side h3 { font: 25px/1.4 var(--serif); letter-spacing: .12em; margin: 7px 0 12px; }
+.side p { font-size: 14px; color: var(--muted); margin: 10px 0; line-height: 1.9; }
+.side strong { color: var(--ink); font-weight: 500; }
+.stats { border-top: 1px solid var(--line); padding-top: 8px; }
+.stat { display: flex; justify-content: space-between; gap: 12px; margin: 9px 0; color: var(--muted); font-size: 13px; }
+.stat b { color: var(--gold-light); font: 14px var(--mono); font-weight: 400; }
+.log { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 10px; color: var(--muted); font-size: 13px; }
+.log li { border-left: 1px solid var(--gold-dark); padding-left: 10px; margin: 0; font-size: 13px; }
+.result-title { font: 29px/1.4 var(--serif); letter-spacing: .12em; margin: 0; }
+.quality { font: 36px/1.4 var(--serif); color: var(--gold-light); margin: 8px 0 12px; }
+.quality small { font: 12px var(--mono); color: var(--muted); }
+.score-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.score-list span { font-size: 12px; color: var(--muted); padding: 7px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.score-list b { display: block; font: 22px/1.5 var(--mono); color: var(--gold-light); }
+.shortcut-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 20px; margin: 0 0 14px; }
+.shortcut-list div { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line-soft); }
+.shortcut-list dt { font-size: 13px; color: var(--muted); }
+.shortcut-list dd { margin: 0; flex-shrink: 0; }
+kbd { color: var(--gold-light); font: 12px/1.5 var(--mono); }
+.manual-rule { border-left: 2px solid var(--cinnabar); padding: 8px 12px; margin: 15px 0; color: var(--muted); font-size: 14px; background: var(--gold-wash); }
+.ghost { position: fixed; transform: translate(-50%, -50%); padding: 10px 20px; background: var(--hud-ink); border: 1px solid var(--gold-dark); color: var(--ink); z-index: 60; pointer-events: none; }
+body.cinema .top, body.cinema .journey, body.cinema .materials, body.cinema .panel, body.cinema .footer,
+body.cinema .stage-heading, body.cinema .scene-badge, body.cinema .state-badge, body.cinema .view-tools,
+body.cinema #context-hint, body.cinema .heat-hud, body.cinema .hud-meter, body.cinema #result-card,
+body.cinema .ghost, body.cinema dialog { display: none !important; }
+body.cinema .shell { max-width: none; padding: 0; }
+body.cinema .viewport { --canvas-height: 100vh; --canvas-height: 100dvh; width: 100%; height: var(--canvas-height); border: 0; }
+body.cinema .viewport::after { display: none; }
+body.cinema #cinema-peek { display: inline-flex !important; }
+.viewport:fullscreen { --canvas-height: 100vh; --canvas-height: 100dvh; width: 100%; height: var(--canvas-height); border: 0; }
+.shell:fullscreen { max-width: none; padding-bottom: 14px; overflow: auto; background: var(--bg); }
+@media (max-width: 1120px) {
+  .shell { padding-inline: 20px; }
+  .top { gap: 12px; }
+  h1 { font-size: 25px; }
+  .brand small { letter-spacing: .04em; }
+  .plain { padding-inline: 8px; }
+  body[data-stage="0"] .materials { grid-template-columns: minmax(112px, .55fr) repeat(3, minmax(0, 1fr)); gap: 0 10px; }
+  .material { grid-template-columns: 34px minmax(0, 1fr); gap: 8px; padding-inline: 6px; }
+  .ore svg { width: 34px; }
+  .material strong { font-size: 21px; }
+  .controls-line { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px 20px; }
+  .sliders { grid-column: 1; }
+  .info-grid { grid-column: 2; grid-row: 1 / span 2; }
+  #context-hint { max-width: 34%; top: 25px; }
+}
+@media (max-width: 710px) {
+  .shell { padding: 0 12px 16px; }
+  .top { min-height: 0; padding: 13px 0 7px; display: block; }
+  .brand { gap: 10px; }
+  .seal { width: 30px; height: 35px; }
+  h1 { font-size: 26px; }
+  .brand small { font-size: 12px; }
+  .top-tools { display: grid; grid-template-columns: repeat(8, minmax(44px, 1fr)); width: 100%; margin-top: 8px; gap: 1px; justify-content: flex-start; }
+  .top-tools .plain { min-width: 44px; padding: 8px 2px; font-size: 12px; }
+  .journey { gap: 5px; margin-bottom: 10px; }
+  .journey li { font-size: 12px; padding: 8px 0 7px; text-align: center; white-space: normal; line-height: 1.45; }
+  .journey b { display: block; font-size: 12px; margin: 0 0 2px; }
+  body[data-stage="0"] .materials { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 7px; padding: 0 0 10px; margin-bottom: 10px; }
+  .material-intro { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+  .section-title { font-size: 21px; margin: 0; }
+  .material-intro .eyebrow { font-size: 12px; }
+  .material { display: block; min-height: 110px; padding: 4px 3px 6px; }
+  .ore { display: block; }
+  .ore svg { width: 32px; height: 25px; }
+  .material strong { padding-right: 0; font-size: 19px; letter-spacing: .03em; }
+  .material small { font-size: 12px; line-height: 1.5; margin-top: 4px; }
+  .material .small { font-size: 12px; margin-top: 3px; }
+  .material.chosen::after, .material[aria-pressed="true"]::after { right: 2px; top: 4px; }
+  .material-hint { grid-column: 1 / -1; margin: 7px 0 0; font-size: 12px; line-height: 1.65; }
+  .viewport { --canvas-height: 320px; }
+  .stage-heading { left: 14px; right: 14px; top: 14px; max-width: none; }
+  .stage-heading h2 { font-size: 22px; letter-spacing: .07em; }
+  .stage-heading .eyebrow { display: block; padding-right: 36%; font-size: 12px; letter-spacing: .06em; }
+  .stage-heading small { display: none; }
+  .state-badge { right: 12px; top: 15px; padding: 3px 6px; font-size: 12px; max-width: 35%; }
+  #context-hint { display: none; }
+  .heat-hud { top: 82px; left: 14px; max-width: 58%; font-size: 12px; padding: 2px 7px; }
+  .scene-badge { display: none; }
+  .view-tools { left: 8px; top: 268px; bottom: auto; gap: 2px; }
+  .view-tools button { padding: 8px 6px; font-size: 12px; }
+  .hud-meter { right: 12px; top: 220px; bottom: auto; width: 128px; max-width: 40%; }
+  .meter-caption { font-size: 12px; margin-bottom: 6px; }
+  .meter-caption small { font-size: 12px; }
+  #temperature-meter { top: 112px; bottom: auto; }
+  #result-card { position: relative; inset: auto; width: 100%; max-width: none; max-height: none; overflow: visible; padding: 14px; background: var(--panel); }
+  .panel { padding-top: 10px; }
+  .instructions { font-size: 13px; line-height: 1.65; margin-bottom: 8px; }
+  .controls-line, .controls-line:has(.sliders > [hidden]):not(:has(.sliders > :not([hidden]))) { display: flex; flex-direction: column; align-items: stretch; gap: 9px; }
+  .tools { gap: 5px; }
+  .tool { flex: 1 1 0; gap: 5px; padding: 6px; font-size: 13px; }
+  .tool .tool-label { overflow-wrap: anywhere; }
+  .tool kbd, .tool em { display: none; }
+  .info-grid { gap: 10px; }
+  .info { padding-left: 9px; font-size: 12px; }
+  .info b { font-size: 17px; }
+  .action-row { gap: 6px; margin-top: 10px; }
+  .primary { padding: 10px 17px; font-size: 16px; }
+  .secondary { padding: 8px 11px; font-size: 13px; }
+  .feedback { font-size: 13px; margin-top: 7px; }
+  .fineprint { font-size: 12px; line-height: 1.65; }
+  .footer { font-size: 12px; line-height: 1.65; gap: 12px; margin-top: 12px; }
+  .footer span:last-child { flex-shrink: 1; min-width: 78px; }
+  dialog { padding: 21px 18px; width: calc(100% - 24px); max-height: calc(100dvh - 28px); }
+  dialog h2 { font-size: 27px; }
+  .side { display: block; }
+  .side .stats { margin-top: 20px; }
+  .shortcut-list { gap: 8px 12px; }
+  .shortcut-list dt { font-size: 12px; }
+  .pause-screen, #engine-error { padding: 20px; }
+  .pause-screen strong, #engine-error strong { font-size: 28px; }
+  .pause-screen p, #engine-error p { font-size: 13px; }
+  #cinema-peek { top: 12px; right: 12px; }
+}
+@media (max-width: 400px) {
+  .top-tools { grid-template-columns: repeat(4, minmax(44px, 1fr)); }
+}
+@media (max-width: 360px) {
+  .shell { padding-inline: 8px; }
+  .material strong { font-size: 18px; }
+  .tool { flex-basis: 30%; }
+  .shortcut-list { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+</head>
+<body data-stage="0">
+<div class="shell">
+  <header class="top">
+    <div class="brand">
+      <span class="seal" aria-hidden="true">
+        <svg viewBox="0 0 38 44" fill="none">
+          <path d="M3 3 34 2 35 40 4 42 2 21Z M6 6 31 5 32 37 7 38Z" stroke="currentColor" stroke-width="1.3"/>
+          <text x="19" y="31" text-anchor="middle" fill="currentColor" font-size="25" font-family="KaiTi, STKaiti, serif">锻</text>
+          <path d="m3 11 3-1m25 24 4-1M13 2l1 4" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <div><h1>照夜炼器</h1><small>古寺一隅 · 沉浸工坊 / 〇四</small></div>
+    </div>
+    <nav class="top-tools" aria-label="工坊菜单">
+      <button type="button" class="plain" id="notes" aria-controls="notes-dialog" aria-haspopup="dialog" title="炉录 · Tab">炉录</button>
+      <button type="button" class="plain" id="guides" aria-pressed="true" title="切换器图 · V">器图</button>
+      <button type="button" class="plain" id="cinema" aria-pressed="false" title="隐藏或显示界面 · H">净观</button>
+      <button type="button" class="plain" id="fullscreen" aria-pressed="false" title="全屏工坊">全屏</button>
+      <button type="button" class="plain" id="sound" aria-pressed="false">音效关</button>
+      <button type="button" class="plain" id="pause" title="暂停 · P" disabled>暂停</button>
+      <button type="button" class="plain" id="help" aria-controls="manual" aria-haspopup="dialog">手册</button>
+      <button type="button" class="plain" id="reset" aria-controls="reset-dialog" aria-haspopup="dialog">重炼</button>
+    </nav>
+  </header>
+  <ol class="journey" aria-label="炼器工序">
+    <li data-stage="0" class="active"><b>01</b>择材</li>
+    <li data-stage="1"><b>02</b>加热锻形</li>
+    <li data-stage="2"><b>03</b>浸淬</li>
+    <li data-stage="3"><b>04</b>回火</li>
+    <li data-stage="4"><b>05</b>磨刃</li>
+    <li data-stage="5"><b>06</b>描纹</li>
+    <li data-stage="6"><b>成</b>验器</li>
+  </ol>
+  <main class="layout">
+    <section class="workbench" aria-label="三维炼器工作台">
+      <aside class="materials" aria-label="本炉材料选择">
+        <div class="material-intro"><span class="eyebrow">一炉 · 一器</span><h2 class="section-title">先识其材</h2></div>
+        <button type="button" id="mat-qing" class="material" data-mat="qing" aria-pressed="false">
+          <span class="ore" aria-hidden="true"><svg viewBox="0 0 64 52" fill="none"><path d="m8 33 12-22 23-5 13 19-9 17-25 4Z" fill="var(--ore-shadow)" stroke="currentColor"/><path d="m20 11 12 17 11-22M8 33l24-5 15 14M32 28l24-3M22 46l10-18" stroke="currentColor" stroke-width="1.2"/><path d="m17 29 6-7m14 13 6-3" stroke="currentColor" stroke-width="2"/></svg></span>
+          <span><strong>青纹铁</strong><small>宽温区 · 易锻稳固</small><span class="small">主材 · 拖入或点选</span></span>
+        </button>
+        <button type="button" id="mat-xuan" class="material" data-mat="xuan" aria-pressed="false">
+          <span class="ore" aria-hidden="true"><svg viewBox="0 0 64 52" fill="none"><path d="m9 31 8-19 24-7 14 15-4 20-21 7Z" fill="var(--ore-shadow)" stroke="currentColor"/><path d="m17 12 16 9 8-16M9 31l24-10 18 19M33 21l22-1M30 47l3-26" stroke="currentColor"/><path d="m24 26 5 8 8 4m-8-4-6 5" stroke="currentColor" stroke-width="1.5"/></svg></span>
+          <span><strong>玄寒铁</strong><small>窄温区 · 偏重锋锐</small><span class="small">主材 · 拖入或点选</span></span>
+        </button>
+        <button type="button" class="material silver" id="silver" data-mat="silver" aria-pressed="false">
+          <span class="ore" aria-hidden="true"><svg viewBox="0 0 64 52" fill="none"><path d="m12 33 8-18 24-4 10 19-12 10-24 1Z" fill="var(--ore-shadow)" stroke="currentColor"/><path d="m20 15 8 18 26-3M12 33h16l14 7M28 33l16-22" stroke="currentColor"/><path d="m23 20 5-2m8 7 7-2" stroke="currentColor" stroke-width="2"/></svg></span>
+          <span><strong>引灵银</strong><small>增导灵 · 温区稍收窄</small><span class="small">可选辅材 · 拖入或点选</span></span>
+        </button>
+        <p class="material-hint">择一种主材，可添一味引灵银。拖入料盘或点击选择；切换不累计。确认后收起材料，专心加工这一器。</p>
+      </aside>
+      <div class="viewport" id="viewport">
+        <canvas id="world" width="1440" height="760" aria-label="交互炼器台：点击部位、拖动器胚、划动工具。各工序点击开始后才进行加工。" tabindex="0"></canvas>
+        <div class="stage-heading" id="stage-heading">
+          <span class="eyebrow" id="stage-index">01 / MATERIAL</span>
+          <h2 id="title">先识材，再举锤</h2>
+          <small id="stage-caption">灵材预制胚 · 全程由你加工</small>
+        </div>
+        <p id="context-hint"></p>
+        <span class="scene-badge" id="scene-label">炼器室 · 料盘</span>
+        <span class="state-badge" id="state-label">等待选料</span>
+        <span id="heat-hud" class="heat-hud" hidden></span>
+        <div class="view-tools" aria-label="观察视角">
+          <button type="button" id="view-wide">工坊全景</button>
+          <button type="button" id="view-close">器胚特写</button>
+          <button type="button" id="view-orbit" title="临时旋转也可按住 Q">旋转视角</button>
+        </div>
+        <div class="hud-meter" id="gesture-meter" hidden>
+          <div class="meter-caption"><span id="gesture-label">工具行程</span><small>接触加工</small></div>
+          <div class="gesture-track"><span id="gesture-fill"></span></div>
+        </div>
+        <div class="hud-meter" id="temperature-meter" aria-label="温态与适宜加工温区，温标零至一百" hidden>
+          <div class="meter-caption"><span>火候 · 适宜温区</span><small>0—100</small></div>
+          <div class="temperature-track"><span id="temperature-band"></span><span id="temperature-needle"></span></div>
+        </div>
+        <div id="result-card" aria-label="本炉成品摘要" hidden></div>
+        <button type="button" id="cinema-peek" aria-label="退出净观，恢复操作界面" title="显示界面 · H" hidden>返回工坊 · H</button>
+        <div id="engine-error" role="alert" hidden><strong>3D 环境暂不可用</strong><p id="engine-error-message"></p></div>
+        <div class="pause-screen" id="paused" hidden>
+          <strong>暂歇一炉</strong>
+          <p>温态与加工冻结。未完成手势已取消，继续后请重新抓取工具。</p>
+          <button type="button" class="primary" id="resume">继续加工</button>
+        </div>
+      </div>
+      <div class="panel" aria-label="本步加工操作">
+        <p class="instructions" id="instruction"></p>
+        <div class="controls-line">
+          <div class="tools" id="tool-tray" role="group" aria-label="本步工具"></div>
+          <div class="sliders">
+            <div class="control-row" id="draft-control" hidden><label for="draft">风门</label><input type="range" id="draft" min="0" max="100" value="55"><output id="draft-val" for="draft">55%</output></div>
+            <div class="control-row" id="depth-control" hidden><label for="depth">浸入深度</label><input type="range" id="depth" min="0" max="100" value="98"><output id="depth-val" for="depth">98%</output></div>
+          </div>
+          <div class="info-grid" aria-label="本步状态">
+            <div class="info"><span id="metric-a-name">主材</span><b id="metric-a">未选</b></div>
+            <div class="info"><span id="metric-b-name">本步</span><b id="metric-b">择材</b></div>
+            <div class="info"><span id="metric-c-name">操作</span><b id="metric-c">拖入料盘</b></div>
+          </div>
+        </div>
+        <div class="action-row">
+          <button type="button" class="primary" id="next" title="推进工序 · Enter">确认用料 →</button>
+          <button type="button" class="secondary" id="flip" title="翻面 · F" hidden>翻转器胚</button>
+          <button type="button" class="secondary" id="reheat" title="回炉 · R" hidden>送炉加热</button>
+          <button type="button" class="secondary" id="to-anvil" title="移至砧台 · E" hidden>移至砧台</button>
+          <button type="button" class="secondary" id="finish">带着当前工艺继续</button>
+          <button type="button" class="secondary" id="export" hidden>导出本炉记录</button>
+        </div>
+        <div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true">拖动灵材到料盘，也可点击选择。未开始时，温态与加工保持冻结。</div>
+        <p class="fineprint" id="fineprint">采用简化温标与器胚物性，不是真实冶炼或制剑教程。</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><span>锤下见形，水中定性，石上开锋。<br>失误留下痕迹；可补救，也可接受这一炉。</span><span>离线一炉 · 鼠标 / 触摸<br>无时机奖励 · 刷新重置</span></footer>
+</div>
+<dialog id="notes-dialog" aria-labelledby="notes-dialog-title">
+  <div class="dialog-heading"><div><span class="eyebrow">本炉 · 留痕</span><h2 id="notes-dialog-title">炉录</h2></div><button type="button" class="secondary" id="close-notes">返回工坊</button></div>
+  <aside class="notes">
+    <div class="side">
+      <div><span class="eyebrow">观器知工</span><h3 id="note-title">看工件，而非时机条</h3><p id="note"></p><div id="result-info" hidden></div></div>
+      <div>
+        <div class="stats">
+          <div class="stat"><span>塑形温区</span><b id="heat-band">—</b></div>
+          <div class="stat"><span>当前温标</span><b id="heat">22</b></div>
+          <div class="stat"><span>工艺缺陷</span><b id="damage">0</b></div>
+          <div class="stat"><span>本炉落锤</span><b id="hits">0</b></div>
+        </div>
+        <ul class="log" id="log"><li>灵材尚未放入料盘。</li></ul>
+      </div>
+    </div>
+  </aside>
+</dialog>
+<dialog id="manual" aria-labelledby="manual-title">
+  <span class="eyebrow">入寺 · 习艺</span><h2 id="manual-title">照夜炼器手册</h2>
+  <p class="manual-rule">每道工序先点击「开始」。未开始时，温态与加工冻结，不会因阅读或观察而消耗火候。暂停、切换窗口会冻结时间并取消未完成手势；返回后重新抓取工具。</p>
+  <ol>
+    <li><strong>加热搬运：</strong>夹钳抓住器胚，拖入炉内或砧台。风门调节炉热；在风箱上左右拉动可加速加热。适宜温区是持续加工条件，不是瞬间奖励窗。</li>
+    <li><strong>锻形：</strong>点锤轻修：点击厚处。提锤下砸：在部位上按住，向上提，再向下划回；行程越长，力度越大。对照器图，翻面修偏；低温时回炉，不必急追节拍。</li>
+    <li><strong>浸淬：</strong>先在炉中重新热透，再用夹钳拖入池。让刃部充分浸入，轻微上下移动帮助均匀冷却；不必不停摇动。</li>
+    <li><strong>回火：</strong>把器胚放入缓热炉，调低炉热。翻面让两面受热均衡，不要再烧到锻造温度。</li>
+    <li><strong>磨刃：</strong>按住砂石，沿上下两条刃带往复拖动。重复磨同一小点没有额外增益，离开刃带不加工。</li>
+    <li><strong>描纹：</strong>沿亮色线路描行至终点，不是点中两个节点即完成。可从中断处续描；用修纹工具擦补走歪的线段。</li>
+  </ol>
+  <h3>键盘行器</h3>
+  <dl class="shortcut-list">
+    <div><dt>选择工具</dt><dd><kbd>1 / 2 / 3</kbd></dd></div>
+    <div><dt>翻转器胚</dt><dd><kbd>F</kbd></dd></div>
+    <div><dt>送炉加热</dt><dd><kbd>R</kbd></dd></div>
+    <div><dt>移至砧台</dt><dd><kbd>E</kbd></dd></div>
+    <div><dt>临时旋转（按住）</dt><dd><kbd>Q</kbd></dd></div>
+    <div><dt>器图开关</dt><dd><kbd>V</kbd></dd></div>
+    <div><dt>打开 / 关闭炉录</dt><dd><kbd>Tab</kbd></dd></div>
+    <div><dt>开始 / 推进工序</dt><dd><kbd>Enter</kbd></dd></div>
+    <div><dt>暂停 / 继续</dt><dd><kbd>P</kbd></dd></div>
+    <div><dt>隐藏 / 显示 HUD</dt><dd><kbd>H</kbd></dd></div>
+  </dl>
+  <p class="small">快捷键只替代工具、搬运和界面操作，不是时机奖励玩法。鼠标与触摸可完成全部加工；不需按空格卡点，没有倒计时自动失败。可「带着当前工艺继续」，验器时会记下欠加工处。</p>
+  <button type="button" id="close-manual" class="primary">明白，回到工坊</button>
+</dialog>
+<dialog id="reset-dialog" aria-labelledby="reset-title">
+  <span class="eyebrow">旧炉 · 新火</span><h2 id="reset-title">另起一炉？</h2>
+  <p class="small">这炉的形变、描线和工艺记录会清空，重新择材。旧版原型仍独立保留。</p>
+  <div class="action-row"><button type="button" class="primary" id="confirm-reset">重新选料</button><button type="button" class="secondary" id="cancel-reset">留在本炉</button></div>
+</dialog>
+<div class="ghost" id="ghost" hidden></div>

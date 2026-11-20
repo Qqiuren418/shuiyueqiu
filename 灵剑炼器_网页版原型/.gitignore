@@ -1,8 +1,0 @@
-# Developer dependencies and new local test runs
-node_modules/
-test-results/
-npm-debug.log*
-# Desktop metadata
-.DS_Store
-Thumbs.db
-# Keep the checked-in final Verification evidence and package-lock.json.
